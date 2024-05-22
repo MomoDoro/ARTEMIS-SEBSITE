@@ -16,13 +16,14 @@ const Hero: React.FC = () => {
             </h1>
           </div>
           <div className="hero-desc" style={{ whiteSpace: 'pre-line' }}>
-            {`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            {`Welcome to Artemis, where precision meets prediction in the realm of global trade. 
+              Our platform leverages cutting-edge Bayesian neural network technology to forecast the 
+              values of import and export products with unparalleled accuracy.
 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-              deserunt mollit anim id est laborum.`}
+
+              Whether you're a seasoned trader or a budding entrepreneur, our intuitive interface and 
+              sophisticated algorithms empower you to make informed decisions in the dynamic world of 
+              international commerce. Join us and unlock the future of trade forecasting today.`}
           </div>
           <Link to="/About" className="more">LEARN MORE</Link>
         </div>

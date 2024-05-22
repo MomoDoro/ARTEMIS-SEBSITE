@@ -1,0 +1,52 @@
+/* src/components/Model.css */
+
+@keyframes emerges {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+/*-------------------First-------------------*/
+  .model-main-content {
+    max-width: 84.375em;
+    padding: 2em 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .model-header-container{
+    padding-top: 150px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .model-header {
+    font-family: maven;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    animation: emerges 0.3s ease-out;
+  }
+
+  .model-desc{
+    text-align: start;
+    margin-top: 10px;
+    font-family: maven;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    animation: emerges 0.4s ease-out;
+  }
+/*-------------------First-------------------*/

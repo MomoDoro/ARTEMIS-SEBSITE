@@ -4,6 +4,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomeScreen from "./components/HomeScreen";
 import AboutScreen from "./components/AboutScreen";
+import ModelScreen from "./components/ModelScreen";
 
 const NotFound: React.FC = () => {
   return <div>404 Not Found</div>;
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Route path="" element={<HomeScreen />} />
           <Route path="/Home" element={<HomeScreen />} />
           <Route path="/About" element={<AboutScreen />} />
+          <Route path="/Model" element={<ModelScreen />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>

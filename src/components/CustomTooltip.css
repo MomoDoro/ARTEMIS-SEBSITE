@@ -1,0 +1,27 @@
+/* src/components/CustomTooltip.css */
+
+.custom-tooltip {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+  }
+  
+.custom-name, .custom-actual, .custom-predicted, .custom-mae, .custom-rmse, .custom-mape, .custom-amount, .custom-desc{
+    font-family: maven;
+    margin-bottom: 10px;
+    font-weight:600;
+    color: rgba(83, 90, 98, 1);
+}
+
+.custom-actual{
+  color:#33728b;
+}
+
+.custom-predicted{
+  color:#3a4491;
+}
+
+.custom-tooltip img {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the shadow for the image */
+}

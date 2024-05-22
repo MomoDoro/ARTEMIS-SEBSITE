@@ -1,0 +1,61 @@
+Sum of FOB for Bananas, including plantains, fresh or dried. | Fresh: 657870072.00
+Sum of FOB for - - Crude oil | Other: 410457282.00
+Sum of FOB for - - - Refined oil | - - - Refined oil (cochin): 381964099.00
+Sum of FOB for - Pineapples: 344826935.00
+Sum of FOB for - - Crude oil | Virgin coconut oil: 279912645.00
+Sum of FOB for - - - In airtight containers | Tunas: 224081771.00
+Sum of FOB for - - Desiccated: 160051296.00
+Sum of FOB for - - - Carageenan | Other refined: 137760353.00
+Sum of FOB for - - Other: 127448067.00
+Sum of FOB for - Pineapples | Fresh: 126170584.00
+
+┌ Info: Found initial step size
+└   ϵ = 2.384185791015625e-8
+MAE for Bananas, including plantains, fresh or dried. | Fresh: 3.8534647514814146e7
+RMSE for Bananas, including plantains, fresh or dried. | Fresh: 4.488081161140016e7
+MAPE for Bananas, including plantains, fresh or dried. | Fresh: 63.763278309466045%
+┌ Info: Found initial step size
+└   ϵ = 5.960464477539063e-9
+MAE for - - Crude oil | Other: 2.179803353348444e7
+RMSE for - - Crude oil | Other: 2.3316148082878824e7
+MAPE for - - Crude oil | Other: 100.78018862894409%
+┌ Info: Found initial step size
+└   ϵ = 2.384185791015625e-8
+MAE for - - - Refined oil | - - - Refined oil (cochin): 1.947299604385813e7
+RMSE for - - - Refined oil | - - - Refined oil (cochin): 2.1552291320488874e7
+MAPE for - - - Refined oil | - - - Refined oil (cochin): 58.182503680660524%
+┌ Info: Found initial step size
+└   ϵ = 1.4901161193847657e-9
+MAE for - Pineapples: 1.7184733145410746e7
+RMSE for - Pineapples: 1.8480929219257176e7
+MAPE for - Pineapples: 73.54201642666084%
+┌ Info: Found initial step size
+└   ϵ = 2.9802322387695314e-9
+MAE for - - Crude oil | Virgin coconut oil: 2.0813440440016247e7
+RMSE for - - Crude oil | Virgin coconut oil: 2.525809924728273e7
+MAPE for - - Crude oil | Virgin coconut oil: 91.40853082752774%
+┌ Info: Found initial step size
+└   ϵ = 2.9802322387695314e-9
+MAE for - - - In airtight containers | Tunas: 7.209277065383662e6
+RMSE for - - - In airtight containers | Tunas: 8.406659674986193e6
+MAPE for - - - In airtight containers | Tunas: 35.62012613302264%
+┌ Info: Found initial step size
+└   ϵ = 1.1920928955078126e-8
+MAE for - - Desiccated: 7.131772899625785e6
+RMSE for - - Desiccated: 7.880579921538593e6
+MAPE for - - Desiccated: 51.24155539973717%
+┌ Info: Found initial step size
+└   ϵ = 1.1920928955078126e-8
+MAE for - - - Carageenan | Other refined: 3.254882853873735e6
+RMSE for - - - Carageenan | Other refined: 3.926935117771421e6
+MAPE for - - - Carageenan | Other refined: 44.9352699287413%
+┌ Info: Found initial step size
+└   ϵ = 4.76837158203125e-8
+MAE for - - Other: 6.470908641407904e6
+RMSE for - - Other: 6.967883485638202e6
+MAPE for - - Other: 60.24484482224074%
+┌ Info: Found initial step size
+└   ϵ = 1.4901161193847657e-9
+MAE for - Pineapples | Fresh: 2.828479762597487e6
+RMSE for - Pineapples | Fresh: 3.541305946134387e6
+MAPE for - Pineapples | Fresh: 31.20090406970741%
