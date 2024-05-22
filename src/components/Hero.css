@@ -1,0 +1,138 @@
+/* src/components/Hero.css */
+
+.header {
+  background-color:white;
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.header-container {
+  max-width: 84.375em;
+  padding-top: 200px;
+  padding-bottom: 160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.lol{
+  padding: 30px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.header-overlay {
+  font-size: 30px;
+  font-family: maven;
+  align-items: start;
+  width: 470px
+}
+
+.hero-desc{
+  margin-top: 10px;
+  font-family: maven;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more{
+  text-align: center;
+  text-decoration: none; 
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: maven;
+  width: 150px;
+  padding: 15px;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  background-color: rgb(77, 114, 184);
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.more:hover {
+  background-color: rgb(93, 178, 204);
+}
+
+.logo-side {
+  padding-top: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgb(126, 237, 196) 20%, rgb(77, 114, 184) 90%);
+  background: url('assets/Images/ImpExp.png') center/cover;
+}
+
+@media screen and (min-width: 760px) {
+  .header-container {
+    flex-direction: row;
+  }
+}
+
+/*-----------------Animation-------------------*/
+
+@keyframes emergesup {
+  from {
+    opacity: 0;
+    transform: translateY(60px) rotate(130deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+@keyframes emergess {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.logo{
+  opacity: 0;
+  animation-name: emergesup; 
+  animation-duration: 0.7s; 
+  animation-delay: 0.3s; 
+  animation-fill-mode: forwards;
+}
+
+.header-overlay{
+opacity: 0; 
+animation-name: emergess; 
+animation-duration: 0.7s; 
+animation-delay: 0.2s; 
+animation-fill-mode: forwards;
+}
+
+.hero-desc{
+  opacity: 0; 
+  animation-name: emergess; 
+  animation-duration: 0.7s; 
+  animation-delay: 0.5s; 
+  animation-fill-mode: forwards;
+  }
+
+.more{
+  opacity: 0; 
+  animation-name: emergess; 
+  animation-duration: 0.7s; 
+  animation-delay: 0.8s; 
+  animation-fill-mode: forwards;
+}

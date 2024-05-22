@@ -1,0 +1,240 @@
+/* src/components/MainContent.css */
+
+.main-content-bg {
+  background-color: white;
+  color: black;
+}
+
+.main-main-content {
+  max-width: 84.375em;
+  padding: 2em 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/*--------------------------------------*/
+
+.main-precent-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.main-accurate-container-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.main-accurate-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.main-accurate-icon {
+  font-size: 70px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.main-accurate-no {
+  font-family: manjari;
+}
+
+.main-accurate {
+  font-family: manjari;
+}
+
+.main-acc-divider-line {
+  height: auto;
+  width: 3px;
+  background-color: rgba(190, 190, 190, 1);
+  align-items: center;
+  border-radius: 300px;
+}
+
+/*--------------------------------------*/
+
+.main-inaccurate-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.main-inaccurate-icon {
+  font-size: 70px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.main-inaccurate-no {
+  font-family: manjari;
+}
+
+.main-inaccurate {
+  font-family: manjari;
+}
+
+/*------------------Graph Part1--------------------*/
+
+.main-graph-container {
+  background-color: white;
+}
+
+.main-graph-content {
+  max-width: 84.375em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-graph-dropdowns {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.main-graph-left,
+.main-graph-right {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.year {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: maven;
+  margin-right: 10px;
+}
+
+.year-dropdown {
+  font-family: maven;
+  font-weight: bold;
+  color: rgba(83, 90, 98, 1);
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(223, 233, 252, 1);
+}
+
+.curr {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: maven;
+  margin-right: 10px;
+}
+
+.curr-dropdown {
+  font-family: maven;
+  font-weight: bold;
+  color: rgba(83, 90, 98, 1);
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(223, 233, 252, 1);
+}
+
+@media screen and (min-width: 760px) {
+  .main-graph-dropdowns, .main-precent-container {
+    flex-direction: row;
+  }
+
+  .main-graph-right {
+    align-items: end;
+  }
+}
+
+/*------------------Graph Part1--------------------*/
+
+.graph_container{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: rgba(223, 233, 252, 1);
+  box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+/*------------------Animations--------------------*/
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes emerges {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-accurate-container{
+  opacity: 0; 
+  animation-name: slideInFromRight; 
+  animation-duration: 1s; 
+  animation-delay: 0.2s; 
+  animation-fill-mode: forwards;
+}
+
+.main-inaccurate-container{
+  opacity: 0; 
+  animation-name: slideInFromLeft; 
+  animation-duration: 1s; 
+  animation-delay: 0.2s; 
+  animation-fill-mode: forwards;
+}
+
+.main-graph-container{
+  opacity: 0; 
+  animation-name: emerges; 
+  animation-duration: 1.2s; 
+  animation-delay: 0.4s; 
+  animation-fill-mode: forwards;
+}
