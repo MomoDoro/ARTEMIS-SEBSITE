@@ -17,13 +17,15 @@ const About: React.FC = () => {
                 </h1>
             </div>
             <div className="about-desc" style={{ whiteSpace: 'pre-line' }}>
-                {`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat.
+                {`Welcome to our innovative platform, designed to revolutionize the way you approach international
+                trade forecasting. As a part of our thesis project, our team of four dedicated researchers
+                has developed a cutting-edge tool that predicts import and export FOB (Free on Board)
+                values for the upcoming year using advanced Bayesian Neural Network algorithms.
 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                laborum.`}
+                Our mission is to provide businesses, economists, and policymakers with accurate, data-driven insights
+                to enhance strategic decision-making in the dynamic world of global trade. By leveraging the power
+                of machine learning and probabilistic modeling, our platform delivers reliable forecasts that
+                help you stay ahead of market trends and optimize your trade strategies.`}
             </div>
         </div>
         <div className="about-header-containers">
@@ -38,11 +40,10 @@ const About: React.FC = () => {
                             </h1>
                         </div>
                         <div className="about-user-desc" style={{ whiteSpace: 'pre-line' }}>
-                            {`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            {`Our head researcher in our team. He provides the outline on how
+                            we must proceed with the project to ensure the best possible outcome.
 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                            laboris nisi ut aliquip ex ea commodo consequat.`}
+                            Furthermore, he acquires the information through our collaborators.`}
                         </div>
                     </div>
                 </div>
@@ -57,11 +58,12 @@ const About: React.FC = () => {
                             </h1>
                         </div>
                         <div className="about-user-desc_2" style={{ whiteSpace: 'pre-line' }}>
-                            {`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            {`She acts as the co-head researcher in our team, giving out reliable
+                            sources and references for the project to provide the head researchers
+                            and developers information on how to procees with the project.
 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                            laboris nisi ut aliquip ex ea commodo consequat.`}
+                            She is also the most knowledgeable about the research itself and can
+                            answer any question about this specific topic.`}
                         </div>
                     </div>
                     <div className="about-user-img_2" ></div>
@@ -78,11 +80,12 @@ const About: React.FC = () => {
                             </h1>
                         </div>
                         <div className="about-user-desc_3" style={{ whiteSpace: 'pre-line' }}>
-                            {`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            {`Is the main developer of this project, he acts as the backend
+                            developer and leads the progression of the system, ensuring the
+                            system can provide as much accurate data as possible.
 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                            laboris nisi ut aliquip ex ea commodo consequat.`}
+                            He also has multiple sources and collaborators to help him with the
+                            complicated side of developing an algorithm.`}
                         </div>
                     </div>
                 </div>
@@ -97,11 +100,11 @@ const About: React.FC = () => {
                             </h1>
                         </div>
                         <div className="about-user-desc_3" style={{ whiteSpace: 'pre-line' }}>
-                            {`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            {`He is acting as the front-end developer of the project, providing the
+                            best quality user interface and user experience.
 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                            laboris nisi ut aliquip ex ea commodo consequat.`}
+                            He also collaborates with the main developer closely as to ensure
+                            project consistency and having one vision in completing the system.`}
                         </div>
                     </div>
                     <div className="about-user-img_4"></div>

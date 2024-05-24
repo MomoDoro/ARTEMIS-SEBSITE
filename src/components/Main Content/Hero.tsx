@@ -10,10 +10,11 @@ const Hero: React.FC = () => {
       <div className="header-container">
 
         <div className="lol">
-          <div className="header-overlay">
-            <h1>
-              Import and Export Forecasting
-            </h1>
+          <div className="header-overlay" style={{ whiteSpace: 'pre-line' }}>
+            {`
+              Import and 
+              Export Forecasting
+            `}
           </div>
           <div className="hero-desc" style={{ whiteSpace: 'pre-line' }}>
             {`Welcome to Artemis, where precision meets prediction in the realm of global trade. 

@@ -9,12 +9,24 @@
 
 .header-container {
   max-width: 84.375em;
-  padding-top: 200px;
-  padding-bottom: 160px;
+  padding-top: 120px;
+  padding-bottom: 200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-container {
+      padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header-container {
+      padding-bottom: 5px;
+  }
 }
 
 .lol{
@@ -25,10 +37,11 @@
 }
 
 .header-overlay {
-  font-size: 30px;
+  font-size: 60px;
   font-family: maven;
   align-items: start;
-  width: 470px
+  font-weight: bold;
+  
 }
 
 .hero-desc{
@@ -60,7 +73,7 @@
 }
 
 .logo-side {
-  padding-top: 12px;
+  padding-top: 100px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -75,6 +88,12 @@
   align-items: center;
   background-image: linear-gradient(rgb(126, 237, 196) 20%, rgb(77, 114, 184) 90%);
   background: url('assets/Images/ImpExp.png') center/cover;
+}
+
+@media screen and (max-width: 900px) {
+  .logo {
+      display: none;
+  }
 }
 
 @media screen and (min-width: 760px) {

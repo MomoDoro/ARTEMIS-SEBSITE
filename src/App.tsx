@@ -3,8 +3,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomeScreen from "./components/HomeScreen";
-import AboutScreen from "./components/AboutScreen";
-import ModelScreen from "./components/ModelScreen";
+import AboutScreen from "./components/About/AboutScreen";
+import ModelScreen from "./components/Model/ModelScreen";
 
 const NotFound: React.FC = () => {
   return <div>404 Not Found</div>;

@@ -18,8 +18,13 @@
 .main-precent-container {
   margin: 0 auto;
   display: flex;
+  align-items: center;
   flex-direction: column;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
+
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .main-accurate-container-wrap {
@@ -57,6 +62,12 @@
   border-radius: 300px;
 }
 
+@media screen and (max-width: 900px) {
+  .main-acc-divider-line {
+      display: none;
+  }
+}
+
 /*--------------------------------------*/
 
 .main-inaccurate-container {
@@ -77,6 +88,27 @@
 
 .main-inaccurate-no, .main-inaccurate {
   font-family: manjari;
+}
+
+.main-con-matrix{
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 600px) {
+  .main-accurate-container, .main-inaccurate-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 /*--------------------------------------*/
@@ -120,6 +152,7 @@
 }
 
 .main-absolute-no, .main-absolute {
+
   font-family: manjari;
 }
 
@@ -174,10 +207,3 @@
   animation-fill-mode: forwards;
 }
 
-.main-graph-container{
-  opacity: 0; 
-  animation-name: emerges; 
-  animation-duration: 1.2s; 
-  animation-delay: 0.4s; 
-  animation-fill-mode: forwards;
-}

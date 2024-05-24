@@ -4,16 +4,16 @@ import React, { useEffect } from "react";
 import "./MainContent.css";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { MdError } from "react-icons/md";
-import { VscError } from "react-icons/vsc";
-import { BiError } from "react-icons/bi";
-import BarChartComponent from "./BarChartComponent";
+/*import { VscError } from "react-icons/vsc";
+import { BiError } from "react-icons/bi";*/
+import BarChartComponent from "../BarChart/BarChartComponent";
 import { useYear } from "./YearContext";
 
 const MainContent: React.FC = () => {
   const { percentages } = useYear();
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scrolls to the top when component is mounted
+    window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -71,6 +71,11 @@ const MainContent: React.FC = () => {
         </div>
 
         <BarChartComponent />
+
+        <div className="main-con-matrix">
+          <img src="assets/Images/Actual.png" alt="Actual Data" />
+        </div>
+
       </div>
     </main>
   );

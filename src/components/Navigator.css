@@ -66,6 +66,11 @@
     text-decoration: none;
     color: black;
     font-size: 18px;
+    transition: color 0.3s;
+  }
+
+  .nav-op:hover {
+    color: rgb(93, 182, 204);
   }
 
   .nav-sep{
@@ -74,6 +79,16 @@
     font-size: 18px;
     color: rgba(190, 190, 190, 1);
     font-family: manjari;
+  }
+
+  @media screen and (max-width: 600px) {
+    .nav-op{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .nav-sep {
+        display: none;
+    }
   }
 
 @media screen and (min-width: 760px) {

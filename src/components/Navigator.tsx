@@ -37,8 +37,8 @@ const Navigator: React.FC = () => {
                 <Link to="/Home" className="nav-op">Home</Link>
                 <div className="nav-sep">|</div>
                 <Link to="/About" className="nav-op">About</Link>
-                <div className="nav-sep">|</div>
-                <Link to="/Model" className="nav-op">Model</Link>
+                {/*<div className="nav-sep">|</div>
+                <Link to="/Model" className="nav-op">Model</Link>*/}
             </p>
             </div>
         </div>

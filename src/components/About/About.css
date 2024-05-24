@@ -340,3 +340,9 @@
 .about-user-img_4{
   background: url('assets/Images/Ross.png') center/cover;
 }
+
+@media screen and (max-width: 900px) {
+  .about-user-img, .about-user-img_2, .about-user-img_3, .about-user-img_4{
+      display: none;
+  }
+}

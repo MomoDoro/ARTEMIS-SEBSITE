@@ -7,7 +7,7 @@
     border-radius: 20px;
   }
   
-.custom-name, .custom-actual, .custom-predicted, .custom-mae, .custom-rmse, .custom-mape, .custom-amount, .custom-desc{
+.custom-name, .custom-actual, .custom-predicted, .custom-mae, .custom-rmse, .custom-mape{
     font-family: maven;
     margin-bottom: 10px;
     font-weight:600;

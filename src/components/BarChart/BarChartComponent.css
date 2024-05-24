@@ -3,6 +3,15 @@
 .main-graph-container {
     background-color: white;
   }
+
+  /*---Anim----*/
+  .main-graph-container{
+    opacity: 0; 
+    animation-name: emerges; 
+    animation-duration: 1.2s; 
+    animation-delay: 0.4s; 
+    animation-fill-mode: forwards;
+  }
   
   .main-graph-content {
     max-width: 84.375em;
@@ -125,7 +134,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
