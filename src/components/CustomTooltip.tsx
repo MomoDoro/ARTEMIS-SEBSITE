@@ -36,7 +36,7 @@ const CustomTooltip = ({ active, payload }: any) => {
             </div>
 
             <div className="custom-mape">
-                <p>{`MAE: ${mape}%`}</p>
+                <p>{`MAPE: ${mape}%`}</p>
             </div>
           
           {/* Render image if imageUrl is provided */}

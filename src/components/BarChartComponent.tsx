@@ -1,5 +1,5 @@
 // src/BarChartComponent.tsx
-import React from 'react';
+import React, { useState } from 'react';
 import {  
     BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, 
 } from 'recharts';
@@ -23,7 +23,7 @@ const yearlyData: YearlyData = {
     { name: 'Carageenan', Actual: 137760353,  Predicted: 125207484.75, Amount: 3500000, mae: 3256293.8222584524, rmse: 3927958.5049439925, mape: 44.93870721009798, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2015 Carageenan.jfif' },
     { name: 'Other', Actual: 127448067,  Predicted: 49615502.47, Amount: 12500000, mae: 6486047.044518679, rmse: 6981771.999050326, mape: 60.406188115686575, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2015 Other.jfif' },
     { name: 'Fresh Pineapple', Actual: 126170584,  Predicted: 127101298.81, Amount: 18000000, mae: 2829770.069471584, rmse: 3541602.559970594, mape: 31.23640339536331, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2015 Fresh Pineapples.jfif' }
-  ]
+  ],
   /*2016: [
     { name: 'Apples', Actual: 4000,  Predicted: 13000, Amount: 1600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
     { name: 'Bananas', Actual: 7000,  Predicted: 33000, Amount: 3100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
@@ -83,32 +83,32 @@ const yearlyData: YearlyData = {
     { name: 'Honeydew', Actual: 28000,  Predicted: 50000, Amount: 4000000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
     { name: 'Indian Fig', Actual: 17000,  Predicted: 60000, Amount: 13000000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
     { name: 'Jackfruit', Actual: 27000,  Predicted: 38000, Amount: 18500000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' }
-  ],
+  ],*/
   2021: [
-    { name: 'Apples', Actual: 9000,  Predicted: 18000, Amount: 2100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Bananas', Actual: 12000,  Predicted: 38000, Amount: 3600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Cherries', Actual: 12000,  Predicted: 59000, Amount: 3100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Dates', Actual: 16000,  Predicted: 70000, Amount: 1100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Elderberries', Actual: 72000,  Predicted: 58000, Amount: 8100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Figs', Actual: 26000,  Predicted: 49000, Amount: 1600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Grapes', Actual: 51000,  Predicted: 52000, Amount: 2600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Honeydew', Actual: 29000,  Predicted: 51000, Amount: 4100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Indian Fig', Actual: 18000,  Predicted: 61000, Amount: 13100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Jackfruit', Actual: 28000,  Predicted: 39000, Amount: 18600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' }
+    { name: 'Copra', Actual: 9.28802e8,  Predicted: 2102904338.19, Amount: 1500000, mae: 9.784183134918572e7, rmse: 9.95064409251799e7, mape: 136.34788988818104, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2022/plot_3.svg'},
+    { name: 'Cavendish', Actual: 8.77846e8,  Predicted: 1887145414.64, Amount: 3000000, mae: 8.410830672019704e7, rmse: 8.613446559760495e7, mape: 117.67482811794903, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2022/plot_4.svg' },
+    { name: 'Desiccated CCN', Actual: 4.00108e8,  Predicted: 581884520.15, Amount: 2500000, mae: 1.514801017913282e7, rmse: 1.5344316344313443e7, mape: 48.02657191043202, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2022/plot_5.svg' },
+    { name: 'Fish', Actual:  3.26446e8,  Predicted: 172717345.42, Amount: 500000, mae: 1.2810681631496014e7, rmse: 1.3877210521401094e7, mape: 45.08230318422424, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2022/plot_6.svg' },
+    { name: 'Pineapples', Actual: 2.92236e8,  Predicted: 343486154.31, Amount: 7500000, mae: 5.110989409929796e6, rmse: 5.912872292863579e6, mape: 23.325360264918434, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2022/plot_7.svg' },
+    { name: 'Other', Actual: 2.78419e8,  Predicted: 763889.11, Amount: 1000000, mae: 2.3137935990641456e7, rmse: 2.8486564151615642e7, mape: 98.69209558479054, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2022/plot_8.svg' },
+    { name: 'Cigarettes', Actual: 2.58174e8,  Predicted: 211218682.83, Amount: 2000000, mae: 4.876853781793996e6, rmse: 5.4057394091623565e6, mape: 22.309194374148912, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2022/plot_9.svg' },
+    { name: 'Mucilages', Actual: 2.05404e8,  Predicted: 436104082.65, Amount: 3500000, mae: 1.922504588761154e7, rmse: 1.9937908236534305e7, mape: 115.9544207738297, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2022/plot_10.svg' },
+    { name: 'R. Coconut', Actual: 1.98194e8,  Predicted: 366409156.61, Amount: 12500000, mae: 1.4017939050755816e7, rmse: 1.4659203570580088e7, mape: 102.13157297667921, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2022/plot_11.svg' },
+    { name: 'Cont. Pineapples', Actual: 1.92151e8,  Predicted: 162612645.30, Amount: 18000000, mae: 1.445788737113966e7, rmse: 1.6320239244185014e7, mape: 180.64968525151713, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2022/plot_12.svg' }
   ],
   2022: [
-    { name: 'Apples', Actual: 10000,  Predicted: 19000, Amount: 2200000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Bananas', Actual: 13000,  Predicted: 39000, Amount: 3700000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Cherries', Actual: 12500,  Predicted: 60000, Amount: 3200000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Dates', Actual: 17000,  Predicted: 71000, Amount: 1200000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Elderberries', Actual: 74000,  Predicted: 59000, Amount: 8200000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Figs', Actual: 27000,  Predicted: 50000, Amount: 1700000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Grapes', Actual: 52000,  Predicted: 53000, Amount: 2700000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Honeydew', Actual: 30000,  Predicted: 52000, Amount: 4200000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Indian Fig', Actual: 19000,  Predicted: 62000, Amount: 13200000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Jackfruit', Actual: 29000,  Predicted: 40000, Amount: 18700000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' }
-  ],
-  2023: [
+    { name: 'Copra', Actual: 1.36838e9,  Predicted: 412219045.00, Amount: 1500000, mae: 7.967985033315127e7, rmse: 8.777977111627242e7, mape: 67.98548236144569, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2023/plot_1.svg'},
+    { name: 'Banana', Actual: 1.0848e9,  Predicted: 979282088.20, Amount: 3000000, mae: 9.125348027670648e6, rmse: 1.1044409668164177e7, mape: 9.641937292944462, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2023/plot_2.svg' },
+    { name: 'Desiccated CCN', Actual: 3.69361e8,  Predicted: 207816850.04, Amount: 2500000, mae: 1.3462038746571077e7, rmse: 1.4508419587735487e7, mape: 42.52038255438056, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2023/plot_3.svg' },
+    { name: 'RBD Coconut', Actual:  3.39898e8,  Predicted: 50344496.97, Amount: 500000, mae: 2.412948758609575e7, rmse: 2.8480728968241166e7, mape: 76.41806367923745, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2023/plot_4.svg' },
+    { name: 'Pineapple', Actual: 3.29633e8,  Predicted: 354497377.87, Amount: 7500000, mae: 2.165697901687249e6, rmse: 2.482443743558296e6, mape: 8.160102454326509, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2023/plot_5.svg' },
+    { name: 'Mucilages', Actual: 2.54196e8,  Predicted: 222908160.60, Amount: 1000000, mae: 2.650140496138046e6, rmse: 4.010707558432186e6, mape: 11.130859000109337, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2023/plot_6.svg' },
+    { name: 'Cont. Pineapple', Actual: 2.50504e8,  Predicted: 74489877.56, Amount: 2000000, mae: 1.4667847370353388e7, rmse: 1.5556287323773436e7, mape: 68.83941727688497, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2023/plot_7.svg' },
+    { name: 'Fish', Actual:  2.48479e8,  Predicted: 254047153.42, Amount: 3500000, mae: 3.224284856339304e6, rmse: 3.8632725734096174e6, mape: 16.45122069891549, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2023/plot_8.svg' },
+    { name: 'Cigarrettes', Actual:  2.31579e8,  Predicted: 301832778.92, Amount: 12500000, mae: 5.880179109681609e6, rmse: 6.910702004762504e6, mape: 35.201939844751664, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2023/plot_9.svg' },
+    { name: 'R. Coconut', Actual: 2.23903e8,  Predicted: 78030577.09, Amount: 18000000, mae: 1.4070798551510468e7, rmse: 1.941624783459522e7, mape: 70.70767201609071, description: 'Description for Apples in 2015', imageUrl: 'assets/Images/2023/plot_10.svg' }
+  ]
+  /*2023: [
     { name: 'Apples', Actual: 11000,  Predicted: 20000, Amount: 2300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
     { name: 'Bananas', Actual: 14000,  Predicted: 40000, Amount: 3800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
     { name: 'Cherries', Actual: 13000,  Predicted: 61000, Amount: 3300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
@@ -125,10 +125,19 @@ const yearlyData: YearlyData = {
 const BarChartComponent: React.FC = () => {
   const { selectedYear, setSelectedYear } = useYear();
   const data = yearlyData[selectedYear];
+  const [showPopup, setShowPopup] = useState(false);
 
   const handleYearChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const year = parseInt(event.target.value);
     setSelectedYear(year);
+  };
+
+  const handleButtonClick = () => {
+    setShowPopup(true);
+  };
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
   };
 
   return (
@@ -143,10 +152,10 @@ const BarChartComponent: React.FC = () => {
               <option value={2017}>2017</option>
               <option value={2018}>2018</option>
               <option value={2019}>2019</option>
-              <option value={2020}>2020</option>
+              <option value={2020}>2020</option>*/}
               <option value={2021}>2021</option>
               <option value={2022}>2022</option>
-              <option value={2023}>2023</option>*/}
+              {/*<option value={2023}>2023</option>*/}
             </select>
           </div>
 
@@ -160,6 +169,10 @@ const BarChartComponent: React.FC = () => {
               <option value="EUR">EURO</option>
             </select>
           </div>
+
+        {selectedYear === 2022 && (
+            <button className="overall-data-button" onClick={handleButtonClick}>Overall Data</button>
+          )}
         </div>
 
         <div className="graph_container">
@@ -175,14 +188,32 @@ const BarChartComponent: React.FC = () => {
               <YAxis />
               <Tooltip content={<CustomTooltip />} />
               <Legend />
-              <Bar dataKey="Predicted" fill="#4D72B8" activeBar={<Rectangle fill="#3a4491" stroke="blue" />} />
               <Bar dataKey="Actual" fill="#7EEDC5" activeBar={<Rectangle fill="#53b8ae" stroke="blue" />} />
+              <Bar dataKey="Predicted" fill="#4D72B8" activeBar={<Rectangle fill="#3a4491" stroke="blue" />} />      
             </BarChart>
           </ResponsiveContainer>
         </div>
-
       </div>
-    </div>
+
+      {showPopup && (
+        <div className="popup-overlay" onClick={handleClosePopup}>
+          <div className="popup-window" onClick={(e) => e.stopPropagation()}>
+            <button className="close-button" onClick={handleClosePopup}>Close</button>
+            <div className='popup-desc'>
+                <p>┌ Info: Found initial step size<br />
+                └ ϵ = 9.313225746154786e-11<br />
+                MAPE: 12.29%<br />
+                MSE: 7108662956097680.00<br />
+                RMSE: 84312887.25</p>
+            </div>
+            <div className="popup-image">
+              <img src="assets/Images/2022/plot_1.svg" alt="Overall Data" />
+            </div>
+          </div>
+        </div>
+      )}
+      </div>
+
   );
 };
 

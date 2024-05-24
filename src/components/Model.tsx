@@ -13,11 +13,11 @@ const About: React.FC = () => {
         <div className="model-header-container">
             <div className="model-header">
                 <h1>
-                    ABOUT ARTEMIS
+                    MODEL
                 </h1>
             </div>
             <div className="model-desc" style={{ whiteSpace: 'pre-line' }}>
-                {`n the context of the Bayesian time series model you provided, phi_1, phi_2, and sigma are parameters of the model that are inferred from the data. Here’s what each of these parameters represents:
+                {`In the context of the Bayesian time series model you provided, phi_1, phi_2, and sigma are parameters of the model that are inferred from the data. Here’s what each of these parameters represents:
 
                     phi_1 and phi_2:
 
