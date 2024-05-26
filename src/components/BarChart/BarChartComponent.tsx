@@ -4,7 +4,6 @@ import {
     BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, 
 } from 'recharts';
 import "./BarChartComponent.css"
-import { useYear } from '../Main Content/YearContext';
 import CustomTooltip from './CustomTooltip';
 
 type YearlyData = {
@@ -234,8 +233,8 @@ const yearlyImport: YearlyData = {
 };
 
 const BarChartComponent: React.FC = () => {
-  const { selectedYear, setSelectedYear } = useYear();
-  const [data, setData] = useState(yearlyData);
+  const [selectedYear, setSelectedYear] = useState<number>(2015);
+  const [data, setData] = useState<YearlyData>(yearlyData);
 
   const handleYearChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const year = parseInt(event.target.value);
@@ -249,6 +248,7 @@ const BarChartComponent: React.FC = () => {
   const handleImportButtonClick = () => {
     setData(yearlyImport);
   };
+
 
   return (
     <div className="main-graph-container">

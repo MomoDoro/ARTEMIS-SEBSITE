@@ -7,13 +7,11 @@ import { MdError } from "react-icons/md";
 /*import { VscError } from "react-icons/vsc";
 import { BiError } from "react-icons/bi";*/
 import BarChartComponent from "../BarChart/BarChartComponent";
-import { useYear } from "./YearContext";
 import BarChartComponentTwo from "../BarChart/BarChartComponentTwo";
 import BarChartComponentThree from "../BarChart/BarChartComponentThree";
 import BarChartComponentFour from "../BarChart/BarChartComponentFour";
 
 const MainContent: React.FC = () => {
-  const { percentages } = useYear();
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,13 +20,21 @@ const MainContent: React.FC = () => {
   return (
     <main className="main-content-bg">
       <div className="main-main-content">
+        
+
+        <BarChartComponent />
+
+        <BarChartComponentTwo />
+
+        <BarChartComponentThree />
+
         <div className="main-precent-container">
           <div className="main-accurate-container-wrap">
             <div className="main-accurate-container">
               <div className="main-accurate-icon">
                 <IoIosCheckmarkCircle />
               </div>
-              <h1 className="main-accurate-no">{percentages.accuracy}</h1>
+              <h1 className="main-accurate-no">71.00%</h1>
               <div className="main-accurate" style={{ whiteSpace: 'pre-line' }}>
                 {`Accuracy 
                 Percentage`}
@@ -41,7 +47,7 @@ const MainContent: React.FC = () => {
             <div className="main-inaccurate-icon">
               <MdError />
             </div>
-            <h1 className="main-inaccurate-no">{percentages.error}</h1>
+            <h1 className="main-inaccurate-no">29.00%</h1>
             <div className="main-inaccurate" style={{ whiteSpace: 'pre-line' }}>
               {`Error 
                 Percentage`}
@@ -72,12 +78,6 @@ const MainContent: React.FC = () => {
             </div>
           </div>*/}
         </div>
-
-        <BarChartComponent />
-
-        <BarChartComponentTwo />
-
-        <BarChartComponentThree />
 
         <BarChartComponentFour />
 

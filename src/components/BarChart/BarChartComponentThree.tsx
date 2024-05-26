@@ -4,7 +4,6 @@ import {
     AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, 
 } from 'recharts';
 import "./BarChartComponent.css"
-import { useYear } from '../Main Content/YearContext';
 
 type YearlyData = {
   [year: number]: { name: string; FOB: number;}[];
@@ -269,8 +268,8 @@ const yearlyImport: YearlyData = {
 };
 
 const BarChartComponentThree: React.FC = () => {
-  const { selectedYear, setSelectedYear } = useYear();
-  const [data, setData] = useState(yearlyData);
+  const [selectedYear, setSelectedYear] = useState<number>(2015);
+  const [data, setData] = useState<YearlyData>(yearlyData);
 
   const handleYearChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const year = parseInt(event.target.value);

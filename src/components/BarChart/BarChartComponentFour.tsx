@@ -1,7 +1,7 @@
 // src/BarChartComponentFour.tsx
 import React, { useState } from 'react';
 import {  
-    BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, 
+  AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, 
 } from 'recharts';
 import "./BarChartComponent.css"
 
@@ -62,7 +62,7 @@ const BarChartComponentFour: React.FC = () => {
             2024 Prediction
           </div>
           <ResponsiveContainer width="100%" height={600}>
-            <BarChart
+            <AreaChart
               data={chartData}
               margin={{
                 top: 5, right: 30, left: 30, bottom: 5,
@@ -72,9 +72,8 @@ const BarChartComponentFour: React.FC = () => {
               <XAxis dataKey="name" />  
               <YAxis />
               <Tooltip />
-              <Legend />
-              <Bar dataKey="FOB" fill="#39bdcc" activeBar={<Rectangle fill="#3a4491" stroke="blue" />} />      
-            </BarChart>
+              <Area type="monotone" dataKey="FOB" fill="#39bdcc" stroke="#4D72B8"/>
+            </AreaChart>
           </ResponsiveContainer>
         </div>
       </div>
