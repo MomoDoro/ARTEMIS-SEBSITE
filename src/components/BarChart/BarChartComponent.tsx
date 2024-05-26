@@ -8,136 +8,246 @@ import { useYear } from '../Main Content/YearContext';
 import CustomTooltip from './CustomTooltip';
 
 type YearlyData = {
-  [year: number]: { name: string; Actual: number; Predicted: number; mae: number; rmse: number; mape: number; imageUrl: string; }[];
+  [year: number]: { name: string; FOB: number;}[];
 };
 
 const yearlyData: YearlyData = {
   2015: [
-    { name: 'Banana', Actual: 657870072,  Predicted: 195477911.93, mae: 38532680.00624238, rmse: 44877708.621181525, mape: 63.761608567670514, imageUrl: 'assets/Images/2015 Banana.jfif'},
-    { name: 'Crude Oil', Actual: 410457282,  Predicted: 295079178.82, mae: 21804326.532248285, rmse: 23323423.403623346, mape: 100.7853504454341, imageUrl: 'assets/Images/2015 Crude Oil.jfif' },
-    { name: 'Refined Oil', Actual: 381964099,  Predicted: 148588473.58, mae: 19447968.78485198, rmse: 21530539.825569574, mape: 58.09129153285612, imageUrl: 'assets/Images/2015 Refined Oil.jfif' },
-    { name: 'Pineapple', Actual:  344826935,  Predicted: 552272937.85, mae: 17287166.904156536, rmse: 18575794.52096802, mape: 73.89131550485911, imageUrl: 'assets/Images/2015 Pineapples.jfif' },
-    { name: 'V. Coconut Oil', Actual: 279912645,  Predicted: 30139997.21, mae: 20814387.315883007, rmse: 25260095.927213214, mape: 91.4204354705258, imageUrl: 'assets/Images/2015 Virgin Coconut.jfif' },
-    { name: 'Tunas', Actual: 224081771,  Predicted: 137977031.93, mae: 7210521.417747314, rmse: 8408008.206663975, mape: 35.62589774543824, imageUrl: 'assets/Images/2015 Tuna Container.jfif' },
-    { name: 'Desiccated', Actual: 16005129,  Predicted: 74402636.80, mae: 7137388.266755617, rmse: 7885657.422492863, mape: 51.28671945960198, imageUrl: 'assets/Images/2015 Desiccated Coconut.jfif' },
-    { name: 'Carageenan', Actual: 137760353,  Predicted: 125207484.75, mae: 3256293.8222584524, rmse: 3927958.5049439925, mape: 44.93870721009798, imageUrl: 'assets/Images/2015 Carageenan.jfif' },
-    { name: 'Other', Actual: 127448067,  Predicted: 49615502.47, mae: 6486047.044518679, rmse: 6981771.999050326, mape: 60.406188115686575, imageUrl: 'assets/Images/2015 Other.jfif' },
-    { name: 'Fresh Pineapple', Actual: 126170584,  Predicted: 127101298.81, mae: 2829770.069471584, rmse: 3541602.559970594, mape: 31.23640339536331, imageUrl: 'assets/Images/2015 Fresh Pineapples.jfif' }
+    { name: 'Banana', FOB: 657870072},
+    { name: 'Crude Oil', FOB: 410457282},
+    { name: 'Refined Oil', FOB: 381964099},
+    { name: 'Pineapple', FOB:  344826935},
+    { name: 'V. Coconut Oil', FOB: 279912645},
+    { name: 'Tunas', FOB: 224081771},
+    { name: 'Desiccated', FOB: 16005129},
+    { name: 'Carageenan', FOB: 137760353},
+    { name: 'Other', FOB: 127448067},
+    { name: 'Fresh Pineapple', FOB: 126170584}
   ],
-  /*2016: [
-    { name: 'Apples', Actual: 4000,  Predicted: 13000, Amount: 1600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Bananas', Actual: 7000,  Predicted: 33000, Amount: 3100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Cherries', Actual: 9500,  Predicted: 54000, Amount: 2600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Dates', Actual: 11000,  Predicted: 65000, Amount: 600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Elderberries', Actual: 62000,  Predicted: 53000, Amount: 7600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Figs', Actual: 21000,  Predicted: 44000, Amount: 1100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Grapes', Actual: 46000,  Predicted: 47000, Amount: 2100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Honeydew', Actual: 24000,  Predicted: 46000, Amount: 3600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Indian Fig', Actual: 13000,  Predicted: 56000, Amount: 12600000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Jackfruit', Actual: 23000,  Predicted: 34000, Amount: 18100000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' }
+  2016: [
+    { name: 'Banana', FOB: 730363504.0},
+    { name: 'Crude Oil', FOB: 668322333.0},
+    { name: 'Pineapple', FOB: 369102397.0},
+    { name: 'Refined Oil', FOB: 309551383.0},
+    { name: 'Fresh Pineapple', FOB: 237632810.0},
+    { name: 'Desiccated', FOB: 210039130.0},
+    { name: 'Carageenan', FOB: 185676973.0},
+    { name: 'Tunas', FOB: 155988207.0},
+    { name: 'Other', FOB: 114677802.0},
+    { name: 'Other', FOB: 102012771.0}
   ],
   2017: [
-    { name: 'Apples', Actual: 5000,  Predicted: 14000, Amount: 1700000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Bananas', Actual: 8000,  Predicted: 34000, Amount: 3200000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Cherries', Actual: 10000,  Predicted: 55000, Amount: 2700000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Dates', Actual: 12000,  Predicted: 66000, Amount: 700000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Elderberries', Actual: 64000,  Predicted: 54000, Amount: 7700000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Figs', Actual: 22000,  Predicted: 45000, Amount: 1200000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Grapes', Actual: 47000,  Predicted: 48000, Amount: 2200000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Honeydew', Actual: 25000,  Predicted: 47000, Amount: 3700000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Indian Fig', Actual: 14000,  Predicted: 57000, Amount: 12700000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Jackfruit', Actual: 24000,  Predicted: 35000, Amount: 18200000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' }
+    { name: 'Banana', FOB: 1128578780.0},
+    { name: 'Crude Oil', FOB: 977174573.0},
+    { name: 'Refined Oil', FOB: 439259434.0},
+    { name: 'Tunas', FOB: 363666214.0},
+    { name: 'Desiccated', FOB: 340825184.0},
+    { name: 'Pineapples', FOB: 274474656.0},
+    { name: 'Sugar Cane', FOB: 203551435.0},
+    { name: 'Fresh Pineapple', FOB: 199212825.0},
+    { name: 'Other', FOB: 156151561.0},
+    { name: 'Yllwfin Tunas', FOB: 136761705.0}
   ],
   2018: [
-    { name: 'Apples', Actual: 6000,  Predicted: 15000, Amount: 1800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Bananas', Actual: 9000,  Predicted: 35000, Amount: 3300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Cherries', Actual: 10500,  Predicted: 56000, Amount: 2800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Dates', Actual: 13000,  Predicted: 67000, Amount: 800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Elderberries', Actual: 66000,  Predicted: 55000, Amount: 7800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Figs', Actual: 23000,  Predicted: 46000, Amount: 130000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Grapes', Actual: 48000,  Predicted: 49000, Amount: 2300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Honeydew', Actual: 26000,  Predicted: 48000, Amount: 3800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Indian Fig', Actual: 15000,  Predicted: 58000, Amount: 12800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Jackfruit', Actual: 25000,  Predicted: 36000, Amount: 18300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' }
+    { name: 'Cvnd. Banana', FOB: 1249479741.0},
+    { name: 'Crude Oil', FOB: 608768639.0},
+    { name: 'Other', FOB: 438083626.0},
+    { name: 'Desiccated', FOB: 338414845.0},
+    { name: 'Tunas', FOB: 324228815.0},
+    { name: 'Refined Oil', FOB: 304476532.0},
+    { name: 'Other', FOB: 270388191.0},
+    { name: 'Pineapple', FOB: 193103995.0},
+    { name: 'Fresh Pineapple', FOB: 183112231.0},
+    { name: 'Other', FOB: 166628133.0}
   ],
   2019: [
-    { name: 'Apples', Actual: 7000,  Predicted: 16000, Amount: 1900000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Bananas', Actual: 10000,  Predicted: 36000, Amount: 3400000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Cherries', Actual: 11000,  Predicted: 57000, Amount: 2900000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Dates', Actual: 14000,  Predicted: 68000, Amount: 900000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Elderberries', Actual: 68000,  Predicted: 56000, Amount: 7900000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Figs', Actual: 24000,  Predicted: 47000, Amount: 1400000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Grapes', Actual: 49000,  Predicted: 50000, Amount: 2400000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Honeydew', Actual: 27000,  Predicted: 49000, Amount: 3900000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Indian Fig', Actual: 16000,  Predicted: 59000, Amount: 12900000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Jackfruit', Actual: 26000,  Predicted: 37000, Amount: 18400000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' }
+    { name: 'Cvnd. Banana', FOB: 1849781412.0},
+    { name: 'Crude Oil', FOB: 582029922.0},
+    { name: 'Other', FOB: 379956626.0},
+    { name: 'Tunas', FOB: 355985283.0},
+    { name: 'Fresh Pineapple', FOB: 344583999.0},
+    { name: 'Other', FOB: 300830088.0},
+    { name: 'Desiccated', FOB: 256752525.0},
+    { name: 'Semi-Refined', FOB: 203854039.0},
+    { name: 'Other', FOB: 196481155.0},
+    { name: 'Refined Oil', FOB: 195187523.0}
   ],
   2020: [
-    { name: 'Apples', Actual: 8000,  Predicted: 17000, Amount: 2000000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Bananas', Actual: 11000,  Predicted: 37000, Amount: 3500000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Cherries', Actual: 11500,  Predicted: 58000, Amount: 3000000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Dates', Actual: 15000,  Predicted: 69000, Amount: 1000000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Elderberries', Actual: 70000,  Predicted: 57000, Amount: 8000000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Figs', Actual: 25000,  Predicted: 48000, Amount: 1500000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Grapes', Actual: 50000,  Predicted: 51000, Amount: 2500000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Honeydew', Actual: 28000,  Predicted: 50000, Amount: 4000000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Indian Fig', Actual: 17000,  Predicted: 60000, Amount: 13000000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Jackfruit', Actual: 27000,  Predicted: 38000, Amount: 18500000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' }
-  ],*/
+    { name: 'Cvnd. Banana', FOB: 1577524302.0},
+    { name: 'Copra', FOB: 547931711.0},
+    { name: 'Fish', FOB: 343717655.0},
+    { name: 'Pineapple', FOB: 311281423.0},
+    { name: 'Cigarettes', FOB: 273168408.0},
+    { name: 'Coconut', FOB: 260739635.0},
+    { name: 'Cont. Pineapple', FOB: 239889729.0},
+    { name: 'Mucilages', FOB: 164321303.0},
+    { name: 'Copra', FOB: 136534106.0},
+    { name: 'Other', FOB: 133670804.0}
+  ],
   2021: [
-    { name: 'Copra', Actual: 9.28802e8,  Predicted: 2102904338.19, mae: 9.784183134918572e7, rmse: 9.95064409251799e7, mape: 136.34788988818104, imageUrl: 'assets/Images/2022/plot_3.svg'},
-    { name: 'Cavendish', Actual: 8.77846e8,  Predicted: 1887145414.64, mae: 8.410830672019704e7, rmse: 8.613446559760495e7, mape: 117.67482811794903, imageUrl: 'assets/Images/2022/plot_4.svg' },
-    { name: 'Desiccated CCN', Actual: 4.00108e8,  Predicted: 581884520.15, mae: 1.514801017913282e7, rmse: 1.5344316344313443e7, mape: 48.02657191043202, imageUrl: 'assets/Images/2022/plot_5.svg' },
-    { name: 'Fish', Actual:  3.26446e8,  Predicted: 172717345.42, mae: 1.2810681631496014e7, rmse: 1.3877210521401094e7, mape: 45.08230318422424, imageUrl: 'assets/Images/2022/plot_6.svg' },
-    { name: 'Pineapples', Actual: 2.92236e8,  Predicted: 343486154.31, mae: 5.110989409929796e6, rmse: 5.912872292863579e6, mape: 23.325360264918434, imageUrl: 'assets/Images/2022/plot_7.svg' },
-    { name: 'Other', Actual: 2.78419e8,  Predicted: 763889.11, mae: 2.3137935990641456e7, rmse: 2.8486564151615642e7, mape: 98.69209558479054, imageUrl: 'assets/Images/2022/plot_8.svg' },
-    { name: 'Cigarettes', Actual: 2.58174e8,  Predicted: 211218682.83, mae: 4.876853781793996e6, rmse: 5.4057394091623565e6, mape: 22.309194374148912, imageUrl: 'assets/Images/2022/plot_9.svg' },
-    { name: 'Mucilages', Actual: 2.05404e8,  Predicted: 436104082.65, mae: 1.922504588761154e7, rmse: 1.9937908236534305e7, mape: 115.9544207738297, imageUrl: 'assets/Images/2022/plot_10.svg' },
-    { name: 'R. Coconut', Actual: 1.98194e8,  Predicted: 366409156.61, mae: 1.4017939050755816e7, rmse: 1.4659203570580088e7, mape: 102.13157297667921, imageUrl: 'assets/Images/2022/plot_11.svg' },
-    { name: 'Cont. Pineapples', Actual: 1.92151e8,  Predicted: 162612645.30, mae: 1.445788737113966e7, rmse: 1.6320239244185014e7, mape: 180.64968525151713, imageUrl: 'assets/Images/2022/plot_12.svg' }
+    { name: 'Copra', FOB: 9.28802e8},
+    { name: 'Cavendish', FOB: 8.77846e8},
+    { name: 'Desiccated CCN', FOB: 4.00108e8},
+    { name: 'Fish', FOB:  3.26446e8},
+    { name: 'Pineapples', FOB: 2.92236e8},
+    { name: 'Other', FOB: 2.78419e8},
+    { name: 'Cigarettes', FOB: 2.58174e8},
+    { name: 'Mucilages', FOB: 2.05404e8},
+    { name: 'R. Coconut', FOB: 1.98194e8},
+    { name: 'Cont. Pineapple', FOB: 1.92151e8}
   ],
   2022: [
-    { name: 'Copra', Actual: 1.36838e9,  Predicted: 412219045.00, mae: 7.967985033315127e7, rmse: 8.777977111627242e7, mape: 67.98548236144569, imageUrl: 'assets/Images/2023/plot_1.svg'},
-    { name: 'Banana', Actual: 1.0848e9,  Predicted: 979282088.20, mae: 9.125348027670648e6, rmse: 1.1044409668164177e7, mape: 9.641937292944462, imageUrl: 'assets/Images/2023/plot_2.svg' },
-    { name: 'Desiccated CCN', Actual: 3.69361e8,  Predicted: 207816850.04, mae: 1.3462038746571077e7, rmse: 1.4508419587735487e7, mape: 42.52038255438056, imageUrl: 'assets/Images/2023/plot_3.svg' },
-    { name: 'RBD Coconut', Actual:  3.39898e8,  Predicted: 50344496.97, mae: 2.412948758609575e7, rmse: 2.8480728968241166e7, mape: 76.41806367923745, imageUrl: 'assets/Images/2023/plot_4.svg' },
-    { name: 'Pineapple', Actual: 3.29633e8,  Predicted: 354497377.87, mae: 2.165697901687249e6, rmse: 2.482443743558296e6, mape: 8.160102454326509, imageUrl: 'assets/Images/2023/plot_5.svg' },
-    { name: 'Mucilages', Actual: 2.54196e8,  Predicted: 222908160.60, mae: 2.650140496138046e6, rmse: 4.010707558432186e6, mape: 11.130859000109337, imageUrl: 'assets/Images/2023/plot_6.svg' },
-    { name: 'Cont. Pineapple', Actual: 2.50504e8,  Predicted: 74489877.56, mae: 1.4667847370353388e7, rmse: 1.5556287323773436e7, mape: 68.83941727688497, imageUrl: 'assets/Images/2023/plot_7.svg' },
-    { name: 'Fish', Actual:  2.48479e8,  Predicted: 254047153.42, mae: 3.224284856339304e6, rmse: 3.8632725734096174e6, mape: 16.45122069891549, imageUrl: 'assets/Images/2023/plot_8.svg' },
-    { name: 'Cigarrettes', Actual:  2.31579e8,  Predicted: 301832778.92, mae: 5.880179109681609e6, rmse: 6.910702004762504e6, mape: 35.201939844751664, imageUrl: 'assets/Images/2023/plot_9.svg' },
-    { name: 'R. Coconut', Actual: 2.23903e8,  Predicted: 78030577.09, mae: 1.4070798551510468e7, rmse: 1.941624783459522e7, mape: 70.70767201609071, imageUrl: 'assets/Images/2023/plot_10.svg' }
+    { name: 'Copra', FOB: 1.36838e9},
+    { name: 'Banana', FOB: 1.0848e9},
+    { name: 'Desiccated CCN', FOB: 3.69361e8},
+    { name: 'RBD Coconut', FOB:  3.39898e8},
+    { name: 'Pineapple', FOB: 3.29633e8},
+    { name: 'Mucilages', FOB: 2.54196e8},
+    { name: 'Cont. Pineapple', FOB: 2.50504e8},
+    { name: 'Fish', FOB:  2.48479e8},
+    { name: 'Cigarrettes', FOB:  2.31579e8},
+    { name: 'R. Coconut', FOB: 2.23903e8}
+  ],
+  2023: [
+    { name: 'Cavendish', FOB: 1206446454.0},
+    { name: 'Copra', FOB: 740193323.0},
+    { name: 'Pineapples', FOB: 353872057.0},
+    { name: 'Cigarretes', FOB: 301631891.0},
+    { name: 'Coconuts', FOB: 247176967.0},
+    { name: 'Mucilages', FOB: 243550345.0},
+    { name: 'Fish', FOB: 234415441.0},
+    { name: 'Cont. Pineapple', FOB: 207253374.0},
+    { name: 'Copra', FOB: 135530641.0},
+    { name: 'Copra', FOB: 105320631.0}
   ]
-  /*2023: [
-    { name: 'Apples', Actual: 11000,  Predicted: 20000, Amount: 2300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Bananas', Actual: 14000,  Predicted: 40000, Amount: 3800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Cherries', Actual: 13000,  Predicted: 61000, Amount: 3300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Dates', Actual: 18000,  Predicted: 72000, Amount: 1300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Elderberries', Actual: 76000,  Predicted: 60000, Amount: 8300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Figs', Actual: 28000,  Predicted: 51000, Amount: 1800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Grapes', Actual: 53000,  Predicted: 54000, Amount: 2800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Honeydew', Actual: 31000,  Predicted: 53000, Amount: 4300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Indian Fig', Actual: 20000,  Predicted: 63000, Amount: 13300000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' },
-    { name: 'Jackfruit', Actual: 30000,  Predicted: 41000, Amount: 18800000, description: 'Description for Apples in 2015', imageUrl: 'path_to_image' }
-  ]*/
+};
+
+const yearlyImport: YearlyData = {
+  2015: [
+    { name: 'Other', FOB: 1023093732.0},
+    { name: 'Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.', FOB: 830455157.0},
+    { name: 'Other | Used as feed', FOB: 438841997.0},
+    { name: 'Other', FOB:  339214169.0},
+    { name: 'Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more', FOB: 315880760.0},
+    { name: 'Of palm kernel olein, refined, bleached and deodorised (RBD)', FOB: 312864871.0},
+    { name: 'Boneless', FOB: 299101368.0},
+    { name: 'Other | Upon prior certification of the NEDA that rice shortage', FOB: 258900380.0},
+    { name: 'Preparations to be used as raw material in preparing composite concentrates', FOB: 201789682.0},
+    { name: 'Preparations with a basis of extracts, essences or concentrates or with a basis of coffee | B.  Out-Quota', FOB: 175546919.0}
+  ],
+  2016: [
+    { name: 'Other', FOB: 1056203164.0},
+    { name: 'Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.', FOB: 974406419.0},
+    { name: 'Of palm kernel olein, refined, bleached and deodorised (RBD)', FOB: 497131440.0},
+    { name: 'Other | Used as feed', FOB: 481374670.0},
+    { name: 'Other', FOB: 400395023.0},
+    { name: 'Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more', FOB: 333473749.0},
+    { name: 'Boneless', FOB: 309350090.0},
+    { name: 'Preparations to be used as raw material in preparing composite concentrates', FOB: 202223028.0},
+    { name: 'Other | Upon prior certification of the NEDA that rice shortage', FOB: 190076570.0},
+    { name: 'Preparations with a basis of extracts, essences or concentrates or with a basis of coffee | B.  Out-Quota', FOB: 189421004.0}
+  ],
+  2017: [
+    { name: 'Other', FOB: 953188863.0},
+    { name: 'Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.', FOB: 903987377.0},
+    { name: 'Of palm kernel olein, refined, bleached and deodorised (RBD)', FOB: 649542726.0},
+    { name: 'Other | Used as feed', FOB: 491711062.0},
+    { name: 'Other', FOB: 412408619.0},
+    { name: 'Boneless', FOB: 353927255.0},
+    { name: 'Not containing added sugar or other sweetening matter, in other form | A. In containers of gross weight 20 kgs or more', FOB: 323177049.0},
+    { name: 'Preparations with a basis of extracts, essences or concentrates or with a basis of coffee | A.  In-Quota', FOB: 231109765.0},
+    { name: 'Preparations to be used as raw material in preparing composite concentrates', FOB: 191606159.0},
+    { name: 'Not more than 5% broken', FOB: 183927628.0}
+  ],
+  2018: [
+    { name: 'Other', FOB: 1142442827.0},
+    { name: 'Used as feed', FOB: 818568958.0},
+    { name: 'Other', FOB: 760403099.0},
+    { name: 'Other', FOB: 678810259.0},
+    { name: 'Of palm kernel olein, refined, bleached and deodorised (RBD)', FOB: 484396016.0},
+    { name: 'B. Out-Quota', FOB: 430295453.0},
+    { name: 'Not more than 5% broken', FOB: 417668364.0},
+    { name: 'Boneless', FOB: 399701960.0},
+    { name: 'In containers of a gross weight of 20 kg or more', FOB: 349799577.0},
+    { name: 'Semi-milled or wholly milled rice, whether or not polished or glazed', FOB: 269400397.0}
+  ],
+  2019: [
+    { name: 'Other', FOB: 1072876852.0},
+    { name: 'Used as feed', FOB: 873226767.0},
+    { name: 'Other', FOB: 778097359.0},
+    { name: 'Not more than 5% broken', FOB: 712896739.0},
+    { name: 'Other', FOB: 614940341.0},
+    { name: 'B. Out-Quota', FOB: 566047819.0},
+    { name: 'Of palm kernel olein, refined, bleached and deodorised (RBD)', FOB: 490083183.0},
+    { name: 'In containers of a gross weight of 20 kg or more', FOB: 451928654.0},
+    { name: 'Boneless', FOB: 376315496.0},
+    { name: 'Other', FOB: 264911497.0}
+  ],
+  2020: [
+    { name: 'Other', FOB: 921335629.0},
+    { name: 'Other', FOB: 811095451.0},
+    { name: 'Used as Feed', FOB: 622824234.0},
+    { name: 'Not more than 5% broken', FOB: 612038143.0},
+    { name: 'Of palm kernel olein, refined, bleached and deodorised (RBD)', FOB: 596909596.0},
+    { name: 'Other', FOB: 547298928.0},
+    { name: 'In containers of a gross weight of 20 kg or more', FOB: 516088925.0},
+    { name: 'B.  Out-Quota', FOB: 481133509.0},
+    { name: 'Boneless', FOB: 345769688.0},
+    { name: 'Other', FOB: 252403066.0}
+  ],
+  2021: [
+    { name: 'Other', FOB: 1452405808.0},
+    { name: 'Other :  |  - - Other :  |  - - - Fit for human consumption :  |  - - - - Other', FOB: 987454488.0},
+    { name: 'Semi-milled or wholly milled rice, whether or not polished or glazed :  |  - - Other :  |  - - - Other :  |  Other, not more than 5% broken', FOB: 777021659.0},
+    { name: 'Other :  |  - - Other :  |  - - - Other :  |  - - - - Other  |  Used as feed', FOB:  751994697.0},
+    { name: 'Inedible mixtures or preparations of vegetable fats or oils or of fractions of different fats or oils :  |  - - Of the fruit of the oil palm or of palm kernels  |  Of palm kernel olein, refined, bleached and deodorised (RBD)', FOB: 583469220.0},
+    { name: 'Boneless', FOB: 479473731.0},
+    { name: 'In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5% :  |  - - Not containing added sugar or other sweetening matter :  |  - - - In containers of a net weight of 20 kg or more', FOB: 441191949.0},
+    { name: 'Extracts, essences and concentrates, of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee :  |  - - Preparations with a basis of extracts, essences or concentrates or with a basis of coffee :  |  - - - Other :  |  - - - - Coffee preparation with a basis of ground roasted coffee containing added sugar,whether or not containing creamer :  |  - - - - - B. Out-Quota', FOB: 369336572.0},
+    { name: 'Other :  |  - - Fractions of refined oil :  |  - - - Liquid fractions :  |  - - - - Other, with iodine value 55 or more but less than 60  |  RBD', FOB: 303243519.0},
+    { name: 'Apples', FOB: 259428170.0}
+  ],
+  2022: [
+    { name: 'Copra', FOB: 1889196150.0},
+    { name: 'Other :  |  - - Other :  |  - - - Fit for human consumption :  |  - - - - Other', FOB: 1275785285.0},
+    { name: 'Other :  |  - - Other :  |  - - - Other :  |  - - - - Other  |  Used as feed', FOB: 1080775566.0},
+    { name: 'Semi-milled or wholly milled rice, whether or not polished or glazed :  |  - - Other :  |  - - - Other :  |  Other, not more than 5% broken', FOB:  792968649.0},
+    { name: 'Other :  |  - - Fractions of refined oil :  |  - - - Liquid fractions :  |  - - - - Other, with iodine value 55 or more but less than 60  |  RBD', FOB: 748922119.0},
+    { name: 'In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5% :  |  - - Not containing added sugar or other sweetening matter :  |  - - - In containers of a net weight of 20 kg or more', FOB: 679691359.0},
+    { name: 'Boneless', FOB: 580127829.0},
+    { name: 'Extracts, essences and concentrates, of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee :  |  - - Preparations with a basis of extracts, essences or concentrates or with a basis of coffee :  |  - - - Other :  |  - - - - Coffee preparation with a basis of ground roasted coffee containing added sugar,whether or not containing creamer :  |  - - - - - B. Out-Quota', FOB:  416752892.0},
+    { name: 'Frozen :  |  - -\u00a0Other :  |  - - - B. Out-Quota', FOB:  353925298.0},
+    { name: 'Semi-milled or wholly milled rice, whether or not polished or glazed :  |  - - Other :  |  - - - Other :  |  Other, more than 10% but not more than 25% broken', FOB: 291460402.0}
+  ],
+  2023: [
+    { name: 'Petroleum oils and oils obtained from bituminous minerals (other than crude) and preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations, other than those containing biodiesel and other than waste oils :  |  - - Other :  |  - - - Diesel fuel; fuel oils :  |  - - - - Fuel oils  |  Gas oils', FOB: 4884232769.0},
+    { name: 'Materials and accessories for the manufacture of semiconductor devices  |  - - Other  |  Others', FOB: 4101085034.0},
+    { name: 'Crude petroleum oils', FOB: 3963459252.0},
+    { name: 'Coal, whether or not pulverised, but not agglomerated :  |  - - Other coal', FOB: 3192602963.0},
+    { name: 'Electronic integrated circuits :  |  - -Other  |  Other', FOB: 2871103554.0},
+    { name: 'Other', FOB: 2733724453.0},
+    { name: 'Electronic integrated circuits :  |  - -Other  |  Wafers and discs, electrically circuit-programmed, whether or not coated on one side with gold or aluminium', FOB: 2733174667.0},
+    { name: 'Copper ores and concentrates.  |  Concentrates', FOB: 2704528996.0},
+    { name: 'Materials and accessories for the manufacture of semiconductor devices  |  - - Dice and wafer, of any material ', FOB: 2614589453.0},
+    { name: 'Other vehicles, with only spark-ignition internal combustion reciprocating piston engine :  |  - -  Of a cylinder capacity exceeding \n1,000 cc but not exceeding 1,500 cc :  |  - - -  Other :  |  - - - -  Other motor cars (including station wagons and sports cars, but not including vans) :  |  - - - - -  Other  |  New ', FOB: 1715311649.0}
+  ]
 };
 
 const BarChartComponent: React.FC = () => {
   const { selectedYear, setSelectedYear } = useYear();
-  const data = yearlyData[selectedYear];
-  const [showPopup, setShowPopup] = useState(false);
+  const [data, setData] = useState(yearlyData);
 
   const handleYearChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const year = parseInt(event.target.value);
     setSelectedYear(year);
   };
 
-  const handleButtonClick = () => {
-    setShowPopup(true);
+  const handleExportButtonClick = () => {
+    setData(yearlyData);
   };
 
-  const handleClosePopup = () => {
-    setShowPopup(false);
+  const handleImportButtonClick = () => {
+    setData(yearlyImport);
   };
 
   return (
@@ -148,18 +258,16 @@ const BarChartComponent: React.FC = () => {
             <div className="year">Year:</div>
             <select className="year-dropdown" value={selectedYear} onChange={handleYearChange}>
               <option value={2015}>2015</option>
-              {/*<option value={2016}>2016</option>
+              <option value={2016}>2016</option>
               <option value={2017}>2017</option>
               <option value={2018}>2018</option>
               <option value={2019}>2019</option>
-              <option value={2020}>2020</option>*/}
+              <option value={2020}>2020</option>
               <option value={2021}>2021</option>
               <option value={2022}>2022</option>
-              {/*<option value={2023}>2023</option>*/}
+              <option value={2023}>2023</option>
             </select>
           </div>
-
-          <div className="main-prediction">Predicting: {selectedYear + 1}</div>
 
           <div className="main-graph-right">
             <div className="curr">Currency:</div>
@@ -170,15 +278,20 @@ const BarChartComponent: React.FC = () => {
             </select>
           </div>
 
-        {selectedYear === 2022 && (
-            <button className="overall-data-button" onClick={handleButtonClick}>Overall Data</button>
-          )}
+          <div className="main-buttons-container">
+              <button className="export-button" onClick={handleExportButtonClick}>Exports</button>
+              <button className="import-button" onClick={handleImportButtonClick}>Imports</button>
+          </div>
+
         </div>
 
         <div className="graph_container">
+          <div className='main-graph-name'>
+            Top 10 Commodities Per Year
+          </div>
           <ResponsiveContainer width="100%" height={600}>
             <BarChart
-              data={data}
+              data={data[selectedYear]}
               margin={{
                 top: 5, right: 30, left: 20, bottom: 5,
               }}
@@ -188,32 +301,12 @@ const BarChartComponent: React.FC = () => {
               <YAxis />
               <Tooltip content={<CustomTooltip />} />
               <Legend />
-              <Bar dataKey="Actual" fill="#7EEDC5" activeBar={<Rectangle fill="#53b8ae" stroke="blue" />} />
-              <Bar dataKey="Predicted" fill="#4D72B8" activeBar={<Rectangle fill="#3a4491" stroke="blue" />} />      
+              <Bar dataKey="FOB" fill="#4D72B8" activeBar={<Rectangle fill="#3a4491" stroke="blue" />} />      
             </BarChart>
           </ResponsiveContainer>
         </div>
       </div>
-
-      {showPopup && (
-        <div className="popup-overlay" onClick={handleClosePopup}>
-          <div className="popup-window" onClick={(e) => e.stopPropagation()}>
-            <button className="close-button" onClick={handleClosePopup}>Close</button>
-            <div className='popup-desc'>
-                <p>┌ Info: Found initial step size<br />
-                └ ϵ = 9.313225746154786e-11<br />
-                MAPE: 12.29%<br />
-                MSE: 7108662956097680.00<br />
-                RMSE: 84312887.25</p>
-            </div>
-            <div className="popup-image">
-              <img src="assets/Images/2022/plot_1.svg" alt="Overall Data" />
-            </div>
-          </div>
-        </div>
-      )}
-      </div>
-
+    </div>
   );
 };
 

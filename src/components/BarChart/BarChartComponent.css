@@ -11,6 +11,7 @@
     animation-duration: 1.2s; 
     animation-delay: 0.4s; 
     animation-fill-mode: forwards;
+    margin-bottom: 50px;
   }
   
   .main-graph-content {
@@ -85,6 +86,40 @@
     border-radius: 10px;
     background-color: rgba(223, 233, 252, 1);
   }
+
+  .export-button{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: maven;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+    background-color: #4D72B8;
+  }
+
+  .import-button{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: maven;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    background-color: rgb(67, 150, 175);
+  }
+
+  .export-button:hover {
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    background-color: #3a4491;
+  }
+
+  .import-button:hover {
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    background-color: rgb(67, 126, 175);
+  }
   
   @media screen and (min-width: 760px) {
     .main-graph-dropdowns, .main-precent-container {
@@ -109,75 +144,11 @@
     box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.3);
   }
 
+  .main-graph-name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: manjari;
+    color: #141414;
+  }
+
   /*----------------------------------------*/
-
-  .overall-data-button {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: maven;
-    margin-left: 10px;
-    padding: 5px 10px;
-    background-color: #4D72B8;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  .overall-data-button:hover {
-    background-color: #3a4491;
-  }
-  
-  .popup-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .popup-window {
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position: relative;
-  }
-  
-  .close-button {
-    color: white;
-    width: 80px;
-    padding: 8px;
-    font-weight: bold;
-    font-family: maven;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 15px;
-    cursor: pointer;
-    background-color: #4D72B8;
-    border-radius: 10px;
-  }
-
-  .close-button:hover {
-    background-color: #3a4491;
-  }
-
-  .popup-desc{
-    margin-top:30px;
-    font-family: maven;
-    align-items: start;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-bottom: 30px;
-  }
-
-.popup-image{
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}

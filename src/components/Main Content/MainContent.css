@@ -93,7 +93,6 @@
 .main-con-matrix{
   margin: 0 auto;
   margin-bottom: 20px;
-  margin-top: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -102,6 +101,11 @@
   padding: 30px;
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  animation-name: emerges; 
+    animation-duration: 1.2s; 
+    animation-delay: 0.4s; 
+    animation-fill-mode: forwards;
 }
 
 @media screen and (max-width: 600px) {

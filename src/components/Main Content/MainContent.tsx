@@ -8,6 +8,9 @@ import { MdError } from "react-icons/md";
 import { BiError } from "react-icons/bi";*/
 import BarChartComponent from "../BarChart/BarChartComponent";
 import { useYear } from "./YearContext";
+import BarChartComponentTwo from "../BarChart/BarChartComponentTwo";
+import BarChartComponentThree from "../BarChart/BarChartComponentThree";
+import BarChartComponentFour from "../BarChart/BarChartComponentFour";
 
 const MainContent: React.FC = () => {
   const { percentages } = useYear();
@@ -71,6 +74,12 @@ const MainContent: React.FC = () => {
         </div>
 
         <BarChartComponent />
+
+        <BarChartComponentTwo />
+
+        <BarChartComponentThree />
+
+        <BarChartComponentFour />
 
         <div className="main-con-matrix">
           <img src="assets/Images/Actual.png" alt="Actual Data" />
