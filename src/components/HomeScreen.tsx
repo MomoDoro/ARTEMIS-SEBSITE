@@ -6,7 +6,6 @@ import Navigator from "./Navigator";
 import Hero from "./Main Content/Hero";
 import MainContent from "./Main Content/MainContent";
 import { Footer } from "./Footer";
-import { YearProvider } from "./Main Content/YearContext";
 
 const HomeScreen: React.FC = () => {
   return (
@@ -15,9 +14,7 @@ const HomeScreen: React.FC = () => {
 
         <Hero />
 
-        <YearProvider>
           <MainContent />
-        </YearProvider>
 
         <Footer />
     </div>

@@ -270,6 +270,7 @@ const yearlyImport: YearlyData = {
 const BarChartComponentThree: React.FC = () => {
   const [selectedYear, setSelectedYear] = useState<number>(2015);
   const [data, setData] = useState<YearlyData>(yearlyData);
+  const [dataType, setDataType] = useState<string>('Exports');
 
   const handleYearChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const year = parseInt(event.target.value);
@@ -278,10 +279,12 @@ const BarChartComponentThree: React.FC = () => {
 
   const handleExportButtonClick = () => {
     setData(yearlyData);
+    setDataType('Exports');
   };
 
   const handleImportButtonClick = () => {
     setData(yearlyImport);
+    setDataType('Imports');
   };
 
   return (
@@ -316,6 +319,8 @@ const BarChartComponentThree: React.FC = () => {
               <button className="export-button" onClick={handleExportButtonClick}>Exports</button>
               <button className="import-button" onClick={handleImportButtonClick}>Imports</button>
           </div>
+
+          <div className="data-type">{dataType}:</div> 
 
         </div>
 

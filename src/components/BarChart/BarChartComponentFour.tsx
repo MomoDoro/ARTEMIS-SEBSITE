@@ -37,13 +37,16 @@ const data2 = [
 
 const BarChartComponentFour: React.FC = () => {
   const [chartData, setChartData] = useState(data);
+  const [dataType, setDataType] = useState<string>('Exports');
 
   const handleExportButtonClick = () => {
     setChartData(data);
+    setDataType('Exports');
   };
 
   const handleImportButtonClick = () => {
     setChartData(data2);
+    setDataType('Imports');
   };
 
   return (
@@ -55,6 +58,9 @@ const BarChartComponentFour: React.FC = () => {
               <button className="export-button" onClick={handleExportButtonClick}>Exports</button>
               <button className="import-button" onClick={handleImportButtonClick}>Imports</button>
             </div>
+
+            <div className="data-type">{dataType}:</div> 
+
           </div>
 
         <div className="graph_container">
