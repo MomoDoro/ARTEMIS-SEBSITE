@@ -18,8 +18,8 @@ const Hero: React.FC = () => {
           </div>
           <div className="hero-desc" style={{ whiteSpace: 'pre-line' }}>
             {`Welcome to Artemis, where precision meets prediction in the realm of global trade. 
-              Our platform leverages cutting-edge Bayesian neural network technology to forecast the 
-              values of import and export products with unparalleled accuracy.
+              Our platform leverages long Short-Term Memomry (LSTM) technology to forecast   
+              the values of import and export products with unparalleled accuracy.
 
 
               Whether you're a seasoned trader or a budding entrepreneur, our intuitive interface and 

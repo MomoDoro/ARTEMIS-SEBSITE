@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="divider">
 
           <div className="mid">
-            <h1 className="footer-heading">© ARTEMIS</h1>
+            <h1 className="footer-heading">ARTEMIS</h1>
 
             <h1 className="footer-sep">|</h1>
 

@@ -272,14 +272,14 @@ const BarChartComponent: React.FC = () => {
             </select>
           </div>
 
-          <div className="main-graph-right">
+          {/*<div className="main-graph-right">
             <div className="curr">Currency:</div>
             <select className="curr-dropdown" defaultValue="USD">
               <option value="USD">USD</option>
               <option value="PHP">PHP</option>
               <option value="EUR">EURO</option>
             </select>
-          </div>
+          </div>*/}
 
           <div className="main-buttons-container">
               <button className="export-button" onClick={handleExportButtonClick}>Exports</button>

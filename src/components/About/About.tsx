@@ -59,8 +59,8 @@ const About: React.FC = () => {
                         </div>
                         <div className="about-user-desc_2" style={{ whiteSpace: 'pre-line' }}>
                             {`She acts as the co-head researcher in our team, giving out reliable
-                            sources and references for the project to provide the head researchers
-                            and developers information on how to procees with the project.
+                            sources and references for the project to provide developers information
+                            on how to proceed with the project.
 
                             She is also the most knowledgeable about the research itself and can
                             answer any question about this specific topic.`}

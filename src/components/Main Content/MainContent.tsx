@@ -21,7 +21,6 @@ const MainContent: React.FC = () => {
     <main className="main-content-bg">
       <div className="main-main-content">
         
-
         <BarChartComponent />
 
         <BarChartComponentTwo />
@@ -82,6 +81,9 @@ const MainContent: React.FC = () => {
         <BarChartComponentFour />
 
         <div className="main-con-matrix">
+          <div className='main-graph-name'>
+            Confusion Matrix
+          </div>
           <img src="assets/Images/Actual.png" alt="Actual Data" />
         </div>
 
