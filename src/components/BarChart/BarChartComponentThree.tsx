@@ -332,7 +332,7 @@ const BarChartComponentThree: React.FC = () => {
             <AreaChart
               data={data[selectedYear]}
               margin={{
-                top: 10, right: 30, left: 0, bottom: 0,
+                top: 10, right: 30, left: 20, bottom: 0,
               }}
             >
               <CartesianGrid strokeDasharray="3 3" />

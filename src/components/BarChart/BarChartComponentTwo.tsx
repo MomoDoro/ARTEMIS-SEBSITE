@@ -65,7 +65,7 @@ const BarChartComponentTwo: React.FC = () => {
             <BarChart
               data={chartData}
               margin={{
-                top: 5, right: 30, left: 30, bottom: 5,
+                top: 5, right: 30, left: 37, bottom: 5,
               }}
             >
               <CartesianGrid strokeDasharray="3 3" />
