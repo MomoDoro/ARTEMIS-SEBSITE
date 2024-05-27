@@ -20,14 +20,8 @@ const MainContent: React.FC = () => {
   return (
     <main className="main-content-bg">
       <div className="main-main-content">
-        
-        <BarChartComponent />
 
-        <BarChartComponentTwo />
-
-        <BarChartComponentThree />
-
-        <div className="main-precent-container">
+      <div className="main-precent-container">
           <div className="main-accurate-container-wrap">
             <div className="main-accurate-container">
               <div className="main-accurate-icon">
@@ -46,10 +40,10 @@ const MainContent: React.FC = () => {
             <div className="main-inaccurate-icon">
               <MdError />
             </div>
-            <h1 className="main-inaccurate-no">29.00%</h1>
+            <h1 className="main-inaccurate-no">88.01%</h1>
             <div className="main-inaccurate" style={{ whiteSpace: 'pre-line' }}>
-              {`Error 
-                Percentage`}
+              {`Mean Absolute 
+                Percentage Error`}
             </div>
           </div>
           {/*<div className="main-acc-divider-line"></div>*/}
@@ -79,6 +73,12 @@ const MainContent: React.FC = () => {
         </div>
 
         <BarChartComponentFour />
+        
+        <BarChartComponent />
+
+        <BarChartComponentTwo />
+
+        <BarChartComponentThree />
 
         <div className="main-con-matrix">
           <div className='main-graph-name'>
