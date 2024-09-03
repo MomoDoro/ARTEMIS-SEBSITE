@@ -1,0 +1,2395 @@
+{
+    "1997": [
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA)OIL, CRUDE",
+            "GROSS KILO (in kg)": 874208561.0,
+            "QUANTITY (various)": 874208561.0,
+            "INSURANCE (in USD)": 100708.0,
+            "FREIGHT (in USD)": 40161911.0,
+            "FREE_ON_BOARD": 532648249.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "BANANAS(INCLDG PLANTAINS), FRESH",
+            "GROSS KILO (in kg)": 1143335514.0,
+            "QUANTITY (various)": 1143335514.0,
+            "INSURANCE (in USD)": 3.0,
+            "FREIGHT (in USD)": 103974284.0,
+            "FREE_ON_BOARD": 216555583.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA) OIL, REFINED & ITS FRACTIONS",
+            "GROSS KILO (in kg)": 205951778.0,
+            "QUANTITY (various)": 205951778.0,
+            "INSURANCE (in USD)": 1119.0,
+            "FREIGHT (in USD)": 12263143.0,
+            "FREE_ON_BOARD": 140781773.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "SHRIMPS & PRAWNS, FROZEN",
+            "GROSS KILO (in kg)": 17423943.0,
+            "QUANTITY (various)": 10138822.0,
+            "INSURANCE (in USD)": 3113.0,
+            "FREIGHT (in USD)": 9603640.0,
+            "FREE_ON_BOARD": 125493277.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "SKIPJACK & ATLANTIC BONITO, WHOLE/IN PIECES, NOT MINCED",
+            "GROSS KILO (in kg)": 52870075.0,
+            "QUANTITY (various)": 44844802.0,
+            "INSURANCE (in USD)": 9.0,
+            "FREIGHT (in USD)": 9666332.0,
+            "FREE_ON_BOARD": 104460152.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "DESICCATED COCONUT",
+            "GROSS KILO (in kg)": 78873657.0,
+            "QUANTITY (various)": 76792832.0,
+            "INSURANCE (in USD)": 14213.0,
+            "FREIGHT (in USD)": 11981710.0,
+            "FREE_ON_BOARD": 88294834.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "PINEAPPLE,OTHWS PREPRD/PRESERV,NES,WTR/ NOT CONTG SUGAR/SWEETG SPIRIT",
+            "GROSS KILO (in kg)": 228995459.0,
+            "QUANTITY (various)": 185296156.0,
+            "INSURANCE (in USD)": 2294.0,
+            "FREIGHT (in USD)": 24903283.0,
+            "FREE_ON_BOARD": 85788764.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "CENTRIFUGAL SUGAR, NOT CONTG ADDED FLAVORING/COLORING MATTER",
+            "GROSS KILO (in kg)": 197818266.0,
+            "QUANTITY (various)": 197818266.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 17850384.0,
+            "FREE_ON_BOARD": 82707743.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "CARAGEENAN",
+            "GROSS KILO (in kg)": 12753144.0,
+            "QUANTITY (various)": 12574830.0,
+            "INSURANCE (in USD)": 29843.0,
+            "FREIGHT (in USD)": 1768616.0,
+            "FREE_ON_BOARD": 61305855.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FR COCONUT/COPRA",
+            "GROSS KILO (in kg)": 569328723.0,
+            "QUANTITY (various)": 567875230.0,
+            "INSURANCE (in USD)": 64610.0,
+            "FREIGHT (in USD)": 25891366.0,
+            "FREE_ON_BOARD": 52230318.0
+        }
+    ],
+    "1998": [
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA)OIL, CRUDE",
+            "GROSS KILO (in kg)": 923651196.0,
+            "QUANTITY (various)": 923651196.0,
+            "INSURANCE (in USD)": 134459.0,
+            "FREIGHT (in USD)": 54632936.0,
+            "FREE_ON_BOARD": 544589550.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "BANANAS(INCLDG PLANTAINS), FRESH",
+            "GROSS KILO (in kg)": 1149551608.0,
+            "QUANTITY (various)": 1149551608.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 103284099.0,
+            "FREE_ON_BOARD": 217039493.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA) OIL, REFINED & ITS FRACTIONS",
+            "GROSS KILO (in kg)": 255126036.0,
+            "QUANTITY (various)": 255126036.0,
+            "INSURANCE (in USD)": 988616.0,
+            "FREIGHT (in USD)": 17455648.0,
+            "FREE_ON_BOARD": 161074252.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "SHRIMPS & PRAWNS, FROZEN",
+            "GROSS KILO (in kg)": 17554727.0,
+            "QUANTITY (various)": 10391709.0,
+            "INSURANCE (in USD)": 615.0,
+            "FREIGHT (in USD)": 2943484.0,
+            "FREE_ON_BOARD": 128498962.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "SKIPJACK & ATLANTIC BONITO, WHOLE/IN PIECES, NOT MINCED",
+            "GROSS KILO (in kg)": 46043420.0,
+            "QUANTITY (various)": 38502850.0,
+            "INSURANCE (in USD)": 595.0,
+            "FREIGHT (in USD)": 5827765.0,
+            "FREE_ON_BOARD": 93295713.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "CENTRIFUGAL SUGAR, NOT CONTG ADDED FLAVORING/COLORING MATTER",
+            "GROSS KILO (in kg)": 184800950.0,
+            "QUANTITY (various)": 184800950.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 14711804.0,
+            "FREE_ON_BOARD": 79995491.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "PINEAPPLE,OTHWS PREPRD/PRESERV,NES,WTR/ NOT CONTG SUGAR/SWEETG SPIRIT",
+            "GROSS KILO (in kg)": 208138227.0,
+            "QUANTITY (various)": 169358938.0,
+            "INSURANCE (in USD)": 6.0,
+            "FREIGHT (in USD)": 21820285.0,
+            "FREE_ON_BOARD": 79245426.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "DESICCATED COCONUT",
+            "GROSS KILO (in kg)": 73488882.0,
+            "QUANTITY (various)": 71894255.0,
+            "INSURANCE (in USD)": 8387.0,
+            "FREIGHT (in USD)": 11185390.0,
+            "FREE_ON_BOARD": 72762778.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "MANGOES, FRESH",
+            "GROSS KILO (in kg)": 51793188.0,
+            "QUANTITY (various)": 51793188.0,
+            "INSURANCE (in USD)": 5251.0,
+            "FREIGHT (in USD)": 8166546.0,
+            "FREE_ON_BOARD": 41738823.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "TUNA, WHOLE/IN PCS, NOT MINCED",
+            "GROSS KILO (in kg)": 17674695.0,
+            "QUANTITY (various)": 14617309.0,
+            "INSURANCE (in USD)": 16.0,
+            "FREIGHT (in USD)": 2167942.0,
+            "FREE_ON_BOARD": 36824975.0
+        }
+    ],
+    "1999": [
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "BANANAS(INCLDG PLANTAINS), FRESH",
+            "GROSS KILO (in kg)": 1319631877.0,
+            "QUANTITY (various)": 1319631877.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 111673775.0,
+            "FREE_ON_BOARD": 240703246.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA)OIL, CRUDE",
+            "GROSS KILO (in kg)": 318768851.0,
+            "QUANTITY (various)": 318768851.0,
+            "INSURANCE (in USD)": 137871.0,
+            "FREIGHT (in USD)": 13805772.0,
+            "FREE_ON_BOARD": 220088784.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "SHRIMPS & PRAWNS, FROZEN",
+            "GROSS KILO (in kg)": 18206019.0,
+            "QUANTITY (various)": 10806898.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 3261152.0,
+            "FREE_ON_BOARD": 125682886.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA) OIL, REFINED & ITS FRACTIONS",
+            "GROSS KILO (in kg)": 159967172.0,
+            "QUANTITY (various)": 159939672.0,
+            "INSURANCE (in USD)": 860.0,
+            "FREIGHT (in USD)": 7885093.0,
+            "FREE_ON_BOARD": 122194180.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "DESICCATED COCONUT",
+            "GROSS KILO (in kg)": 78303914.0,
+            "QUANTITY (various)": 76218355.0,
+            "INSURANCE (in USD)": 10082.0,
+            "FREIGHT (in USD)": 10891064.0,
+            "FREE_ON_BOARD": 89180940.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "PINEAPPLE,OTHWS PREPRD/PRESERV,NES,WTR/ NOT CONTG SUGAR/SWEETG SPIRIT",
+            "GROSS KILO (in kg)": 224232378.0,
+            "QUANTITY (various)": 183424884.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 32665852.0,
+            "FREE_ON_BOARD": 82405917.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "CENTRIFUGAL SUGAR, NOT CONTG ADDED FLAVORING/COLORING MATTER",
+            "GROSS KILO (in kg)": 142528520.0,
+            "QUANTITY (various)": 142528190.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 9718860.0,
+            "FREE_ON_BOARD": 62622749.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "SKIPJACK & ATLANTIC BONITO, WHOLE/IN PIECES, NOT MINCED",
+            "GROSS KILO (in kg)": 28478953.0,
+            "QUANTITY (various)": 23733604.0,
+            "INSURANCE (in USD)": 329.0,
+            "FREIGHT (in USD)": 4066645.0,
+            "FREE_ON_BOARD": 49590683.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "CARAGEENAN",
+            "GROSS KILO (in kg)": 8336991.0,
+            "QUANTITY (various)": 8184322.0,
+            "INSURANCE (in USD)": 68435.0,
+            "FREIGHT (in USD)": 1640076.0,
+            "FREE_ON_BOARD": 41543047.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "MANGOES, FRESH",
+            "GROSS KILO (in kg)": 35102164.0,
+            "QUANTITY (various)": 35102164.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 5570771.0,
+            "FREE_ON_BOARD": 32339579.0
+        }
+    ],
+    "2000": [
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA)OIL, CRUDE",
+            "GROSS KILO (in kg)": 813807216.0,
+            "QUANTITY (various)": 813783528.0,
+            "INSURANCE (in USD)": 171227.0,
+            "FREIGHT (in USD)": 40581423.0,
+            "FREE_ON_BOARD": 350499792.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "BANANAS(INCLDG PLANTAINS), FRESH",
+            "GROSS KILO (in kg)": 1599919669.0,
+            "QUANTITY (various)": 1599352378.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 142305373.0,
+            "FREE_ON_BOARD": 291651206.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "SHRIMPS & PRAWNS, FROZEN",
+            "GROSS KILO (in kg)": 18833409.0,
+            "QUANTITY (various)": 11575125.0,
+            "INSURANCE (in USD)": 1951.0,
+            "FREIGHT (in USD)": 3572115.0,
+            "FREE_ON_BOARD": 141246815.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA) OIL, REFINED & ITS FRACTIONS",
+            "GROSS KILO (in kg)": 222647329.0,
+            "QUANTITY (various)": 222647509.0,
+            "INSURANCE (in USD)": 1387.0,
+            "FREIGHT (in USD)": 10538865.0,
+            "FREE_ON_BOARD": 113439812.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "PINEAPPLE,OTHWS PREPRD/PRESERV,NES,WTR/ NOT CONTG SUGAR/SWEETG SPIRIT",
+            "GROSS KILO (in kg)": 251422940.0,
+            "QUANTITY (various)": 205478802.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 25815217.0,
+            "FREE_ON_BOARD": 90702300.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "DESICCATED COCONUT",
+            "GROSS KILO (in kg)": 76991108.0,
+            "QUANTITY (various)": 73688066.0,
+            "INSURANCE (in USD)": 2812.0,
+            "FREIGHT (in USD)": 22989468.0,
+            "FREE_ON_BOARD": 73248148.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "CENTRIFUGAL SUGAR, NOT CONTAINING ADDED FLAVORING OR COLORING MATTER, IN-QUOTA",
+            "GROSS KILO (in kg)": 138602963.0,
+            "QUANTITY (various)": 138597927.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 12272397.0,
+            "FREE_ON_BOARD": 51714313.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "SEAWEEDS AND OTHER ALGAE",
+            "GROSS KILO (in kg)": 49079609.0,
+            "QUANTITY (various)": 48383491.0,
+            "INSURANCE (in USD)": 31210.0,
+            "FREIGHT (in USD)": 15784858.0,
+            "FREE_ON_BOARD": 46514498.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "CARAGEENAN",
+            "GROSS KILO (in kg)": 7854281.0,
+            "QUANTITY (various)": 7702892.0,
+            "INSURANCE (in USD)": 90362.0,
+            "FREIGHT (in USD)": 1226303.0,
+            "FREE_ON_BOARD": 38353940.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "TUNA, WHOLE/IN PCS, NOT MINCED",
+            "GROSS KILO (in kg)": 22138581.0,
+            "QUANTITY (various)": 18302137.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 2477085.0,
+            "FREE_ON_BOARD": 35274491.0
+        }
+    ],
+    "2001": [
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA)OIL, CRUDE",
+            "GROSS KILO (in kg)": 1191882996.0,
+            "QUANTITY (various)": 1191860716.0,
+            "INSURANCE (in USD)": 274420.0,
+            "FREIGHT (in USD)": 42540671.0,
+            "FREE_ON_BOARD": 340853510.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "BANANAS(INCLDG PLANTAINS), FRESH",
+            "GROSS KILO (in kg)": 2129303817.0,
+            "QUANTITY (various)": 1600706560.0,
+            "INSURANCE (in USD)": 21054.0,
+            "FREIGHT (in USD)": 140866916.0,
+            "FREE_ON_BOARD": 297330445.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "SHRIMPS & PRAWNS, FROZEN",
+            "GROSS KILO (in kg)": 18288191.0,
+            "QUANTITY (various)": 11674949.0,
+            "INSURANCE (in USD)": 1016.0,
+            "FREIGHT (in USD)": 3225603.0,
+            "FREE_ON_BOARD": 117740162.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "PINEAPPLE,OTHWS PREPRD/PRESERV,NES,WTR/ NOT CONTG SUGAR/SWEETG SPIRIT",
+            "GROSS KILO (in kg)": 254185583.0,
+            "QUANTITY (various)": 205987187.0,
+            "INSURANCE (in USD)": 378727.0,
+            "FREIGHT (in USD)": 25293326.0,
+            "FREE_ON_BOARD": 90843122.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA) OIL, REFINED & ITS FRACTIONS",
+            "GROSS KILO (in kg)": 226235491.0,
+            "QUANTITY (various)": 226113791.0,
+            "INSURANCE (in USD)": 32820.0,
+            "FREIGHT (in USD)": 9707283.0,
+            "FREE_ON_BOARD": 76695525.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "DESICCATED COCONUT",
+            "GROSS KILO (in kg)": 80696003.0,
+            "QUANTITY (various)": 79671326.0,
+            "INSURANCE (in USD)": 112551.0,
+            "FREIGHT (in USD)": 12440690.0,
+            "FREE_ON_BOARD": 63314648.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "TUNA, WHOLE/IN PCS, NOT MINCED",
+            "GROSS KILO (in kg)": 26669679.0,
+            "QUANTITY (various)": 21521464.0,
+            "INSURANCE (in USD)": 93.0,
+            "FREIGHT (in USD)": 2897115.0,
+            "FREE_ON_BOARD": 45651852.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "CARAGEENAN",
+            "GROSS KILO (in kg)": 8889619.0,
+            "QUANTITY (various)": 8648449.0,
+            "INSURANCE (in USD)": 90665.0,
+            "FREIGHT (in USD)": 1562915.0,
+            "FREE_ON_BOARD": 38617743.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FR COCONUT/COPRA",
+            "GROSS KILO (in kg)": 750855778.0,
+            "QUANTITY (various)": 753082217.0,
+            "INSURANCE (in USD)": 80.0,
+            "FREIGHT (in USD)": 23787297.0,
+            "FREE_ON_BOARD": 35626603.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "SEAWEEDS AND OTHER ALGAE",
+            "GROSS KILO (in kg)": 32524415.0,
+            "QUANTITY (various)": 31560878.0,
+            "INSURANCE (in USD)": 20951.0,
+            "FREIGHT (in USD)": 3723449.0,
+            "FREE_ON_BOARD": 32502489.0
+        }
+    ],
+    "2002": [
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "BANANAS(INCLDG PLANTAINS), FRESH",
+            "GROSS KILO (in kg)": 1682645758.0,
+            "QUANTITY (various)": 1684986163.0,
+            "INSURANCE (in USD)": 918375.0,
+            "FREIGHT (in USD)": 145991532.0,
+            "FREE_ON_BOARD": 308886760.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA)OIL, CRUDE",
+            "GROSS KILO (in kg)": 766863915.0,
+            "QUANTITY (various)": 766811048.0,
+            "INSURANCE (in USD)": 240080.0,
+            "FREIGHT (in USD)": 35233677.0,
+            "FREE_ON_BOARD": 279672033.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "SHRIMPS & PRAWNS, FROZEN",
+            "GROSS KILO (in kg)": 20154517.0,
+            "QUANTITY (various)": 13621401.0,
+            "INSURANCE (in USD)": 4936.0,
+            "FREIGHT (in USD)": 4016205.0,
+            "FREE_ON_BOARD": 119127325.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "DESICCATED COCONUT",
+            "GROSS KILO (in kg)": 108663969.0,
+            "QUANTITY (various)": 106957412.0,
+            "INSURANCE (in USD)": 3231.0,
+            "FREIGHT (in USD)": 15171914.0,
+            "FREE_ON_BOARD": 94792057.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "PINEAPPLE,OTHWS PREPRD/PRESERV,NES,WTR/ NOT CONTG SUGAR/SWEETG SPIRIT",
+            "GROSS KILO (in kg)": 227561083.0,
+            "QUANTITY (various)": 186456512.0,
+            "INSURANCE (in USD)": 13911.0,
+            "FREIGHT (in USD)": 23303009.0,
+            "FREE_ON_BOARD": 81979455.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA) OIL, REFINED & ITS FRACTIONS",
+            "GROSS KILO (in kg)": 178013255.0,
+            "QUANTITY (various)": 177850087.0,
+            "INSURANCE (in USD)": 10766.0,
+            "FREIGHT (in USD)": 7910319.0,
+            "FREE_ON_BOARD": 72953171.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "TUNA, WHOLE/IN PCS, NOT MINCED",
+            "GROSS KILO (in kg)": 30395873.0,
+            "QUANTITY (various)": 25260359.0,
+            "INSURANCE (in USD)": 33.0,
+            "FREIGHT (in USD)": 3379788.0,
+            "FREE_ON_BOARD": 52924532.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT CONTENT,BY WT EXCEEDG 1.5%,OTH THN 0222202 & 0222203",
+            "GROSS KILO (in kg)": 25579273.0,
+            "QUANTITY (various)": 20972112.0,
+            "INSURANCE (in USD)": 93308.0,
+            "FREIGHT (in USD)": 1939797.0,
+            "FREE_ON_BOARD": 45923560.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "SKIPJACK & ATLANTIC BONITO, WHOLE/IN PIECES, NOT MINCED",
+            "GROSS KILO (in kg)": 27365868.0,
+            "QUANTITY (various)": 22710124.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 2927910.0,
+            "FREE_ON_BOARD": 40248392.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "CARAGEENAN",
+            "GROSS KILO (in kg)": 8343458.0,
+            "QUANTITY (various)": 8044949.0,
+            "INSURANCE (in USD)": 7764.0,
+            "FREIGHT (in USD)": 1407447.0,
+            "FREE_ON_BOARD": 38383091.0
+        }
+    ],
+    "2003": [
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA)OIL, CRUDE",
+            "GROSS KILO (in kg)": 980602993.0,
+            "QUANTITY (various)": 962573997.0,
+            "INSURANCE (in USD)": 248760.0,
+            "FREIGHT (in USD)": 65234666.0,
+            "FREE_ON_BOARD": 399435958.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "BANANAS(INCLDG PLANTAINS), FRESH",
+            "GROSS KILO (in kg)": 1828222300.0,
+            "QUANTITY (various)": 1829383999.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 147680713.0,
+            "FREE_ON_BOARD": 333000037.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA) OIL, REFINED & ITS FRACTIONS",
+            "GROSS KILO (in kg)": 224264469.0,
+            "QUANTITY (various)": 223781454.0,
+            "INSURANCE (in USD)": 62211.0,
+            "FREIGHT (in USD)": 16183162.0,
+            "FREE_ON_BOARD": 105424316.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "SHRIMPS & PRAWNS, FROZEN",
+            "GROSS KILO (in kg)": 20238357.0,
+            "QUANTITY (various)": 14730827.0,
+            "INSURANCE (in USD)": 24383.0,
+            "FREIGHT (in USD)": 3527313.0,
+            "FREE_ON_BOARD": 99583863.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "DESICCATED COCONUT",
+            "GROSS KILO (in kg)": 108902245.0,
+            "QUANTITY (various)": 106796479.0,
+            "INSURANCE (in USD)": 7755.0,
+            "FREIGHT (in USD)": 14386383.0,
+            "FREE_ON_BOARD": 95744462.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "TUNA, WHOLE/IN PCS, NOT MINCED",
+            "GROSS KILO (in kg)": 53167541.0,
+            "QUANTITY (various)": 43406414.0,
+            "INSURANCE (in USD)": 16.0,
+            "FREIGHT (in USD)": 5368508.0,
+            "FREE_ON_BOARD": 88689630.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "PINEAPPLE,OTHWS PREPRD/PRESERV,NES,WTR/ NOT CONTG SUGAR/SWEETG SPIRIT",
+            "GROSS KILO (in kg)": 239494358.0,
+            "QUANTITY (various)": 196638702.0,
+            "INSURANCE (in USD)": 5335.0,
+            "FREIGHT (in USD)": 25179306.0,
+            "FREE_ON_BOARD": 84278797.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "CENTRIFUGAL SUGAR, NOT CONTAINING ADDED FLAVORING OR COLORING MATTER, IN-QUOTA",
+            "GROSS KILO (in kg)": 137630000.0,
+            "QUANTITY (various)": 137630000.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 11907087.0,
+            "FREE_ON_BOARD": 58333369.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT CONTENT,BY WT EXCEEDG 1.5%,OTH THN 0222202 & 0222203",
+            "GROSS KILO (in kg)": 30563371.0,
+            "QUANTITY (various)": 25448924.0,
+            "INSURANCE (in USD)": 7007.0,
+            "FREIGHT (in USD)": 1636795.0,
+            "FREE_ON_BOARD": 56940752.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "CARAGEENAN",
+            "GROSS KILO (in kg)": 10370036.0,
+            "QUANTITY (various)": 10085983.0,
+            "INSURANCE (in USD)": 29229.0,
+            "FREIGHT (in USD)": 1812582.0,
+            "FREE_ON_BOARD": 47164916.0
+        }
+    ],
+    "2004": [
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA)OIL, CRUDE",
+            "GROSS KILO (in kg)": 703251926.0,
+            "QUANTITY (various)": 703251926.0,
+            "INSURANCE (in USD)": 292278.0,
+            "FREIGHT (in USD)": 56556063.0,
+            "FREE_ON_BOARD": 416727139.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "BANANAS(INCLDG PLANTAINS), FRESH",
+            "GROSS KILO (in kg)": 1797341615.0,
+            "QUANTITY (various)": 1797341614.0,
+            "INSURANCE (in USD)": 8.0,
+            "FREIGHT (in USD)": 153011007.0,
+            "FREE_ON_BOARD": 326422819.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA) OIL, REFINED & ITS FRACTIONS",
+            "GROSS KILO (in kg)": 256147921.0,
+            "QUANTITY (various)": 256147921.0,
+            "INSURANCE (in USD)": 68789.0,
+            "FREIGHT (in USD)": 22270310.0,
+            "FREE_ON_BOARD": 161062421.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "DESICCATED COCONUT",
+            "GROSS KILO (in kg)": 108135224.0,
+            "QUANTITY (various)": 105828728.0,
+            "INSURANCE (in USD)": 9568.0,
+            "FREIGHT (in USD)": 14902974.0,
+            "FREE_ON_BOARD": 99742503.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "CIGARETTES, CONTAINING TOBACCO",
+            "GROSS KILO (in kg)": 17968721.0,
+            "QUANTITY (various)": 16997185.0,
+            "INSURANCE (in USD)": 456015.0,
+            "FREIGHT (in USD)": 3374554.0,
+            "FREE_ON_BOARD": 98958671.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "SHRIMPS & PRAWNS, FROZEN",
+            "GROSS KILO (in kg)": 17118279.0,
+            "QUANTITY (various)": 11796472.0,
+            "INSURANCE (in USD)": 5554.0,
+            "FREIGHT (in USD)": 4205521.0,
+            "FREE_ON_BOARD": 91009598.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "PINEAPPLE,OTHWS PREPRD/PRESERV,NES,WTR/ NOT CONTG SUGAR/SWEETG SPIRIT",
+            "GROSS KILO (in kg)": 254538590.0,
+            "QUANTITY (various)": 208038809.0,
+            "INSURANCE (in USD)": 3.0,
+            "FREIGHT (in USD)": 28538753.0,
+            "FREE_ON_BOARD": 88730389.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "TUNA, WHOLE/IN PCS, NOT MINCED",
+            "GROSS KILO (in kg)": 46027715.0,
+            "QUANTITY (various)": 37675874.0,
+            "INSURANCE (in USD)": 93.0,
+            "FREIGHT (in USD)": 6113686.0,
+            "FREE_ON_BOARD": 83176180.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT CONTENT,BY WT EXCEEDG 1.5%,OTH THN 0222202 & 0222203",
+            "GROSS KILO (in kg)": 37964120.0,
+            "QUANTITY (various)": 31781615.0,
+            "INSURANCE (in USD)": 1563.0,
+            "FREIGHT (in USD)": 2132838.0,
+            "FREE_ON_BOARD": 72119198.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "CENTRIFUGAL SUGAR, NOT CONTAINING ADDED FLAVORING OR COLORING MATTER, IN-QUOTA",
+            "GROSS KILO (in kg)": 231052350.0,
+            "QUANTITY (various)": 228756897.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 20257702.0,
+            "FREE_ON_BOARD": 66422809.0
+        }
+    ],
+    "2005": [
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA)OIL, CRUDE",
+            "GROSS KILO (in kg)": 864422144.0,
+            "QUANTITY (various)": 864422144.0,
+            "INSURANCE (in USD)": 696974.0,
+            "FREIGHT (in USD)": 82107206.0,
+            "FREE_ON_BOARD": 482754311.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "BANANAS(INCLDG PLANTAINS), FRESH",
+            "GROSS KILO (in kg)": 2024326937.0,
+            "QUANTITY (various)": 2024320664.0,
+            "INSURANCE (in USD)": 579.0,
+            "FREIGHT (in USD)": 172211682.0,
+            "FREE_ON_BOARD": 362581035.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "COCONUT(COPRA) OIL, REFINED & ITS FRACTIONS",
+            "GROSS KILO (in kg)": 287894115.0,
+            "QUANTITY (various)": 287894115.0,
+            "INSURANCE (in USD)": 90054.0,
+            "FREIGHT (in USD)": 34909480.0,
+            "FREE_ON_BOARD": 174462309.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "DESICCATED COCONUT",
+            "GROSS KILO (in kg)": 128987343.0,
+            "QUANTITY (various)": 125539939.0,
+            "INSURANCE (in USD)": 17143.0,
+            "FREIGHT (in USD)": 16832163.0,
+            "FREE_ON_BOARD": 127136160.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "PINEAPPLE,OTHWS PREPRD/PRESERV,NES,WTR/ NOT CONTG SUGAR/SWEETG SPIRIT",
+            "GROSS KILO (in kg)": 254877319.0,
+            "QUANTITY (various)": 208191514.0,
+            "INSURANCE (in USD)": 2403.0,
+            "FREIGHT (in USD)": 29434155.0,
+            "FREE_ON_BOARD": 109525087.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "CIGARETTES, CONTAINING TOBACCO",
+            "GROSS KILO (in kg)": 20262121.0,
+            "QUANTITY (various)": 19250302.0,
+            "INSURANCE (in USD)": 285766.0,
+            "FREIGHT (in USD)": 3128132.0,
+            "FREE_ON_BOARD": 102659630.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "SHRIMPS & PRAWNS, FROZEN",
+            "GROSS KILO (in kg)": 15222235.0,
+            "QUANTITY (various)": 10315384.0,
+            "INSURANCE (in USD)": 2632.0,
+            "FREIGHT (in USD)": 3067878.0,
+            "FREE_ON_BOARD": 80342147.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT CONTENT,BY WT EXCEEDG 1.5%,OTH THN 0222202 & 0222203",
+            "GROSS KILO (in kg)": 34862184.0,
+            "QUANTITY (various)": 29270615.0,
+            "INSURANCE (in USD)": 1063.0,
+            "FREIGHT (in USD)": 2590033.0,
+            "FREE_ON_BOARD": 73866569.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "CENTRIFUGAL SUGAR, NOT CONTAINING ADDED FLAVORING OR COLORING MATTER, IN-QUOTA",
+            "GROSS KILO (in kg)": 219344938.0,
+            "QUANTITY (various)": 219344633.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 29875147.0,
+            "FREE_ON_BOARD": 64837489.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "PINEAPPLES, FRESH",
+            "GROSS KILO (in kg)": 210754351.0,
+            "QUANTITY (various)": 210754351.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 18790076.0,
+            "FREE_ON_BOARD": 43343256.0
+        }
+    ],
+    "2006": [
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 2311592472.0,
+            "QUANTITY (various)": 2311540392.0,
+            "INSURANCE (in USD)": 1495490.0,
+            "FREIGHT (in USD)": 201502902.0,
+            "FREE_ON_BOARD": 405444333.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 740681862.0,
+            "QUANTITY (various)": 740681862.0,
+            "INSURANCE (in USD)": 640846.0,
+            "FREIGHT (in USD)": 42656091.0,
+            "FREE_ON_BOARD": 393504236.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 277568221.0,
+            "QUANTITY (various)": 277568221.0,
+            "INSURANCE (in USD)": 59973.0,
+            "FREIGHT (in USD)": 13952500.0,
+            "FREE_ON_BOARD": 157634344.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 140037054.0,
+            "QUANTITY (various)": 136079805.0,
+            "INSURANCE (in USD)": 246243.0,
+            "FREIGHT (in USD)": 19066787.0,
+            "FREE_ON_BOARD": 138547817.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 226119969.0,
+            "QUANTITY (various)": 185529756.0,
+            "INSURANCE (in USD)": 473314.0,
+            "FREIGHT (in USD)": 23437082.0,
+            "FREE_ON_BOARD": 107547439.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 25614519.0,
+            "QUANTITY (various)": 24220922.0,
+            "INSURANCE (in USD)": 401165.0,
+            "FREIGHT (in USD)": 3879513.0,
+            "FREE_ON_BOARD": 93784172.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "- - - In powder form | B. Other",
+            "GROSS KILO (in kg)": 37704125.0,
+            "QUANTITY (various)": 31657372.0,
+            "INSURANCE (in USD)": 11715.0,
+            "FREIGHT (in USD)": 2431377.0,
+            "FREE_ON_BOARD": 88352656.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "- - Cane sugar | Centrifugal sugar",
+            "GROSS KILO (in kg)": 215333955.0,
+            "QUANTITY (various)": 214641425.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 23781192.0,
+            "FREE_ON_BOARD": 82333864.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "- - Shrimps and prawns",
+            "GROSS KILO (in kg)": 14558233.0,
+            "QUANTITY (various)": 9645079.0,
+            "INSURANCE (in USD)": 166599.0,
+            "FREIGHT (in USD)": 2922094.0,
+            "FREE_ON_BOARD": 76793337.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "- Pineapples | Fresh",
+            "GROSS KILO (in kg)": 262347435.0,
+            "QUANTITY (various)": 262133435.0,
+            "INSURANCE (in USD)": 1283732.0,
+            "FREIGHT (in USD)": 26263627.0,
+            "FREE_ON_BOARD": 54552047.0
+        }
+    ],
+    "2007": [
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 606719917.0,
+            "QUANTITY (various)": 606719917.0,
+            "INSURANCE (in USD)": 936514.0,
+            "FREIGHT (in USD)": 33436899.0,
+            "FREE_ON_BOARD": 503093738.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 2217849872.0,
+            "QUANTITY (various)": 2217740772.0,
+            "INSURANCE (in USD)": 2123648.0,
+            "FREIGHT (in USD)": 186925545.0,
+            "FREE_ON_BOARD": 400848108.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 232674849.0,
+            "QUANTITY (various)": 232674849.0,
+            "INSURANCE (in USD)": 37044.0,
+            "FREIGHT (in USD)": 14550833.0,
+            "FREE_ON_BOARD": 184636033.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 135371641.0,
+            "QUANTITY (various)": 131960785.0,
+            "INSURANCE (in USD)": 308720.0,
+            "FREIGHT (in USD)": 19967001.0,
+            "FREE_ON_BOARD": 159362427.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - - In powder form | B. Other",
+            "GROSS KILO (in kg)": 41480109.0,
+            "QUANTITY (various)": 34146296.0,
+            "INSURANCE (in USD)": 5702.0,
+            "FREIGHT (in USD)": 3165845.0,
+            "FREE_ON_BOARD": 133432088.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 242314181.0,
+            "QUANTITY (various)": 196379781.0,
+            "INSURANCE (in USD)": 285162.0,
+            "FREIGHT (in USD)": 22861285.0,
+            "FREE_ON_BOARD": 122422736.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 22461500.0,
+            "QUANTITY (various)": 20636998.0,
+            "INSURANCE (in USD)": 319776.0,
+            "FREIGHT (in USD)": 3258360.0,
+            "FREE_ON_BOARD": 95772355.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Tunas",
+            "GROSS KILO (in kg)": 39616671.0,
+            "QUANTITY (various)": 32844381.0,
+            "INSURANCE (in USD)": 2617.0,
+            "FREIGHT (in USD)": 6077673.0,
+            "FREE_ON_BOARD": 85505483.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - Cane sugar | Centrifugal sugar",
+            "GROSS KILO (in kg)": 234600928.0,
+            "QUANTITY (various)": 234584447.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 17057271.0,
+            "FREE_ON_BOARD": 77492812.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - Yellowfin tunas (Thunnus albacares)",
+            "GROSS KILO (in kg)": 24876123.0,
+            "QUANTITY (various)": 20461774.0,
+            "INSURANCE (in USD)": 937613.0,
+            "FREIGHT (in USD)": 6559027.0,
+            "FREE_ON_BOARD": 74825768.0
+        }
+    ],
+    "2008": [
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 545576045.0,
+            "QUANTITY (various)": 545576045.0,
+            "INSURANCE (in USD)": 4770274.0,
+            "FREIGHT (in USD)": 39787477.0,
+            "FREE_ON_BOARD": 659798780.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 2192554925.0,
+            "QUANTITY (various)": 2192552925.0,
+            "INSURANCE (in USD)": 1708821.0,
+            "FREIGHT (in USD)": 78421045.0,
+            "FREE_ON_BOARD": 405557674.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 286211924.0,
+            "QUANTITY (various)": 286211924.0,
+            "INSURANCE (in USD)": 3171356.0,
+            "FREIGHT (in USD)": 21922968.0,
+            "FREE_ON_BOARD": 352591535.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 145740818.0,
+            "QUANTITY (various)": 142663812.0,
+            "INSURANCE (in USD)": 548093.0,
+            "FREIGHT (in USD)": 8213789.0,
+            "FREE_ON_BOARD": 240355710.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Tunas",
+            "GROSS KILO (in kg)": 65224645.0,
+            "QUANTITY (various)": 52048512.0,
+            "INSURANCE (in USD)": 579282.0,
+            "FREIGHT (in USD)": 2847714.0,
+            "FREE_ON_BOARD": 193016026.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - - In powder form | B. Other",
+            "GROSS KILO (in kg)": 44897319.0,
+            "QUANTITY (various)": 36077464.0,
+            "INSURANCE (in USD)": 571133.0,
+            "FREIGHT (in USD)": 1551630.0,
+            "FREE_ON_BOARD": 157800806.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 233165237.0,
+            "QUANTITY (various)": 190054313.0,
+            "INSURANCE (in USD)": 540351.0,
+            "FREIGHT (in USD)": 9381865.0,
+            "FREE_ON_BOARD": 134746919.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - Yellowfin tunas (Thunnus albacares)",
+            "GROSS KILO (in kg)": 32008670.0,
+            "QUANTITY (various)": 26609706.0,
+            "INSURANCE (in USD)": 335908.0,
+            "FREIGHT (in USD)": 2950688.0,
+            "FREE_ON_BOARD": 97873065.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 21560399.0,
+            "QUANTITY (various)": 19832962.0,
+            "INSURANCE (in USD)": 359425.0,
+            "FREIGHT (in USD)": 1279442.0,
+            "FREE_ON_BOARD": 97353827.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - - Carageenan | Other refined",
+            "GROSS KILO (in kg)": 11287299.0,
+            "QUANTITY (various)": 11083774.0,
+            "INSURANCE (in USD)": 268039.0,
+            "FREIGHT (in USD)": 923519.0,
+            "FREE_ON_BOARD": 87123021.0
+        }
+    ],
+    "2009": [
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 573401627.0,
+            "QUANTITY (various)": 573401627.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 401643956.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 1743747798.0,
+            "QUANTITY (various)": 1743747798.0,
+            "INSURANCE (in USD)": 457673.0,
+            "FREIGHT (in USD)": 8424.0,
+            "FREE_ON_BOARD": 360220716.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Tunas",
+            "GROSS KILO (in kg)": 65847173.0,
+            "QUANTITY (various)": 52970326.0,
+            "INSURANCE (in USD)": 635.0,
+            "FREIGHT (in USD)": 6107291.0,
+            "FREE_ON_BOARD": 166852480.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 228606326.0,
+            "QUANTITY (various)": 228606326.0,
+            "INSURANCE (in USD)": 160.0,
+            "FREIGHT (in USD)": 800.0,
+            "FREE_ON_BOARD": 162727472.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 119360816.0,
+            "QUANTITY (various)": 116401557.0,
+            "INSURANCE (in USD)": 16822.0,
+            "FREIGHT (in USD)": 216683.0,
+            "FREE_ON_BOARD": 145756839.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 204413565.0,
+            "QUANTITY (various)": 168703099.0,
+            "INSURANCE (in USD)": 325287.0,
+            "FREIGHT (in USD)": 114.0,
+            "FREE_ON_BOARD": 137408274.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - - In powder form | B. Other",
+            "GROSS KILO (in kg)": 28475014.0,
+            "QUANTITY (various)": 23403449.0,
+            "INSURANCE (in USD)": 2549.0,
+            "FREIGHT (in USD)": 46662.0,
+            "FREE_ON_BOARD": 90376944.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 18943322.0,
+            "QUANTITY (various)": 17389622.0,
+            "INSURANCE (in USD)": 7845.0,
+            "FREIGHT (in USD)": 81907.0,
+            "FREE_ON_BOARD": 87139299.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - Cane sugar | Centrifugal sugar",
+            "GROSS KILO (in kg)": 244737242.0,
+            "QUANTITY (various)": 243905609.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 86298267.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Skipjack and bonito (Sarda spp.)",
+            "GROSS KILO (in kg)": 36297001.0,
+            "QUANTITY (various)": 30634058.0,
+            "INSURANCE (in USD)": 9.0,
+            "FREIGHT (in USD)": 91.0,
+            "FREE_ON_BOARD": 85040488.0
+        }
+    ],
+    "2010": [
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 1056035059.0,
+            "QUANTITY (various)": 1056035059.0,
+            "INSURANCE (in USD)": 179045.0,
+            "FREIGHT (in USD)": 1790447.0,
+            "FREE_ON_BOARD": 970452784.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 1590065703.0,
+            "QUANTITY (various)": 1590065703.0,
+            "INSURANCE (in USD)": 640696.0,
+            "FREIGHT (in USD)": 10389048.0,
+            "FREE_ON_BOARD": 319295589.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 248145136.0,
+            "QUANTITY (various)": 248145136.0,
+            "INSURANCE (in USD)": 216.0,
+            "FREIGHT (in USD)": 4800.0,
+            "FREE_ON_BOARD": 249008831.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 111754072.0,
+            "QUANTITY (various)": 108942881.0,
+            "INSURANCE (in USD)": 61725.0,
+            "FREIGHT (in USD)": 620062.0,
+            "FREE_ON_BOARD": 152608031.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Tunas",
+            "GROSS KILO (in kg)": 60898566.0,
+            "QUANTITY (various)": 48182864.0,
+            "INSURANCE (in USD)": 224370.0,
+            "FREIGHT (in USD)": 323779.0,
+            "FREE_ON_BOARD": 151289540.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - - In powder form | B. Other",
+            "GROSS KILO (in kg)": 37786471.0,
+            "QUANTITY (various)": 30143609.0,
+            "INSURANCE (in USD)": 5266.0,
+            "FREIGHT (in USD)": 102400.0,
+            "FREE_ON_BOARD": 128965103.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 171725296.0,
+            "QUANTITY (various)": 140918832.0,
+            "INSURANCE (in USD)": 199165.0,
+            "FREIGHT (in USD)": 294398.0,
+            "FREE_ON_BOARD": 126207759.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 23511358.0,
+            "QUANTITY (various)": 21403043.0,
+            "INSURANCE (in USD)": 22633.0,
+            "FREIGHT (in USD)": 269024.0,
+            "FREE_ON_BOARD": 116816480.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - - Carageenan | Other refined",
+            "GROSS KILO (in kg)": 14759672.0,
+            "QUANTITY (various)": 14419282.0,
+            "INSURANCE (in USD)": 95500.0,
+            "FREIGHT (in USD)": 188944.0,
+            "FREE_ON_BOARD": 105475885.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - Yellowfin tunas (Thunnus albacares)",
+            "GROSS KILO (in kg)": 34266428.0,
+            "QUANTITY (various)": 28022573.0,
+            "INSURANCE (in USD)": 113221.0,
+            "FREIGHT (in USD)": 433280.0,
+            "FREE_ON_BOARD": 100790424.0
+        }
+    ],
+    "2011": [
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 558116559.0,
+            "QUANTITY (various)": 558116559.0,
+            "INSURANCE (in USD)": 2.0,
+            "FREIGHT (in USD)": 1246.0,
+            "FREE_ON_BOARD": 939964713.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 2055522888.0,
+            "QUANTITY (various)": 2055510392.0,
+            "INSURANCE (in USD)": 306735.0,
+            "FREIGHT (in USD)": 100642299.0,
+            "FREE_ON_BOARD": 472377275.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 242086487.0,
+            "QUANTITY (various)": 242086487.0,
+            "INSURANCE (in USD)": 375.0,
+            "FREIGHT (in USD)": 1800.0,
+            "FREE_ON_BOARD": 420200745.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - Cane sugar | Centrifugal sugar",
+            "GROSS KILO (in kg)": 578752054.0,
+            "QUANTITY (various)": 578737490.0,
+            "INSURANCE (in USD)": 2635134.0,
+            "FREIGHT (in USD)": 3.0,
+            "FREE_ON_BOARD": 351451234.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 112975434.0,
+            "QUANTITY (various)": 108883892.0,
+            "INSURANCE (in USD)": 129983.0,
+            "FREIGHT (in USD)": 55853.0,
+            "FREE_ON_BOARD": 286806792.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 254331456.0,
+            "QUANTITY (various)": 207187042.0,
+            "INSURANCE (in USD)": 156924.0,
+            "FREIGHT (in USD)": 2418.0,
+            "FREE_ON_BOARD": 195384542.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - - In powder form | B. Other",
+            "GROSS KILO (in kg)": 44419111.0,
+            "QUANTITY (various)": 35536302.0,
+            "INSURANCE (in USD)": 22048.0,
+            "FREIGHT (in USD)": 377923.0,
+            "FREE_ON_BOARD": 166345106.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - - Carageenan | Other refined",
+            "GROSS KILO (in kg)": 19422298.0,
+            "QUANTITY (various)": 18891124.0,
+            "INSURANCE (in USD)": 165897.0,
+            "FREIGHT (in USD)": 38393.0,
+            "FREE_ON_BOARD": 149431103.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Tunas",
+            "GROSS KILO (in kg)": 48957651.0,
+            "QUANTITY (various)": 38641616.0,
+            "INSURANCE (in USD)": 1693655.0,
+            "FREIGHT (in USD)": 3427.0,
+            "FREE_ON_BOARD": 143930165.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 27427332.0,
+            "QUANTITY (various)": 23947718.0,
+            "INSURANCE (in USD)": 11152.0,
+            "FREIGHT (in USD)": 384725.0,
+            "FREE_ON_BOARD": 128917211.0
+        }
+    ],
+    "2012": [
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 2646118279.0,
+            "QUANTITY (various)": 2646117620.0,
+            "INSURANCE (in USD)": 11600.0,
+            "FREIGHT (in USD)": 3056.0,
+            "FREE_ON_BOARD": 646657080.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 551052273.0,
+            "QUANTITY (various)": 551052273.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 630168006.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 309718622.0,
+            "QUANTITY (various)": 309718622.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 361665361.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 72728882.0,
+            "QUANTITY (various)": 16262672.0,
+            "INSURANCE (in USD)": 54146.0,
+            "FREIGHT (in USD)": 32216.0,
+            "FREE_ON_BOARD": 220315212.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 272439553.0,
+            "QUANTITY (various)": 223019996.0,
+            "INSURANCE (in USD)": 2.0,
+            "FREIGHT (in USD)": 111.0,
+            "FREE_ON_BOARD": 219775816.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 101490312.0,
+            "QUANTITY (various)": 68579869.0,
+            "INSURANCE (in USD)": 20.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 196997050.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - - Carageenan | Other refined",
+            "GROSS KILO (in kg)": 20672753.0,
+            "QUANTITY (various)": 11278196.0,
+            "INSURANCE (in USD)": 1016.0,
+            "FREIGHT (in USD)": 4382.0,
+            "FREE_ON_BOARD": 130130151.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- Of coconut or copra",
+            "GROSS KILO (in kg)": 669825532.0,
+            "QUANTITY (various)": 462022194.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 124605973.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - Cane sugar | Centrifugal sugar",
+            "GROSS KILO (in kg)": 201966775.0,
+            "QUANTITY (various)": 201930549.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 108796902.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - Yellowfin tunas (Thunnus albacares)",
+            "GROSS KILO (in kg)": 21023961.0,
+            "QUANTITY (various)": 16626505.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 2340.0,
+            "FREE_ON_BOARD": 99666467.0
+        }
+    ],
+    "2013": [
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 3266569341.0,
+            "QUANTITY (various)": 3266547615.09,
+            "INSURANCE (in USD)": 5.0,
+            "FREIGHT (in USD)": 9.0,
+            "FREE_ON_BOARD": 962576908.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 537219790.0,
+            "QUANTITY (various)": 537219790.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 471707927.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Tunas",
+            "GROSS KILO (in kg)": 122108585.0,
+            "QUANTITY (various)": 116002913.28,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 4.0,
+            "FREE_ON_BOARD": 454544955.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 319096257.0,
+            "QUANTITY (various)": 319096257.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 303448895.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - Cane sugar | Centrifugal sugar",
+            "GROSS KILO (in kg)": 496072160.0,
+            "QUANTITY (various)": 471268552.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 272884612.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 46674156.0,
+            "QUANTITY (various)": 44298132.32,
+            "INSURANCE (in USD)": 30.0,
+            "FREIGHT (in USD)": 720.0,
+            "FREE_ON_BOARD": 227298867.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- Of coconut or copra",
+            "GROSS KILO (in kg)": 827310527.0,
+            "QUANTITY (various)": 785945000.65,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 211256207.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 126900169.0,
+            "QUANTITY (various)": 92814784.16,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 198669584.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 211216107.0,
+            "QUANTITY (various)": 190094496.3,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 175994792.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- Pineapples | Fresh",
+            "GROSS KILO (in kg)": 489742861.0,
+            "QUANTITY (various)": 489742861.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 152495869.0
+        }
+    ],
+    "2014": [
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 3630976263.0,
+            "QUANTITY (various)": 3630976263.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 6175.0,
+            "FREE_ON_BOARD": 1129890927.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 543018044.0,
+            "QUANTITY (various)": 542998044.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 672847038.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 257707955.0,
+            "QUANTITY (various)": 257707033.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 344452192.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Tunas",
+            "GROSS KILO (in kg)": 94375411.97,
+            "QUANTITY (various)": 88739702.49,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 289764848.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 109099776.0,
+            "QUANTITY (various)": 84303219.49,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 254162922.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 215088038.0,
+            "QUANTITY (various)": 176582142.76,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 182193901.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 31903565.01,
+            "QUANTITY (various)": 30659803.54,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 177296465.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Virgin coconut oil",
+            "GROSS KILO (in kg)": 62723290.0,
+            "QUANTITY (various)": 62728963.0,
+            "INSURANCE (in USD)": 204.0,
+            "FREIGHT (in USD)": 768.0,
+            "FREE_ON_BOARD": 154474004.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- Pineapples | Fresh",
+            "GROSS KILO (in kg)": 487492378.0,
+            "QUANTITY (various)": 487492378.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 153907705.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - - Carageenan | Other refined",
+            "GROSS KILO (in kg)": 18027729.0,
+            "QUANTITY (various)": 16607422.0,
+            "INSURANCE (in USD)": 185.0,
+            "FREIGHT (in USD)": 633.0,
+            "FREE_ON_BOARD": 144750115.0
+        }
+    ],
+    "2015": [
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 1795313588.0,
+            "QUANTITY (various)": 1795199279.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 3.0,
+            "FREE_ON_BOARD": 657870072.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 385231729.0,
+            "QUANTITY (various)": 385222452.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 410457282.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 329185741.0,
+            "QUANTITY (various)": 329185741.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 381964099.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 332586398.0,
+            "QUANTITY (various)": 283830720.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 344826935.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Virgin coconut oil",
+            "GROSS KILO (in kg)": 158131035.0,
+            "QUANTITY (various)": 158047238.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 279912645.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Tunas",
+            "GROSS KILO (in kg)": 78296412.0,
+            "QUANTITY (various)": 73880975.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 1253.0,
+            "FREE_ON_BOARD": 224081771.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 69844557.0,
+            "QUANTITY (various)": 52017944.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 160051296.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - - Carageenan | Other refined",
+            "GROSS KILO (in kg)": 19238975.0,
+            "QUANTITY (various)": 17610545.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 132.0,
+            "FREE_ON_BOARD": 137760353.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 24407969.0,
+            "QUANTITY (various)": 23367310.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 195.0,
+            "FREE_ON_BOARD": 127448067.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- Pineapples | Fresh",
+            "GROSS KILO (in kg)": 315747952.0,
+            "QUANTITY (various)": 315822000.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 126170584.0
+        }
+    ],
+    "2016": [
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 1733836317.8,
+            "QUANTITY (various)": 1733836317.8,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 730363504.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 478927087.0,
+            "QUANTITY (various)": 478927087.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 668322333.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 400357200.0,
+            "QUANTITY (various)": 363488859.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 369102397.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 207614918.0,
+            "QUANTITY (various)": 207614918.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 309551383.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- Pineapples | Fresh",
+            "GROSS KILO (in kg)": 600090771.0,
+            "QUANTITY (various)": 599343051.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 237632810.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 100855762.0,
+            "QUANTITY (various)": 93410598.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 210039130.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - - Carageenan | Other refined",
+            "GROSS KILO (in kg)": 30888821.0,
+            "QUANTITY (various)": 28552953.0,
+            "INSURANCE (in USD)": 22.0,
+            "FREIGHT (in USD)": 22.0,
+            "FREE_ON_BOARD": 185676973.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Tunas",
+            "GROSS KILO (in kg)": 55074215.0,
+            "QUANTITY (various)": 52051545.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 6094.0,
+            "FREE_ON_BOARD": 155988207.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - Other | Other",
+            "GROSS KILO (in kg)": 203535625.0,
+            "QUANTITY (various)": 180385828.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 51.0,
+            "FREE_ON_BOARD": 114677802.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - - Other | Other",
+            "GROSS KILO (in kg)": 61126215.0,
+            "QUANTITY (various)": 54857514.0,
+            "INSURANCE (in USD)": 1811.0,
+            "FREIGHT (in USD)": 14373.0,
+            "FREE_ON_BOARD": 102012771.0
+        }
+    ],
+    "2017": [
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "Bananas, including plantains, fresh or dried. | Fresh",
+            "GROSS KILO (in kg)": 2872698448.44,
+            "QUANTITY (various)": 2855635077.66,
+            "INSURANCE (in USD)": 72.0,
+            "FREIGHT (in USD)": 72.0,
+            "FREE_ON_BOARD": 1128578780.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - Crude oil | Other",
+            "GROSS KILO (in kg)": 612075830.18,
+            "QUANTITY (various)": 611346433.08,
+            "INSURANCE (in USD)": 1.0,
+            "FREIGHT (in USD)": 1.0,
+            "FREE_ON_BOARD": 977174573.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - - Refined oil | - - - Refined oil (cochin)",
+            "GROSS KILO (in kg)": 253282039.53,
+            "QUANTITY (various)": 253074817.29,
+            "INSURANCE (in USD)": 1.0,
+            "FREIGHT (in USD)": 258000.0,
+            "FREE_ON_BOARD": 439259434.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - - In airtight containers | Tunas",
+            "GROSS KILO (in kg)": 281940310.85,
+            "QUANTITY (various)": 267723386.28,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 363666214.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - Desiccated",
+            "GROSS KILO (in kg)": 149544387.6,
+            "QUANTITY (various)": 116080014.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 340825184.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 307879124.78000003,
+            "QUANTITY (various)": 261701280.13,
+            "INSURANCE (in USD)": 2.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 274474656.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - Cane sugar | Centrifugal sugar",
+            "GROSS KILO (in kg)": 460859823.5,
+            "QUANTITY (various)": 440732707.93,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 203551435.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- Pineapples | Fresh",
+            "GROSS KILO (in kg)": 494503176.99,
+            "QUANTITY (various)": 494272976.99,
+            "INSURANCE (in USD)": 5.0,
+            "FREIGHT (in USD)": 5.0,
+            "FREE_ON_BOARD": 199212825.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 30124921.28,
+            "QUANTITY (various)": 29175342.87,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 156151561.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - Yellowfin tunas (Thunnus albacares)",
+            "GROSS KILO (in kg)": 36673467.47,
+            "QUANTITY (various)": 36638102.07,
+            "INSURANCE (in USD)": 6.0,
+            "FREIGHT (in USD)": 9.0,
+            "FREE_ON_BOARD": 136761705.0
+        }
+    ],
+    "2018": [
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "Cavendish banana",
+            "GROSS KILO (in kg)": 2822839538.0,
+            "QUANTITY (various)": 2822839538.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 1249479741.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "- -\u00a0 Crude oil",
+            "GROSS KILO (in kg)": 587152330.0,
+            "QUANTITY (various)": 587152330.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 608768639.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "Other",
+            "GROSS KILO (in kg)": 502368477.0,
+            "QUANTITY (various)": 489728597.0,
+            "INSURANCE (in USD)": 3877.0,
+            "FREIGHT (in USD)": 6654.0,
+            "FREE_ON_BOARD": 438083626.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "- - \u00a0Desiccated",
+            "GROSS KILO (in kg)": 151500096.0,
+            "QUANTITY (various)": 145023861.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 338414845.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "- - - - Tunas",
+            "GROSS KILO (in kg)": 151664807.0,
+            "QUANTITY (various)": 132443822.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 324228815.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "Refined oil (cochin)",
+            "GROSS KILO (in kg)": 250446419.0,
+            "QUANTITY (various)": 250446419.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 304476532.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 94290752.0,
+            "QUANTITY (various)": 73909025.0,
+            "INSURANCE (in USD)": 3.0,
+            "FREIGHT (in USD)": 3.0,
+            "FREE_ON_BOARD": 270388191.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "- Pineapples",
+            "GROSS KILO (in kg)": 245344878.0,
+            "QUANTITY (various)": 223562783.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 193103995.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "Fresh",
+            "GROSS KILO (in kg)": 405549175.0,
+            "QUANTITY (various)": 405549175.0,
+            "INSURANCE (in USD)": 1.0,
+            "FREIGHT (in USD)": 3.0,
+            "FREE_ON_BOARD": 183112231.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "Other ",
+            "GROSS KILO (in kg)": 63204401.0,
+            "QUANTITY (various)": 59392263.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 166628133.0
+        }
+    ],
+    "2019": [
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "Cavendish banana",
+            "GROSS KILO (in kg)": 4115531091.0,
+            "QUANTITY (various)": 4115531091.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 3.0,
+            "FREE_ON_BOARD": 1849781412.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "- -\u00a0 Crude oil",
+            "GROSS KILO (in kg)": 821974071.0,
+            "QUANTITY (various)": 821974071.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 582029922.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "Other",
+            "GROSS KILO (in kg)": 457143618.0,
+            "QUANTITY (various)": 443102837.0,
+            "INSURANCE (in USD)": 3735.0,
+            "FREIGHT (in USD)": 4600.0,
+            "FREE_ON_BOARD": 379956626.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "- - - - Tunas",
+            "GROSS KILO (in kg)": 105624505.0,
+            "QUANTITY (various)": 87021315.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 355985283.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "Fresh",
+            "GROSS KILO (in kg)": 645713393.0,
+            "QUANTITY (various)": 645713393.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 344583999.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 57012402.0,
+            "QUANTITY (various)": 47374377.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 300830088.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "- - \u00a0Desiccated",
+            "GROSS KILO (in kg)": 160401433.0,
+            "QUANTITY (various)": 156072282.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 256752525.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "Semi-refined, food grade",
+            "GROSS KILO (in kg)": 27260728.0,
+            "QUANTITY (various)": 26364561.0,
+            "INSURANCE (in USD)": 14.0,
+            "FREIGHT (in USD)": 14.0,
+            "FREE_ON_BOARD": 203854039.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "Other ",
+            "GROSS KILO (in kg)": 94642025.0,
+            "QUANTITY (various)": 86961426.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 196481155.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "Refined oil (cochin)",
+            "GROSS KILO (in kg)": 235165642.0,
+            "QUANTITY (various)": 235165642.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 195187523.0
+        }
+    ],
+    "2020": [
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "- Other :  |  - - Other  |  Cavendish banana ",
+            "GROSS KILO (in kg)": 3635220429.0,
+            "QUANTITY (various)": 3635220429.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 1577524302.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "-\u00a0Coconut (copra) oil and its fractions :  |  - - Crude oil  |  Other",
+            "GROSS KILO (in kg)": 648364505.0,
+            "QUANTITY (various)": 648364505.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 547931711.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "-\u00a0Fish, whole or in pieces, but not minced :  |  - - Tunas, skipjack and bonito (Sarda spp.) :  |  - - - In airtight containers for retail sale :  |  - - - - Tunas",
+            "GROSS KILO (in kg)": 102669028.0,
+            "QUANTITY (various)": 88374143.0,
+            "INSURANCE (in USD)": 1.0,
+            "FREIGHT (in USD)": 6.0,
+            "FREE_ON_BOARD": 343717655.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "-\u00a0Pineapples  |  Fresh",
+            "GROSS KILO (in kg)": 594725804.0,
+            "QUANTITY (various)": 594725804.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 311281423.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "-\u00a0Cigarettes containing tobacco :  |  - - Other",
+            "GROSS KILO (in kg)": 36297033.0,
+            "QUANTITY (various)": 30299169.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 273168408.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "-\u00a0Coconuts :  |  - -\u00a0Desiccated",
+            "GROSS KILO (in kg)": 147851243.0,
+            "QUANTITY (various)": 144263497.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 260739635.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "-\u00a0Pineapples :  |  - - In airtight containers for retail sale",
+            "GROSS KILO (in kg)": 272492159.0,
+            "QUANTITY (various)": 239095008.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 239889729.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "-\u00a0Mucilages and thickeners, whether or not modified, derived from vegetable products :  |  - -\u00a0Other :  |  - - - Carrageenan :  |  - - - - Powder, semi-refined   |  Food grade",
+            "GROSS KILO (in kg)": 23435415.0,
+            "QUANTITY (various)": 22796323.0,
+            "INSURANCE (in USD)": 18.0,
+            "FREIGHT (in USD)": 21.0,
+            "FREE_ON_BOARD": 164321303.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "-\u00a0Coconut (copra) oil and its fractions :  |  - -\u00a0Other :  |  - - - Other  |  Refined, bleached and deodorized (RBD) oil ",
+            "GROSS KILO (in kg)": 132080954.0,
+            "QUANTITY (various)": 132080954.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 136534106.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "-\u00a0Other, including mixtures other than those of subheading 2008.19 :  |  - - Other :  |  - - - Other, containing added sugar or other sweetening matter or spirit  |  Banana chips or crackers",
+            "GROSS KILO (in kg)": 62908031.0,
+            "QUANTITY (various)": 58865799.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 133670804.0
+        }
+    ],
+    "2021": [
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Coconut (copra) oil and its fractions :  |  - - Crude oil  |  Other",
+            "GROSS KILO (in kg)": 641221748.0,
+            "QUANTITY (various)": 641221748.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 928802362.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "- Other :  |  - - Other  |  Cavendish banana ",
+            "GROSS KILO (in kg)": 1892287514.0,
+            "QUANTITY (various)": 1892287514.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 877845734.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Coconuts :  |  - -\u00a0Desiccated",
+            "GROSS KILO (in kg)": 165068569.0,
+            "QUANTITY (various)": 165068569.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 400108398.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Fish, whole or in pieces, but not minced :  |  - - Tunas, skipjack and bonito (Sarda spp.) :  |  - - - In airtight containers for retail sale :  |  - - - - Tunas",
+            "GROSS KILO (in kg)": 89232042.0,
+            "QUANTITY (various)": 77593908.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 7.0,
+            "FREE_ON_BOARD": 326445525.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Pineapples  |  Fresh",
+            "GROSS KILO (in kg)": 551554670.0,
+            "QUANTITY (various)": 551554670.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 292236354.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "- Other :  |  - - Other  |  Other",
+            "GROSS KILO (in kg)": 581119756.0,
+            "QUANTITY (various)": 581119756.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 278419121.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Cigarettes containing tobacco :  |  - - Other",
+            "GROSS KILO (in kg)": 34561928.0,
+            "QUANTITY (various)": 30695979.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 258174004.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Mucilages and thickeners, whether or not modified, derived from vegetable products :  |  - -\u00a0Other :  |  - - - Carrageenan :  |  - - - - Powder, semi-refined   |  Food grade",
+            "GROSS KILO (in kg)": 29006592.0,
+            "QUANTITY (various)": 29006592.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 2.0,
+            "FREE_ON_BOARD": 205403532.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Coconut (copra) oil and its fractions :  |  - -\u00a0Other :  |  - - - Other  |  Refined, bleached and deodorized (RBD) oil ",
+            "GROSS KILO (in kg)": 122807757.0,
+            "QUANTITY (various)": 122807757.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 198193888.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Pineapples :  |  - - In airtight containers for retail sale",
+            "GROSS KILO (in kg)": 197367804.0,
+            "QUANTITY (various)": 172141978.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 192150605.0
+        }
+    ],
+    "2022": [
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Coconut (copra) oil and its fractions :  |  - - Crude oil  |  Other",
+            "GROSS KILO (in kg)": 861966017.0,
+            "QUANTITY (various)": 861966017.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 1368377249.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "- Other :  |  - - Other  |  Cavendish banana ",
+            "GROSS KILO (in kg)": 2257603169.0,
+            "QUANTITY (various)": 2257603169.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 1084798098.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Coconuts :  |  - -\u00a0Desiccated",
+            "GROSS KILO (in kg)": 156588458.0,
+            "QUANTITY (various)": 156588458.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 369361315.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Coconut (copra) oil and its fractions :  |  - -\u00a0Other :  |  - - - Other  |  Refined, bleached and deodorized (RBD) oil ",
+            "GROSS KILO (in kg)": 184564556.0,
+            "QUANTITY (various)": 184564556.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 339898348.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Pineapples  |  Fresh",
+            "GROSS KILO (in kg)": 582536946.0,
+            "QUANTITY (various)": 582536946.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 329632911.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Mucilages and thickeners, whether or not modified, derived from vegetable products :  |  - -\u00a0Other :  |  - - - Carrageenan :  |  - - - - Powder, semi-refined   |  Food grade",
+            "GROSS KILO (in kg)": 26110459.0,
+            "QUANTITY (various)": 26110459.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 254195585.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Pineapples :  |  - - In airtight containers for retail sale",
+            "GROSS KILO (in kg)": 272099711.0,
+            "QUANTITY (various)": 214439533.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 250504046.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Fish, whole or in pieces, but not minced :  |  - - Tunas, skipjack and bonito (Sarda spp.) :  |  - - - In airtight containers for retail sale :  |  - - - - Tunas",
+            "GROSS KILO (in kg)": 71054135.0,
+            "QUANTITY (various)": 57956593.0,
+            "INSURANCE (in USD)": 3.0,
+            "FREIGHT (in USD)": 3.0,
+            "FREE_ON_BOARD": 248479178.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Cigarettes containing tobacco :  |  - - Other",
+            "GROSS KILO (in kg)": 34731394.0,
+            "QUANTITY (various)": 31957638.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 231578661.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Coconut (copra) oil and its fractions :  |  - -\u00a0Other :  |  - - - Other  |  Refined oil (cochin)",
+            "GROSS KILO (in kg)": 138365797.0,
+            "QUANTITY (various)": 138365797.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 0.0,
+            "FREE_ON_BOARD": 223903256.0
+        }
+    ],
+    "2023": []
+}

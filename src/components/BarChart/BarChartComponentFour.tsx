@@ -1,85 +1,99 @@
-// src/BarChartComponentFour.tsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import {  
-  AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, 
+    BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, 
 } from 'recharts';
 import "./BarChartComponent.css"
 
-const data = [
-    { name: 'Jan', FOB: 554995776.0},
-    { name: 'Feb', FOB: 561616256.0},
-    { name: 'Mar', FOB: 578406016.0},
-    { name: 'Apr', FOB: 561731136.0},
-    { name: 'May', FOB: 576838976.0},
-    { name: 'June', FOB: 577391104.0},
-    { name: 'July', FOB: 581194496.0},
-    { name: 'Aug', FOB: 547682688.0},
-    { name: 'Sep', FOB: 575466432.0},
-    { name: 'Oct', FOB: 554355072.0},
-    { name: 'Nov', FOB: 567071232.0},
-    { name: 'Dec', FOB: 570720128.0},
-  ]
+interface ChartData {
+    name: string;
+    FOB: number;
+}
 
-const data2 = [
-    { name: 'Jan', FOB: 4327805952.0},
-    { name: 'Feb', FOB: 4266018816.0},
-    { name: 'Mar', FOB: 4152986880.0},
-    { name: 'Apr', FOB: 4238802688.0},
-    { name: 'May', FOB: 4320183808.0},
-    { name: 'June', FOB: 4399496192.0},
-    { name: 'July', FOB: 4357776384.0},
-    { name: 'Aug', FOB: 4278739200.0},
-    { name: 'Sep', FOB: 4237145088.0},
-    { name: 'Oct', FOB: 4328439808.0},
-    { name: 'Nov', FOB: 4167225600.0},
-    { name: 'Dec', FOB: 4185681920.0},
-  ]
+const abbreviateNumber = (num: number) => {
+  if (num >= 1000000) {
+    return (num / 1000000).toFixed(1) + 'M';
+  }
+  if (num >= 1000) {
+    return (num / 1000).toFixed(1) + 'k';
+  }
+  return num.toString();
+};
 
-const BarChartComponentFour: React.FC = () => {
-  const [chartData, setChartData] = useState(data);
+const BarChartComponentTwo: React.FC = () => {
+  const [chartData, setChartData] = useState<ChartData[]>([]);
   const [dataType, setDataType] = useState<string>('Exports');
 
+  const fetchChartData = async (url: string) => {
+    try {
+      const response = await axios.get(url);
+      const rawData = response.data;
+      
+      const formattedData: ChartData[] = Object.keys(rawData).map((year) => ({
+        name: year,
+        FOB: rawData[year]["FREE_ON_BOARD"],
+      }));
+      
+      setChartData(formattedData);
+    } catch (error) {
+      console.error("Error fetching the chart data", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchChartData('/src/JSON/exports_fob_sum_2015-2023.json');
+  }, []);
+
   const handleExportButtonClick = () => {
-    setChartData(data);
     setDataType('Exports');
+    fetchChartData('/src/JSON/exports_fob_sum_2015-2023.json');
   };
 
   const handleImportButtonClick = () => {
-    setChartData(data2);
     setDataType('Imports');
+    fetchChartData('/src/JSON/imports_fob_sum_2015-2023.json');
   };
 
   return (
     <div className="main-graph-container">
       <div className="main-graph-content">
+        <div className="main-graph-dropdowns">
 
-          <div className="main-graph-dropdowns">
-            <div className="main-buttons-container">
-              <button className="export-button" onClick={handleExportButtonClick}>Exports</button>
-              <button className="import-button" onClick={handleImportButtonClick}>Imports</button>
-            </div>
-
-            <div className="data-type">{dataType}:</div> 
-
+          <div className="main-buttons-container">
+            <button 
+              className={`export-button ${dataType === 'Exports' ? 'highlight' : ''}`} 
+              onClick={handleExportButtonClick}
+            >
+              Exports
+            </button>
+            <button 
+              className={`import-button ${dataType === 'Imports' ? 'highlight' : ''}`} 
+              onClick={handleImportButtonClick}
+            >
+              Imports
+            </button>
           </div>
+
+        </div>
 
         <div className="graph_container">
           <div className='main-graph-name'>
-            2024 Prediction
+            Yearly Sum of FOB (Free On Board)
           </div>
           <ResponsiveContainer width="100%" height={600}>
-            <AreaChart
+            <BarChart
               data={chartData}
               margin={{
-                top: 5, right: 30, left: 30, bottom: 5,
+                top: 5, right: 30, left: 37, bottom: 5,
               }}
             >
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="name" />  
-              <YAxis />
+              <YAxis tickFormatter={abbreviateNumber}/>
               <Tooltip />
-              <Area type="monotone" dataKey="FOB" fill="#39bdcc" stroke="#4D72B8"/>
-            </AreaChart>
+              <Legend />
+              <Bar dataKey="FOB" fill="#70aae0" activeBar={<Rectangle fill="#3a4491" stroke="blue" />} />      
+            </BarChart>
           </ResponsiveContainer>
         </div>
       </div>
@@ -87,4 +101,4 @@ const BarChartComponentFour: React.FC = () => {
   );
 };
 
-export default BarChartComponentFour;
+export default BarChartComponentTwo;

@@ -1,79 +1,151 @@
-// src/BarChartComponentTwo.tsx
-import React, { useState } from 'react';
-import {  
-    BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, 
+// src/BarChartComponent.tsx
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import {
+    BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
 } from 'recharts';
 import "./BarChartComponent.css"
+import CustomTooltip from './CustomTooltip';
 
-const data = [
-    { name: '2015', FOB: 5001788052},
-    { name: '2016', FOB: 5155624360},
-    { name: '2017', FOB: 6579504622},
-    { name: '2018', FOB: 6117844649},
-    { name: '2019', FOB: 6677054530},
-    { name: '2020', FOB: 6199964510},
-    { name: '2021', FOB: 6820908914},
-    { name: '2022', FOB: 7498704917},
-    { name: '2023', FOB: 6409409283},
-];
+// Define types for the data
+interface CommodityData {
+  name: string;
+  FOB: number;
+}
 
-const data2 = [
-    { name: '2015', FOB: 9579847605.9699993134},
-    { name: '2016', FOB: 10230393186.9699993134},
-    { name: '2017', FOB: 10989116518.2600002289},
-    { name: '2018', FOB: 13139902091.0},
-    { name: '2019', FOB: 13531785048.0},
-    { name: '2020', FOB: 12576143764.0},
-    { name: '2021', FOB: 15362919392.0},
-    { name: '2022', FOB: 18927451994.0},
-    { name: '2023', FOB: 127707398154.0},
-];
+interface YearlyData {
+  [year: string]: CommodityData[];
+}
 
-const BarChartComponentTwo: React.FC = () => {
-  const [chartData, setChartData] = useState(data);
-  const [dataType, setDataType] = useState<string>('Exports');
+const abbreviateNumber = (num: number) => {
+  if (num >= 1000000) {
+    return (num / 1000000).toFixed(1) + 'M';
+  }
+  if (num >= 1000) {
+    return (num / 1000).toFixed(1) + 'k';
+  }
+  return num.toString();
+};
+
+const BarChartComponent: React.FC = () => {
+  const [selectedYear, setSelectedYear] = useState<number>(2015);
+  const [data, setData] = useState<{ Exports: YearlyData; Imports: YearlyData }>({ Exports: {}, Imports: {} });
+  const [dataType, setDataType] = useState<'Exports' | 'Imports'>('Exports');
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const exportsResponse = await axios.get('/src/JSON/exports_top10_commodities_per_year.json');
+        const importsResponse = await axios.get('/src/JSON/imports_top10_commodities_per_year.json');
+        
+        const formatData = (data: any): YearlyData => {
+          const formattedData: YearlyData = {};
+          Object.keys(data).forEach(year => {
+            formattedData[year] = data[year].map((item: any) => ({
+              name: item['COMMODITY_DESCRIPTION'],  // Removed truncation
+              FOB: item['FREE_ON_BOARD'],
+            }));
+          });
+          return formattedData;
+        };
+
+        setData({
+          Exports: formatData(exportsResponse.data),
+          Imports: formatData(importsResponse.data),
+        });
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const handleYearChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const year = parseInt(event.target.value);
+    setSelectedYear(year);
+  };
 
   const handleExportButtonClick = () => {
     setDataType('Exports');
-    setChartData(data);
   };
 
   const handleImportButtonClick = () => {
     setDataType('Imports');
-    setChartData(data2);
   };
 
   return (
     <div className="main-graph-container">
       <div className="main-graph-content">
         <div className="main-graph-dropdowns">
-
-          <div className="main-buttons-container">
-            <button className="export-button" onClick={handleExportButtonClick}>Exports</button>
-            <button className="import-button" onClick={handleImportButtonClick}>Imports</button>
+          <div className="main-graph-left">
+            <div className="year">Year:</div>
+            <select className="year-dropdown" value={selectedYear} onChange={handleYearChange}>
+              <option value={1997}>1997</option>
+              <option value={1998}>1998</option>
+              <option value={1999}>1999</option>
+              <option value={2001}>2001</option>
+              <option value={2002}>2002</option>
+              <option value={2003}>2003</option>
+              <option value={2004}>2004</option>
+              <option value={2005}>2005</option>
+              <option value={2006}>2006</option>
+              <option value={2007}>2007</option>
+              <option value={2008}>2008</option>
+              <option value={2009}>2009</option>
+              <option value={2010}>2010</option>
+              <option value={2011}>2011</option>
+              <option value={2012}>2012</option>
+              <option value={2013}>2013</option>
+              <option value={2014}>2014</option>
+              <option value={2015}>2015</option>
+              <option value={2016}>2016</option>
+              <option value={2017}>2017</option>
+              <option value={2018}>2018</option>
+              <option value={2019}>2019</option>
+              <option value={2020}>2020</option>
+              <option value={2021}>2021</option>
+              <option value={2022}>2022</option>
+              <option value={2023}>2023</option>
+            </select>
           </div>
 
-          <div className="data-type">{dataType}:</div> 
-
+          <div className="main-buttons-container">
+            <button
+              className={`export-button ${dataType === 'Exports' ? 'highlight' : ''}`}
+              onClick={handleExportButtonClick}
+            >
+              Exports
+            </button>
+            <button
+              className={`import-button ${dataType === 'Imports' ? 'highlight' : ''}`}
+              onClick={handleImportButtonClick}
+            >
+              Imports
+            </button>
+          </div>
         </div>
 
         <div className="graph_container">
           <div className='main-graph-name'>
-            Yearly Sum of FOB (Free On Board)
+            Top 10 Commodities Per Year
           </div>
           <ResponsiveContainer width="100%" height={600}>
             <BarChart
-              data={chartData}
+              data={data[dataType]?.[selectedYear] || []}
               margin={{
-                top: 5, right: 30, left: 37, bottom: 5,
+                top: 5, right: 30, left: 30, bottom: 5,
               }}
             >
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" />  
-              <YAxis />
-              <Tooltip />
+              <XAxis
+                tick={false}  // Hide the default ticks
+                label={{ value: 'C O M M O D I T I E S', position: 'insideBottomCenter'}}  // Centered label
+              />
+              <YAxis tickFormatter={abbreviateNumber} />
+              <Tooltip content={<CustomTooltip />} />
               <Legend />
-              <Bar dataKey="FOB" fill="#5189c9" activeBar={<Rectangle fill="#3a4491" stroke="blue" />} />      
+              <Bar dataKey="FOB" fill="#70aae0" activeBar={<Rectangle fill="#3a4491" stroke="blue" />} />
             </BarChart>
           </ResponsiveContainer>
         </div>
@@ -82,4 +154,4 @@ const BarChartComponentTwo: React.FC = () => {
   );
 };
 
-export default BarChartComponentTwo;
+export default BarChartComponent;

@@ -1,162 +1,173 @@
+/* src/BarChartComponentTwo.css */
 /*------------------Graph Part1--------------------*/
 
 .main-graph-container {
-    background-color: white;
-  }
+  background-color: white;
+}
 
-  /*---Anim----*/
-  .main-graph-container{
-    opacity: 0; 
-    animation-name: emerges; 
-    animation-duration: 1.2s; 
-    animation-delay: 0.4s; 
-    animation-fill-mode: forwards;
-    margin-bottom: 50px;
-  }
-  
-  .main-graph-content {
-    max-width: 84.375em;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .main-graph-dropdowns {
-    align-items: center;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-  
-  .dropdown-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .main-graph-left,
-  .main-graph-right {
-    display: flex;
-    align-items: center;
+/*---Anim----*/
+.main-graph-container{
+  opacity: 0; 
+  animation-name: emerges; 
+  animation-duration: 1.2s; 
+  animation-delay: 0.4s; 
+  animation-fill-mode: forwards;
+  margin-bottom: 50px;
+}
+
+.main-graph-containerd{
+  opacity: 0; 
+  animation-name: emerges; 
+  animation-duration: 1.2s; 
+  animation-delay: 0.4s; 
+  animation-fill-mode: forwards;
+  margin-bottom: 10px;
+}
+
+.main-graph-content {
+  max-width: 84.375em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-graph-dropdowns {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.main-graph-left,
+.main-graph-right {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.year {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: maven;
+  margin-right: 10px;
+}
+
+.year-dropdown {
+  font-family: maven;
+  font-weight: bold;
+  color: rgba(83, 90, 98, 1);
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(223, 233, 252, 1);
+}
+
+.main-prediction{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: maven;
+  margin-right: 60px;
+  color: rgba(83, 90, 98, 1);
+}
+
+.curr {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: maven;
+  margin-right: 10px;
+}
+
+.curr-dropdown {
+  font-family: maven;
+  font-weight: bold;
+  color: rgba(83, 90, 98, 1);
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(223, 233, 252, 1);
+}
+
+.export-button{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: maven;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  cursor: pointer;
+  background-color: #608bdd
+}
+
+.import-button{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: maven;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  background-color: #608bdd
+}
+
+.export-button:hover, .import-button:hover {
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  background-color: #3a4491
+}
+
+
+.export-button.highlight, .import-button.highlight {
+  background-color: #3a4491
+}
+
+
+.data-type{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: maven;
+  margin-left: 30px;
+  color: rgba(83, 90, 98, 1);
+}
+
+@media screen and (min-width: 760px) {
+  .main-graph-dropdowns, .main-precent-container {
     flex-direction: row;
-    text-align: left;
-    margin-right: 20px;
-  }
-  
-  .year {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: maven;
-    margin-right: 10px;
-  }
-  
-  .year-dropdown {
-    font-family: maven;
-    font-weight: bold;
-    color: rgba(83, 90, 98, 1);
-    padding: 5px;
-    font-size: 20px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgba(223, 233, 252, 1);
-  }
-  
-  .main-prediction{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: maven;
-    margin-right: 60px;
-    color: rgba(83, 90, 98, 1);
-  }
-  
-  .curr {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: maven;
-    margin-right: 10px;
-  }
-  
-  .curr-dropdown {
-    font-family: maven;
-    font-weight: bold;
-    color: rgba(83, 90, 98, 1);
-    padding: 5px;
-    font-size: 20px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgba(223, 233, 252, 1);
   }
 
-  .export-button{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: maven;
-    padding: 5px 10px;
-    color: white;
-    border: none;
-    border-radius: 10px 0px 0px 10px;
-    cursor: pointer;
-    background-color: #4D72B8;
+  .main-graph-right {
+    align-items: end;
   }
+}
 
-  .import-button{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: maven;
-    padding: 5px 10px;
-    color: white;
-    border: none;
-    border-radius: 0px 10px 10px 0px;
-    cursor: pointer;
-    background-color: rgb(67, 150, 175);
-  }
+/*------------------Graph Part1--------------------*/
 
-  .export-button:hover {
-    transition: background-color 0.3s ease, color 0.3s ease; 
-    background-color: #3a4491;
-  }
+.graph_container{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: rgba(223, 233, 252, 1);
+  box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.3);
+}
 
-  .import-button:hover {
-    transition: background-color 0.3s ease, color 0.3s ease; 
-    background-color: rgb(67, 126, 175);
-  }
+.main-graph-name{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: manjari;
+  color: #141414;
+}
 
-  .data-type{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: maven;
-    margin-left: 30px;
-    color: rgba(83, 90, 98, 1);
-  }
-  
-  @media screen and (min-width: 760px) {
-    .main-graph-dropdowns, .main-precent-container {
-      flex-direction: row;
-    }
-  
-    .main-graph-right {
-      align-items: end;
-    }
-  }
-  
-  /*------------------Graph Part1--------------------*/
-  
-  .graph_container{
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 10px;
-    background-color: rgba(223, 233, 252, 1);
-    box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.3);
-  }
-
-  .main-graph-name{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: manjari;
-    color: #141414;
-  }
-
-  /*----------------------------------------*/
+/*----------------------------------------*/

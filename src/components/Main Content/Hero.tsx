@@ -31,6 +31,8 @@ const Hero: React.FC = () => {
         
         <div className="logo-side">
           <div className="logo"></div>
+          <div className="logo_two"></div>
+          <div className="logo_three"></div>
         </div>
 
       </div>

@@ -1,0 +1,2394 @@
+{
+    "1997": [
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "OTH WHEAT(INCLDG SPELT)&MESLIN,UNMILLED",
+            "GROSS KILO (in kg)": 2415780777.0,
+            "QUANTITY (various)": 2392002621.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 60993653.0,
+            "FREE_ON_BOARD": 421413677.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "RICE,SEMI /WHOLLY-MILLED, EXCLDG BROKEN RICE",
+            "GROSS KILO (in kg)": 720948106.0,
+            "QUANTITY (various)": 718504262.0,
+            "INSURANCE (in USD)": 483.0,
+            "FREIGHT (in USD)": 18209350.0,
+            "FREE_ON_BOARD": 209903012.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FROM SOYA BEANS",
+            "GROSS KILO (in kg)": 826033025.0,
+            "QUANTITY (various)": 815615936.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 35369790.0,
+            "FREE_ON_BOARD": 183941918.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "MILK,IN SOLID FORM,FAT NOT EXCEEDG 1.5% GWT 20 K/MORE,CONCENTRD/SWEETND",
+            "GROSS KILO (in kg)": 98227838.0,
+            "QUANTITY (various)": 95797841.0,
+            "INSURANCE (in USD)": 975207.0,
+            "FREIGHT (in USD)": 16621353.0,
+            "FREE_ON_BOARD": 166906950.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "OTH UNMANUF TOBACCO, WHOLLY/PARTLY STEMMD/STRIPPD,OTH THN VIRGINIA",
+            "GROSS KILO (in kg)": 17385512.0,
+            "QUANTITY (various)": 15959279.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 2324831.0,
+            "FREE_ON_BOARD": 90359447.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "FLOURS,MEALS & PELLETS OF FISH, UNFIT FOR HUMAN CONSUMPTION",
+            "GROSS KILO (in kg)": 118491062.0,
+            "QUANTITY (various)": 118304192.0,
+            "INSURANCE (in USD)": 3644.0,
+            "FREIGHT (in USD)": 8386566.0,
+            "FREE_ON_BOARD": 63277706.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "OTH MAIZE(NOT INCLDG SWEET CORN), UNMILLED",
+            "GROSS KILO (in kg)": 305316177.0,
+            "QUANTITY (various)": 300731535.0,
+            "INSURANCE (in USD)": 147.0,
+            "FREIGHT (in USD)": 9414299.0,
+            "FREE_ON_BOARD": 49774375.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT EXCEEDG 1.5% NOT CONTG ADDED SUGAR,OTH THN  0222201",
+            "GROSS KILO (in kg)": 19360408.0,
+            "QUANTITY (various)": 16658466.0,
+            "INSURANCE (in USD)": 11469.0,
+            "FREIGHT (in USD)": 2082637.0,
+            "FREE_ON_BOARD": 48454941.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT EXCEEDG 1.5% NOT CONTG ADDED SUGAR/OTH SWEETG",
+            "GROSS KILO (in kg)": 24112717.0,
+            "QUANTITY (various)": 22997216.0,
+            "INSURANCE (in USD)": 61493.0,
+            "FREIGHT (in USD)": 3024834.0,
+            "FREE_ON_BOARD": 48016292.0
+        },
+        {
+            "YEAR": 1997,
+            "COMMODITY_DESCRIPTION": "MALT, WHOLE/GROUND, NOT ROASTED(INCLDG MALT FLOUR)",
+            "GROSS KILO (in kg)": 130115966.0,
+            "QUANTITY (various)": 128626254.0,
+            "INSURANCE (in USD)": 147.0,
+            "FREIGHT (in USD)": 5354490.0,
+            "FREE_ON_BOARD": 37960794.0
+        }
+    ],
+    "1998": [
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "RICE,SEMI /WHOLLY-MILLED, EXCLDG BROKEN RICE",
+            "GROSS KILO (in kg)": 2177274452.0,
+            "QUANTITY (various)": 2169983493.0,
+            "INSURANCE (in USD)": 91912.0,
+            "FREIGHT (in USD)": 60612020.0,
+            "FREE_ON_BOARD": 585470989.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "OTH WHEAT(INCLDG SPELT)&MESLIN,UNMILLED",
+            "GROSS KILO (in kg)": 1421933171.0,
+            "QUANTITY (various)": 1389313800.0,
+            "INSURANCE (in USD)": 25.0,
+            "FREIGHT (in USD)": 37875956.0,
+            "FREE_ON_BOARD": 247326593.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FROM SOYA BEANS",
+            "GROSS KILO (in kg)": 1068478182.0,
+            "QUANTITY (various)": 1048485423.0,
+            "INSURANCE (in USD)": 43386.0,
+            "FREIGHT (in USD)": 31536348.0,
+            "FREE_ON_BOARD": 207908164.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "MILK,IN SOLID FORM,FAT NOT EXCEEDG 1.5% GWT 20 K/MORE,CONCENTRD/SWEETND",
+            "GROSS KILO (in kg)": 75799248.0,
+            "QUANTITY (various)": 74096922.0,
+            "INSURANCE (in USD)": 9190.0,
+            "FREIGHT (in USD)": 4145675.0,
+            "FREE_ON_BOARD": 113186992.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "OTH UNMANUF TOBACCO, WHOLLY/PARTLY STEMMD/STRIPPD,OTH THN VIRGINIA",
+            "GROSS KILO (in kg)": 13680264.0,
+            "QUANTITY (various)": 12674154.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 1812369.0,
+            "FREE_ON_BOARD": 57663562.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "OTH CANE SUGAR, RAW, NOT CONTG ADDED FLAVORING/COLORING MATTER",
+            "GROSS KILO (in kg)": 258194209.0,
+            "QUANTITY (various)": 255077170.0,
+            "INSURANCE (in USD)": 22681.0,
+            "FREIGHT (in USD)": 6406399.0,
+            "FREE_ON_BOARD": 54853329.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "OTH MAIZE(NOT INCLDG SWEET CORN), UNMILLED",
+            "GROSS KILO (in kg)": 354917773.0,
+            "QUANTITY (various)": 348979848.0,
+            "INSURANCE (in USD)": 10303.0,
+            "FREIGHT (in USD)": 6096578.0,
+            "FREE_ON_BOARD": 49677144.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "SOYA BEANS",
+            "GROSS KILO (in kg)": 150855120.0,
+            "QUANTITY (various)": 148240542.0,
+            "INSURANCE (in USD)": 2299.0,
+            "FREIGHT (in USD)": 4836601.0,
+            "FREE_ON_BOARD": 47022526.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT EXCEEDG 1.5% NOT CONTG ADDED SUGAR/OTH SWEETG",
+            "GROSS KILO (in kg)": 25268582.0,
+            "QUANTITY (various)": 24065849.0,
+            "INSURANCE (in USD)": 27678.0,
+            "FREIGHT (in USD)": 1316012.0,
+            "FREE_ON_BOARD": 44183873.0
+        },
+        {
+            "YEAR": 1998,
+            "COMMODITY_DESCRIPTION": "MALT, WHOLE/GROUND, NOT ROASTED(INCLDG MALT FLOUR)",
+            "GROSS KILO (in kg)": 119984981.0,
+            "QUANTITY (various)": 115928328.0,
+            "INSURANCE (in USD)": 50.0,
+            "FREIGHT (in USD)": 2891661.0,
+            "FREE_ON_BOARD": 35960805.0
+        }
+    ],
+    "1999": [
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "OTH WHEAT(INCLDG SPELT)&MESLIN,UNMILLED",
+            "GROSS KILO (in kg)": 1964000379.0,
+            "QUANTITY (various)": 1953817646.0,
+            "INSURANCE (in USD)": 13176.0,
+            "FREIGHT (in USD)": 38723363.0,
+            "FREE_ON_BOARD": 351525182.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "RICE,SEMI /WHOLLY-MILLED, EXCLDG BROKEN RICE",
+            "GROSS KILO (in kg)": 804704735.0,
+            "QUANTITY (various)": 802522696.0,
+            "INSURANCE (in USD)": 96071.0,
+            "FREIGHT (in USD)": 20846725.0,
+            "FREE_ON_BOARD": 208778002.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FROM SOYA BEANS",
+            "GROSS KILO (in kg)": 749840917.0,
+            "QUANTITY (various)": 742619417.0,
+            "INSURANCE (in USD)": 48934.0,
+            "FREIGHT (in USD)": 11616948.0,
+            "FREE_ON_BOARD": 114881419.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "MILK,IN SOLID FORM,FAT NOT EXCEEDG 1.5% GWT 20 K/MORE,CONCENTRD/SWEETND",
+            "GROSS KILO (in kg)": 86765986.0,
+            "QUANTITY (various)": 84160220.0,
+            "INSURANCE (in USD)": 18396.0,
+            "FREIGHT (in USD)": 10858743.0,
+            "FREE_ON_BOARD": 114078460.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "SOYA BEANS",
+            "GROSS KILO (in kg)": 265454129.0,
+            "QUANTITY (various)": 262594397.0,
+            "INSURANCE (in USD)": 8964.0,
+            "FREIGHT (in USD)": 5063750.0,
+            "FREE_ON_BOARD": 103782673.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "OTH UNMANUF TOBACCO, WHOLLY/PARTLY STEMMD/STRIPPD,OTH THN VIRGINIA",
+            "GROSS KILO (in kg)": 22026827.0,
+            "QUANTITY (various)": 20343331.0,
+            "INSURANCE (in USD)": 7154.0,
+            "FREIGHT (in USD)": 1885448.0,
+            "FREE_ON_BOARD": 85478892.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "OTH CANE SUGAR, RAW, NOT CONTG ADDED FLAVORING/COLORING MATTER",
+            "GROSS KILO (in kg)": 251958523.0,
+            "QUANTITY (various)": 249662030.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 4089554.0,
+            "FREE_ON_BOARD": 52840236.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT EXCEEDG 1.5% NOT CONTG ADDED SUGAR/OTH SWEETG",
+            "GROSS KILO (in kg)": 29413065.0,
+            "QUANTITY (various)": 27770859.0,
+            "INSURANCE (in USD)": 35795.0,
+            "FREIGHT (in USD)": 4659387.0,
+            "FREE_ON_BOARD": 51889121.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "PREPRN FOR MAKING FEEDS; FEED ADDITVS; TRACE MINRL&CHOLINE CHLORIDE",
+            "GROSS KILO (in kg)": 42678815.0,
+            "QUANTITY (various)": 41724990.0,
+            "INSURANCE (in USD)": 51088.0,
+            "FREIGHT (in USD)": 2421303.0,
+            "FREE_ON_BOARD": 41593067.0
+        },
+        {
+            "YEAR": 1999,
+            "COMMODITY_DESCRIPTION": "OTH BEET/CANE SUGAR,IN SOLID FORM,NOT CONTG FLAVORG/COLORG MATTER,NES",
+            "GROSS KILO (in kg)": 136440968.0,
+            "QUANTITY (various)": 135417531.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 3944864.0,
+            "FREE_ON_BOARD": 36203769.0
+        }
+    ],
+    "2000": [
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "OTH WHEAT(INCLDG SPELT)&MESLIN,UNMILLED",
+            "GROSS KILO (in kg)": 2506432382.0,
+            "QUANTITY (various)": 2500631459.0,
+            "INSURANCE (in USD)": 9329.0,
+            "FREIGHT (in USD)": 35698325.0,
+            "FREE_ON_BOARD": 337406631.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "MILK,IN SOLID FORM,FAT NOT EXCEEDG 1.5% GWT 20 K/MORE,CONCENTRD/SWEETND",
+            "GROSS KILO (in kg)": 109185122.0,
+            "QUANTITY (various)": 106480007.0,
+            "INSURANCE (in USD)": 939516.0,
+            "FREIGHT (in USD)": 4634396.0,
+            "FREE_ON_BOARD": 166628755.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FROM SOYA BEANS",
+            "GROSS KILO (in kg)": 869539376.0,
+            "QUANTITY (various)": 866438325.0,
+            "INSURANCE (in USD)": 16259.0,
+            "FREIGHT (in USD)": 20066134.0,
+            "FREE_ON_BOARD": 162519423.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "RICE,SEMI /WHOLLY-MILLED, EXCLDG BROKEN RICE",
+            "GROSS KILO (in kg)": 628471889.0,
+            "QUANTITY (various)": 625073800.0,
+            "INSURANCE (in USD)": 4659.0,
+            "FREIGHT (in USD)": 11936606.0,
+            "FREE_ON_BOARD": 119642892.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "MEAT OF BOVINE ANIMALS, FROZEN,BONELESS",
+            "GROSS KILO (in kg)": 83819168.0,
+            "QUANTITY (various)": 81076729.0,
+            "INSURANCE (in USD)": 23188.0,
+            "FREIGHT (in USD)": 8280470.0,
+            "FREE_ON_BOARD": 89637606.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT EXCEEDG 1.5% NOT CONTG ADDED SUGAR/OTH SWEETG",
+            "GROSS KILO (in kg)": 37678206.0,
+            "QUANTITY (various)": 36053546.0,
+            "INSURANCE (in USD)": 4726.0,
+            "FREIGHT (in USD)": 1532288.0,
+            "FREE_ON_BOARD": 62025301.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "OTHER UNMANUFACTURED TOBACCO, WHOLLY OR PARTLY STEMMED/STRIPPED, OTHER THAN VIRGINIA TYPE",
+            "GROSS KILO (in kg)": 17818465.0,
+            "QUANTITY (various)": 16390556.0,
+            "INSURANCE (in USD)": 1757.0,
+            "FREIGHT (in USD)": 1330317.0,
+            "FREE_ON_BOARD": 60251112.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "SOYA BEANS",
+            "GROSS KILO (in kg)": 251906507.0,
+            "QUANTITY (various)": 249185126.0,
+            "INSURANCE (in USD)": 16886.0,
+            "FREIGHT (in USD)": 4617204.0,
+            "FREE_ON_BOARD": 49169695.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "OTHER BEET OR CANE SUGAR, IN SOLID FORM, NOT CONTAINING ADDED FLAVORING OR COLORING MATTER, N.E.S.,",
+            "GROSS KILO (in kg)": 180677545.0,
+            "QUANTITY (various)": 180107474.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 4642091.0,
+            "FREE_ON_BOARD": 48976754.0
+        },
+        {
+            "YEAR": 2000,
+            "COMMODITY_DESCRIPTION": "CATTLE, LIVE, OTHER THAN PURE BRED [, FOR BREEDING, IN-QUOTA] BREEDING STOCK",
+            "GROSS KILO (in kg)": 50233016.0,
+            "QUANTITY (various)": 230395.0,
+            "INSURANCE (in USD)": 11352.0,
+            "FREIGHT (in USD)": 2299857.0,
+            "FREE_ON_BOARD": 45569628.0
+        }
+    ],
+    "2001": [
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "OTH WHEAT(INCLDG SPELT)&MESLIN,UNMILLED",
+            "GROSS KILO (in kg)": 2567035159.0,
+            "QUANTITY (various)": 2740094340.0,
+            "INSURANCE (in USD)": 5330.0,
+            "FREIGHT (in USD)": 50303010.0,
+            "FREE_ON_BOARD": 378913416.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FROM SOYA BEANS",
+            "GROSS KILO (in kg)": 1060797451.0,
+            "QUANTITY (various)": 1051333101.0,
+            "INSURANCE (in USD)": 959764.0,
+            "FREIGHT (in USD)": 25466612.0,
+            "FREE_ON_BOARD": 200532003.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "MILK,IN SOLID FORM,FAT NOT EXCEEDG 1.5% GWT 20 K/MORE,CONCENTRD/SWEETND",
+            "GROSS KILO (in kg)": 94157284.0,
+            "QUANTITY (various)": 91310655.0,
+            "INSURANCE (in USD)": 49410.0,
+            "FREIGHT (in USD)": 3641091.0,
+            "FREE_ON_BOARD": 186955052.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "RICE,SEMI /WHOLLY-MILLED, EXCLDG BROKEN RICE",
+            "GROSS KILO (in kg)": 758874085.0,
+            "QUANTITY (various)": 757049828.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 15202942.0,
+            "FREE_ON_BOARD": 123680308.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "CIGARETTES, CONTAINING TOBACCO",
+            "GROSS KILO (in kg)": 5937387.0,
+            "QUANTITY (various)": 5545377.0,
+            "INSURANCE (in USD)": 11942.0,
+            "FREIGHT (in USD)": 4534837.0,
+            "FREE_ON_BOARD": 84499181.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "MEAT OF BOVINE ANIMALS, FROZEN,BONELESS",
+            "GROSS KILO (in kg)": 78170167.0,
+            "QUANTITY (various)": 75804797.0,
+            "INSURANCE (in USD)": 99988.0,
+            "FREIGHT (in USD)": 9305460.0,
+            "FREE_ON_BOARD": 81529856.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT EXCEEDG 1.5% NOT CONTG ADDED SUGAR/OTH SWEETG",
+            "GROSS KILO (in kg)": 40918349.0,
+            "QUANTITY (various)": 38480066.0,
+            "INSURANCE (in USD)": 36382.0,
+            "FREIGHT (in USD)": 2357339.0,
+            "FREE_ON_BOARD": 76679590.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "SOYA BEANS",
+            "GROSS KILO (in kg)": 316004169.0,
+            "QUANTITY (various)": 315164750.0,
+            "INSURANCE (in USD)": 9115.0,
+            "FREIGHT (in USD)": 5650919.0,
+            "FREE_ON_BOARD": 74372967.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "[PREPARATIONS FOR THE MANUFACTURE OF LEMONADES OR OTHER BEVERAGES CONSISTING,FOR EXAMPLE, OF FLAVORE",
+            "GROSS KILO (in kg)": 46076381.0,
+            "QUANTITY (various)": 45185730.0,
+            "INSURANCE (in USD)": 5434.0,
+            "FREIGHT (in USD)": 1551682.0,
+            "FREE_ON_BOARD": 63008819.0
+        },
+        {
+            "YEAR": 2001,
+            "COMMODITY_DESCRIPTION": "WHEAT USED AS FEED",
+            "GROSS KILO (in kg)": 323667122.0,
+            "QUANTITY (various)": 323288066.0,
+            "INSURANCE (in USD)": 91500.0,
+            "FREIGHT (in USD)": 7210136.0,
+            "FREE_ON_BOARD": 48467476.0
+        }
+    ],
+    "2002": [
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "OTH WHEAT(INCLDG SPELT)&MESLIN,UNMILLED",
+            "GROSS KILO (in kg)": 2574701455.0,
+            "QUANTITY (various)": 2570500750.0,
+            "INSURANCE (in USD)": 20139.0,
+            "FREIGHT (in USD)": 29563173.0,
+            "FREE_ON_BOARD": 418953256.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FROM SOYA BEANS",
+            "GROSS KILO (in kg)": 1291307501.0,
+            "QUANTITY (various)": 1290513887.0,
+            "INSURANCE (in USD)": 328629.0,
+            "FREIGHT (in USD)": 27553680.0,
+            "FREE_ON_BOARD": 231910849.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "RICE,SEMI /WHOLLY-MILLED, EXCLDG BROKEN RICE",
+            "GROSS KILO (in kg)": 1160466337.0,
+            "QUANTITY (various)": 1156622991.0,
+            "INSURANCE (in USD)": 0.0,
+            "FREIGHT (in USD)": 24863781.0,
+            "FREE_ON_BOARD": 204265284.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "MILK,IN SOLID FORM,FAT NOT EXCEEDG 1.5% GWT 20 K/MORE,CONCENTRD/SWEETND",
+            "GROSS KILO (in kg)": 102656320.0,
+            "QUANTITY (various)": 98933664.0,
+            "INSURANCE (in USD)": 480874.0,
+            "FREIGHT (in USD)": 3539370.0,
+            "FREE_ON_BOARD": 144763825.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "CIGARETTES, CONTAINING TOBACCO",
+            "GROSS KILO (in kg)": 9333209.0,
+            "QUANTITY (various)": 8717295.0,
+            "INSURANCE (in USD)": 99345.0,
+            "FREIGHT (in USD)": 5682171.0,
+            "FREE_ON_BOARD": 107838236.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "SOYA BEANS",
+            "GROSS KILO (in kg)": 264358286.0,
+            "QUANTITY (various)": 264254201.0,
+            "INSURANCE (in USD)": 51846.0,
+            "FREIGHT (in USD)": 4676027.0,
+            "FREE_ON_BOARD": 88232802.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "MEAT OF BOVINE ANIMALS, FROZEN,BONELESS",
+            "GROSS KILO (in kg)": 86821571.0,
+            "QUANTITY (various)": 83590208.0,
+            "INSURANCE (in USD)": 291648.0,
+            "FREIGHT (in USD)": 10452945.0,
+            "FREE_ON_BOARD": 81951048.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "WHEAT USED AS FEED",
+            "GROSS KILO (in kg)": 529139865.0,
+            "QUANTITY (various)": 529081805.0,
+            "INSURANCE (in USD)": 58219.0,
+            "FREIGHT (in USD)": 5793824.0,
+            "FREE_ON_BOARD": 67719555.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT EXCEEDG 1.5% NOT CONTG ADDED SUGAR/OTH SWEETG",
+            "GROSS KILO (in kg)": 38765014.0,
+            "QUANTITY (various)": 35823964.0,
+            "INSURANCE (in USD)": 95663.0,
+            "FREIGHT (in USD)": 2077138.0,
+            "FREE_ON_BOARD": 63339919.0
+        },
+        {
+            "YEAR": 2002,
+            "COMMODITY_DESCRIPTION": "[PREPARATIONS FOR THE MANUFACTURE OF LEMONADES OR OTHER BEVERAGES CONSISTING,FOR EXAMPLE, OF FLAVORE",
+            "GROSS KILO (in kg)": 52260804.0,
+            "QUANTITY (various)": 51341766.0,
+            "INSURANCE (in USD)": 48678.0,
+            "FREIGHT (in USD)": 1955280.0,
+            "FREE_ON_BOARD": 63202441.0
+        }
+    ],
+    "2003": [
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "OTH WHEAT(INCLDG SPELT)&MESLIN,UNMILLED",
+            "GROSS KILO (in kg)": 2440629414.0,
+            "QUANTITY (various)": 2436068388.0,
+            "INSURANCE (in USD)": 18301.0,
+            "FREIGHT (in USD)": 41529901.0,
+            "FREE_ON_BOARD": 390190625.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FROM SOYA BEANS",
+            "GROSS KILO (in kg)": 1251050713.0,
+            "QUANTITY (various)": 1250917581.0,
+            "INSURANCE (in USD)": 288730.0,
+            "FREIGHT (in USD)": 32535313.0,
+            "FREE_ON_BOARD": 230469893.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "MILK,IN SOLID FORM,FAT NOT EXCEEDG 1.5% GWT 20 K/MORE,CONCENTRD/SWEETND",
+            "GROSS KILO (in kg)": 109184194.0,
+            "QUANTITY (various)": 105448906.0,
+            "INSURANCE (in USD)": 168471.0,
+            "FREIGHT (in USD)": 4709878.0,
+            "FREE_ON_BOARD": 172655432.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "RICE,SEMI /WHOLLY-MILLED, EXCLDG BROKEN RICE",
+            "GROSS KILO (in kg)": 697435512.0,
+            "QUANTITY (various)": 695689400.0,
+            "INSURANCE (in USD)": 12749.0,
+            "FREIGHT (in USD)": 15708199.0,
+            "FREE_ON_BOARD": 126050513.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "CIGARETTES, CONTAINING TOBACCO",
+            "GROSS KILO (in kg)": 5961241.0,
+            "QUANTITY (various)": 5525859.0,
+            "INSURANCE (in USD)": 239479.0,
+            "FREIGHT (in USD)": 5031816.0,
+            "FREE_ON_BOARD": 94721661.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "MEAT OF BOVINE ANIMALS, FROZEN,BONELESS",
+            "GROSS KILO (in kg)": 88796982.0,
+            "QUANTITY (various)": 85860168.0,
+            "INSURANCE (in USD)": 78549.0,
+            "FREIGHT (in USD)": 9856572.0,
+            "FREE_ON_BOARD": 80615499.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "SOYA BEANS",
+            "GROSS KILO (in kg)": 289220194.0,
+            "QUANTITY (various)": 289126838.0,
+            "INSURANCE (in USD)": 38572.0,
+            "FREIGHT (in USD)": 6934317.0,
+            "FREE_ON_BOARD": 71429822.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "[PREPARATIONS FOR THE MANUFACTURE OF LEMONADES OR OTHER BEVERAGES CONSISTING,FOR EXAMPLE, OF FLAVORE",
+            "GROSS KILO (in kg)": 44556217.0,
+            "QUANTITY (various)": 43791275.0,
+            "INSURANCE (in USD)": 145566.0,
+            "FREIGHT (in USD)": 2162788.0,
+            "FREE_ON_BOARD": 67672457.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "OTHER UNMANUFACTURED TOBACCO, WHOLLY OR PARTLY STEMMED/STRIPPED, OTHER THAN VIRGINIA TYPE",
+            "GROSS KILO (in kg)": 20484546.0,
+            "QUANTITY (various)": 19135958.0,
+            "INSURANCE (in USD)": 40437.0,
+            "FREIGHT (in USD)": 1817126.0,
+            "FREE_ON_BOARD": 62913578.0
+        },
+        {
+            "YEAR": 2003,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT EXCEEDG 1.5% NOT CONTG ADDED SUGAR/OTH SWEETG",
+            "GROSS KILO (in kg)": 40270164.0,
+            "QUANTITY (various)": 37436367.0,
+            "INSURANCE (in USD)": 80370.0,
+            "FREIGHT (in USD)": 2235762.0,
+            "FREE_ON_BOARD": 60103057.0
+        }
+    ],
+    "2004": [
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "OTH WHEAT(INCLDG SPELT)&MESLIN,UNMILLED",
+            "GROSS KILO (in kg)": 1959115572.0,
+            "QUANTITY (various)": 1956361088.0,
+            "INSURANCE (in USD)": 752.0,
+            "FREIGHT (in USD)": 44496661.0,
+            "FREE_ON_BOARD": 310191134.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FROM SOYA BEANS",
+            "GROSS KILO (in kg)": 1160493181.0,
+            "QUANTITY (various)": 1160175312.0,
+            "INSURANCE (in USD)": 490914.0,
+            "FREIGHT (in USD)": 48903940.0,
+            "FREE_ON_BOARD": 306014828.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "RICE,SEMI /WHOLLY-MILLED, EXCLDG BROKEN RICE",
+            "GROSS KILO (in kg)": 985290513.0,
+            "QUANTITY (various)": 983084592.0,
+            "INSURANCE (in USD)": 266392.0,
+            "FREIGHT (in USD)": 28861404.0,
+            "FREE_ON_BOARD": 229653303.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "MILK,IN SOLID FORM,FAT NOT EXCEEDG 1.5% GWT 20 K/MORE,CONCENTRD/SWEETND",
+            "GROSS KILO (in kg)": 119005398.0,
+            "QUANTITY (various)": 115899364.0,
+            "INSURANCE (in USD)": 180081.0,
+            "FREIGHT (in USD)": 5399175.0,
+            "FREE_ON_BOARD": 216601015.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "OTHER UNMANUFACTURED TOBACCO, WHOLLY OR PARTLY STEMMED/STRIPPED, OTHER THAN VIRGINIA TYPE",
+            "GROSS KILO (in kg)": 50172901.0,
+            "QUANTITY (various)": 46770075.0,
+            "INSURANCE (in USD)": 1159.0,
+            "FREIGHT (in USD)": 7460485.0,
+            "FREE_ON_BOARD": 137159740.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "MEAT OF BOVINE ANIMALS, FROZEN,BONELESS",
+            "GROSS KILO (in kg)": 113123101.0,
+            "QUANTITY (various)": 109273924.0,
+            "INSURANCE (in USD)": 981179.0,
+            "FREIGHT (in USD)": 13916165.0,
+            "FREE_ON_BOARD": 108446659.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "SOYA BEANS",
+            "GROSS KILO (in kg)": 284238512.0,
+            "QUANTITY (various)": 284138722.0,
+            "INSURANCE (in USD)": 28567.0,
+            "FREIGHT (in USD)": 10646673.0,
+            "FREE_ON_BOARD": 87347860.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "[NON-ALCOHOLIC] COMPOSITE CONCENTRATES FOR SIMPLE DILUTION WITH WATER [FOR MAKING] TO MAKE BEVERAGES",
+            "GROSS KILO (in kg)": 46803971.0,
+            "QUANTITY (various)": 44385208.0,
+            "INSURANCE (in USD)": 215921.0,
+            "FREIGHT (in USD)": 2431640.0,
+            "FREE_ON_BOARD": 82412898.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT EXCEEDG 1.5% NOT CONTG ADDED SUGAR/OTH SWEETG",
+            "GROSS KILO (in kg)": 49502219.0,
+            "QUANTITY (various)": 46531450.0,
+            "INSURANCE (in USD)": 103044.0,
+            "FREIGHT (in USD)": 2854091.0,
+            "FREE_ON_BOARD": 79578987.0
+        },
+        {
+            "YEAR": 2004,
+            "COMMODITY_DESCRIPTION": "FOOD PREPARATIONS FOR INFANT USE, PUT UP FOR RETAIL SALE, OF FLOUR, MEAL, STARCH OR MALT EXTRACT (NO",
+            "GROSS KILO (in kg)": 15992060.0,
+            "QUANTITY (various)": 12933496.0,
+            "INSURANCE (in USD)": 264349.0,
+            "FREIGHT (in USD)": 2279120.0,
+            "FREE_ON_BOARD": 50904137.0
+        }
+    ],
+    "2005": [
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "RICE,SEMI /WHOLLY-MILLED, EXCLDG BROKEN RICE",
+            "GROSS KILO (in kg)": 1808051618.0,
+            "QUANTITY (various)": 1800865335.0,
+            "INSURANCE (in USD)": 443736.0,
+            "FREIGHT (in USD)": 49200882.0,
+            "FREE_ON_BOARD": 495045506.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "OIL-CAKE & OTH SOLID RESIDUES, FROM THE XTRACTN OF OIL FROM SOYA BEANS",
+            "GROSS KILO (in kg)": 1433569557.0,
+            "QUANTITY (various)": 1433071495.0,
+            "INSURANCE (in USD)": 402852.0,
+            "FREIGHT (in USD)": 70373121.0,
+            "FREE_ON_BOARD": 313453033.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "OTH WHEAT(INCLDG SPELT)&MESLIN,UNMILLED",
+            "GROSS KILO (in kg)": 1755549961.0,
+            "QUANTITY (various)": 1753221419.0,
+            "INSURANCE (in USD)": 2510.0,
+            "FREIGHT (in USD)": 50476956.0,
+            "FREE_ON_BOARD": 284824715.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "MILK,IN SOLID FORM,FAT NOT EXCEEDG 1.5% GWT 20 K/MORE,CONCENTRD/SWEETND",
+            "GROSS KILO (in kg)": 86596622.0,
+            "QUANTITY (various)": 84756969.0,
+            "INSURANCE (in USD)": 130985.0,
+            "FREIGHT (in USD)": 4530340.0,
+            "FREE_ON_BOARD": 175178087.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "OTHER UNMANUFACTURED TOBACCO, WHOLLY OR PARTLY STEMMED/STRIPPED, OTHER THAN VIRGINIA TYPE",
+            "GROSS KILO (in kg)": 68735253.0,
+            "QUANTITY (various)": 64358685.0,
+            "INSURANCE (in USD)": 3320.0,
+            "FREIGHT (in USD)": 10001725.0,
+            "FREE_ON_BOARD": 163987030.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "MEAT OF BOVINE ANIMALS, FROZEN,BONELESS",
+            "GROSS KILO (in kg)": 95974754.0,
+            "QUANTITY (various)": 92813289.0,
+            "INSURANCE (in USD)": 89749.0,
+            "FREIGHT (in USD)": 9749943.0,
+            "FREE_ON_BOARD": 103119867.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "FOOD PREPARATIONS FOR INFANT USE, PUT UP FOR RETAIL SALE, OF FLOUR, MEAL, STARCH OR MALT EXTRACT (NO",
+            "GROSS KILO (in kg)": 26870392.0,
+            "QUANTITY (various)": 22161523.0,
+            "INSURANCE (in USD)": 551246.0,
+            "FREIGHT (in USD)": 3323640.0,
+            "FREE_ON_BOARD": 97602128.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "[NON-ALCOHOLIC] COMPOSITE CONCENTRATES FOR SIMPLE DILUTION WITH WATER [FOR MAKING] TO MAKE BEVERAGES",
+            "GROSS KILO (in kg)": 49837782.0,
+            "QUANTITY (various)": 47461148.0,
+            "INSURANCE (in USD)": 372043.0,
+            "FREIGHT (in USD)": 2942738.0,
+            "FREE_ON_BOARD": 93850016.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "PALM OIL, REFINED & ITS FRACTIONS",
+            "GROSS KILO (in kg)": 208673781.0,
+            "QUANTITY (various)": 206238759.0,
+            "INSURANCE (in USD)": 154186.0,
+            "FREIGHT (in USD)": 4149445.0,
+            "FREE_ON_BOARD": 85126328.0
+        },
+        {
+            "YEAR": 2005,
+            "COMMODITY_DESCRIPTION": "MILK&CREAM,SOLID FORM,FAT EXCEEDG 1.5% NOT CONTG ADDED SUGAR/OTH SWEETG",
+            "GROSS KILO (in kg)": 34008973.0,
+            "QUANTITY (various)": 32556969.0,
+            "INSURANCE (in USD)": 130248.0,
+            "FREIGHT (in USD)": 2684449.0,
+            "FREE_ON_BOARD": 64915868.0
+        }
+    ],
+    "2006": [
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "CEREALS * Rice. ** - - - Other *** Upon prior certification of the NEDA that rice shortage",
+            "GROSS KILO (in kg)": 1462226179.0,
+            "QUANTITY (various)": 1456688015.0,
+            "INSURANCE (in USD)": 140091.0,
+            "FREIGHT (in USD)": 40389163.0,
+            "FREE_ON_BOARD": 393090785.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "CEREALS * Wheat and meslin. ** - - - Other *** ",
+            "GROSS KILO (in kg)": 1989658875.0,
+            "QUANTITY (various)": 1987352863.0,
+            "INSURANCE (in USD)": 10650.0,
+            "FREIGHT (in USD)": 48113283.0,
+            "FREE_ON_BOARD": 368368389.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER * Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil. ** Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. *** Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 1359314947.0,
+            "QUANTITY (various)": 1356226635.0,
+            "INSURANCE (in USD)": 475674.0,
+            "FREIGHT (in USD)": 44830528.0,
+            "FREE_ON_BOARD": 268986003.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "DAIRY PRODUCE; BIRDS\u2019 EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED * Milk and cream, concentrated or containing added sugar or other sweetening matter. ** - - - Not containing added sugar or other sweetening matter, in powder form *** A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 74968816.0,
+            "QUANTITY (various)": 73598288.0,
+            "INSURANCE (in USD)": 104715.0,
+            "FREIGHT (in USD)": 4195553.0,
+            "FREE_ON_BOARD": 145879307.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "MEAT AND EDIBLE MEAT OFFAL * Meat of bovine animals, frozen. ** - Boneless *** ",
+            "GROSS KILO (in kg)": 94074794.0,
+            "QUANTITY (various)": 91018877.0,
+            "INSURANCE (in USD)": 162765.0,
+            "FREIGHT (in USD)": 9015453.0,
+            "FREE_ON_BOARD": 105242628.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "CEREALS * Wheat and meslin. ** - - - Other *** Used as feed",
+            "GROSS KILO (in kg)": 644347584.0,
+            "QUANTITY (various)": 644225442.0,
+            "INSURANCE (in USD)": 687.0,
+            "FREIGHT (in USD)": 15145709.0,
+            "FREE_ON_BOARD": 84714728.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES * Palm oil and its fractions, whether or not refined, but not chemically modified. ** - Other *** - - Other",
+            "GROSS KILO (in kg)": 205780700.0,
+            "QUANTITY (various)": 204258326.0,
+            "INSURANCE (in USD)": 136321.0,
+            "FREIGHT (in USD)": 3486666.0,
+            "FREE_ON_BOARD": 82777485.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS\u2019 PRODUCTS * Malt extract; food preparations of flour, groats, meal, starch or malt extract, not containing cocoa or containing less than 40% by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included; food preparations of goods of headings 04.01 to 04.04, not containing cocoa or containing less than 5% by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included. ** - - - Other *** ",
+            "GROSS KILO (in kg)": 19958753.0,
+            "QUANTITY (various)": 16565973.0,
+            "INSURANCE (in USD)": 450648.0,
+            "FREIGHT (in USD)": 2108350.0,
+            "FREE_ON_BOARD": 74996555.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "CEREALS * Rice. ** - - - Whole *** ",
+            "GROSS KILO (in kg)": 234119893.0,
+            "QUANTITY (various)": 233503564.0,
+            "INSURANCE (in USD)": 46141.0,
+            "FREIGHT (in USD)": 6548742.0,
+            "FREE_ON_BOARD": 66312071.0
+        },
+        {
+            "YEAR": 2006,
+            "COMMODITY_DESCRIPTION": "TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES * Unmanufactured tobacco; tobacco refuse. ** - - Oriental type *** Other",
+            "GROSS KILO (in kg)": 24413111.0,
+            "QUANTITY (various)": 22858294.0,
+            "INSURANCE (in USD)": 1690.0,
+            "FREIGHT (in USD)": 2797733.0,
+            "FREE_ON_BOARD": 66029563.0
+        }
+    ],
+    "2007": [
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - - Other | Upon prior certification of the NEDA that rice shortage",
+            "GROSS KILO (in kg)": 1757672793.0,
+            "QUANTITY (various)": 1753986362.0,
+            "INSURANCE (in USD)": 1308048.0,
+            "FREIGHT (in USD)": 56972152.0,
+            "FREE_ON_BOARD": 580248902.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 1812985544.0,
+            "QUANTITY (various)": 1803307351.0,
+            "INSURANCE (in USD)": 1898281.0,
+            "FREIGHT (in USD)": 52596691.0,
+            "FREE_ON_BOARD": 542422887.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 1329520920.0,
+            "QUANTITY (various)": 1323482336.0,
+            "INSURANCE (in USD)": 966558.0,
+            "FREIGHT (in USD)": 66275168.0,
+            "FREE_ON_BOARD": 323054461.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 56640190.0,
+            "QUANTITY (various)": 54802007.0,
+            "INSURANCE (in USD)": 229926.0,
+            "FREIGHT (in USD)": 3077812.0,
+            "FREE_ON_BOARD": 194247498.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- Boneless",
+            "GROSS KILO (in kg)": 106227363.0,
+            "QUANTITY (various)": 102902981.0,
+            "INSURANCE (in USD)": 256407.0,
+            "FREIGHT (in USD)": 9235672.0,
+            "FREE_ON_BOARD": 126191045.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - Virginia type, flue-cured | Other",
+            "GROSS KILO (in kg)": 35821332.0,
+            "QUANTITY (various)": 33300607.0,
+            "INSURANCE (in USD)": 289037.0,
+            "FREIGHT (in USD)": 4157133.0,
+            "FREE_ON_BOARD": 91778333.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - - - Preparations to be used as raw material in preparing composite concentrates",
+            "GROSS KILO (in kg)": 9141727.0,
+            "QUANTITY (various)": 8461293.0,
+            "INSURANCE (in USD)": 425190.0,
+            "FREIGHT (in USD)": 1484552.0,
+            "FREE_ON_BOARD": 90949799.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 189315068.0,
+            "QUANTITY (various)": 180813765.0,
+            "INSURANCE (in USD)": 824473.0,
+            "FREIGHT (in USD)": 8873491.0,
+            "FREE_ON_BOARD": 90474877.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | B. Other",
+            "GROSS KILO (in kg)": 30383397.0,
+            "QUANTITY (various)": 29724347.0,
+            "INSURANCE (in USD)": 78519.0,
+            "FREIGHT (in USD)": 1684424.0,
+            "FREE_ON_BOARD": 90449887.0
+        },
+        {
+            "YEAR": 2007,
+            "COMMODITY_DESCRIPTION": "- - Buttermilk",
+            "GROSS KILO (in kg)": 20384873.0,
+            "QUANTITY (various)": 20062102.0,
+            "INSURANCE (in USD)": 77361.0,
+            "FREIGHT (in USD)": 1277407.0,
+            "FREE_ON_BOARD": 57937355.0
+        }
+    ],
+    "2008": [
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - - Other | Upon prior certification of the NEDA that rice shortage",
+            "GROSS KILO (in kg)": 2316833363.0,
+            "QUANTITY (various)": 2311129975.0,
+            "INSURANCE (in USD)": 13307211.0,
+            "FREIGHT (in USD)": 155837415.0,
+            "FREE_ON_BOARD": 1697737475.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 1835597008.0,
+            "QUANTITY (various)": 1823266350.0,
+            "INSURANCE (in USD)": 7730944.0,
+            "FREIGHT (in USD)": 92060780.0,
+            "FREE_ON_BOARD": 845263663.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 1206965062.0,
+            "QUANTITY (various)": 1203160015.0,
+            "INSURANCE (in USD)": 3794454.0,
+            "FREIGHT (in USD)": 65727228.0,
+            "FREE_ON_BOARD": 437056373.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 56406326.0,
+            "QUANTITY (various)": 54939138.0,
+            "INSURANCE (in USD)": 471885.0,
+            "FREIGHT (in USD)": 5942756.0,
+            "FREE_ON_BOARD": 196935991.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- Boneless",
+            "GROSS KILO (in kg)": 109310121.0,
+            "QUANTITY (various)": 106591755.0,
+            "INSURANCE (in USD)": 2321916.0,
+            "FREIGHT (in USD)": 10135830.0,
+            "FREE_ON_BOARD": 183286151.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 202515425.0,
+            "QUANTITY (various)": 194423549.0,
+            "INSURANCE (in USD)": 2082852.0,
+            "FREIGHT (in USD)": 10847038.0,
+            "FREE_ON_BOARD": 107581235.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - Virginia type, flue-cured | Other",
+            "GROSS KILO (in kg)": 34610334.0,
+            "QUANTITY (various)": 32069673.0,
+            "INSURANCE (in USD)": 1858789.0,
+            "FREIGHT (in USD)": 4207282.0,
+            "FREE_ON_BOARD": 104754187.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - - - Preparations to be used as raw material in preparing composite concentrates",
+            "GROSS KILO (in kg)": 15166415.0,
+            "QUANTITY (various)": 14581622.0,
+            "INSURANCE (in USD)": 439343.0,
+            "FREIGHT (in USD)": 1204313.0,
+            "FREE_ON_BOARD": 93694859.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | B. Other",
+            "GROSS KILO (in kg)": 21260187.0,
+            "QUANTITY (various)": 20891212.0,
+            "INSURANCE (in USD)": 209410.0,
+            "FREIGHT (in USD)": 1923408.0,
+            "FREE_ON_BOARD": 82403361.0
+        },
+        {
+            "YEAR": 2008,
+            "COMMODITY_DESCRIPTION": "- - - In powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 20315395.0,
+            "QUANTITY (various)": 19813668.0,
+            "INSURANCE (in USD)": 423638.0,
+            "FREIGHT (in USD)": 3802025.0,
+            "FREE_ON_BOARD": 79062250.0
+        }
+    ],
+    "2009": [
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - - Other | Upon prior certification of the NEDA that rice shortage",
+            "GROSS KILO (in kg)": 1646988700.0,
+            "QUANTITY (various)": 1639604000.0,
+            "INSURANCE (in USD)": 6352818.0,
+            "FREIGHT (in USD)": 84625933.0,
+            "FREE_ON_BOARD": 890082102.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 2101211803.0,
+            "QUANTITY (various)": 2090430240.0,
+            "INSURANCE (in USD)": 7590158.0,
+            "FREIGHT (in USD)": 81218398.0,
+            "FREE_ON_BOARD": 790922821.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 1272566347.0,
+            "QUANTITY (various)": 1267628537.0,
+            "INSURANCE (in USD)": 3095185.0,
+            "FREIGHT (in USD)": 40147875.0,
+            "FREE_ON_BOARD": 378424920.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - - Other | Used as feed",
+            "GROSS KILO (in kg)": 1110319782.0,
+            "QUANTITY (various)": 1110161219.0,
+            "INSURANCE (in USD)": 1343575.0,
+            "FREIGHT (in USD)": 29967519.0,
+            "FREE_ON_BOARD": 163936280.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 101535588.0,
+            "QUANTITY (various)": 76318513.0,
+            "INSURANCE (in USD)": 420534.0,
+            "FREIGHT (in USD)": 6500247.0,
+            "FREE_ON_BOARD": 153724238.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- Boneless",
+            "GROSS KILO (in kg)": 84403493.0,
+            "QUANTITY (various)": 81907316.0,
+            "INSURANCE (in USD)": 1632114.0,
+            "FREIGHT (in USD)": 7145945.0,
+            "FREE_ON_BOARD": 131926112.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 194840785.0,
+            "QUANTITY (various)": 187132582.0,
+            "INSURANCE (in USD)": 1669604.0,
+            "FREIGHT (in USD)": 9354127.0,
+            "FREE_ON_BOARD": 88883788.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - Burley type",
+            "GROSS KILO (in kg)": 14901437.0,
+            "QUANTITY (various)": 13807236.0,
+            "INSURANCE (in USD)": 1106235.0,
+            "FREIGHT (in USD)": 2305175.0,
+            "FREE_ON_BOARD": 73248171.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - - - Preparations to be used as raw material in preparing composite concentrates",
+            "GROSS KILO (in kg)": 8223294.0,
+            "QUANTITY (various)": 7728267.0,
+            "INSURANCE (in USD)": 455126.0,
+            "FREIGHT (in USD)": 702623.0,
+            "FREE_ON_BOARD": 70361606.0
+        },
+        {
+            "YEAR": 2009,
+            "COMMODITY_DESCRIPTION": "- - Virginia type, flue-cured | Other",
+            "GROSS KILO (in kg)": 18997033.0,
+            "QUANTITY (various)": 17649213.0,
+            "INSURANCE (in USD)": 959220.0,
+            "FREIGHT (in USD)": 2557201.0,
+            "FREE_ON_BOARD": 60021080.0
+        }
+    ],
+    "2010": [
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - - Other | Upon prior certification of the NEDA that rice shortage",
+            "GROSS KILO (in kg)": 2164168361.0,
+            "QUANTITY (various)": 2157736100.0,
+            "INSURANCE (in USD)": 9590429.0,
+            "FREIGHT (in USD)": 136019929.0,
+            "FREE_ON_BOARD": 1390217935.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 1594925349.0,
+            "QUANTITY (various)": 1588270565.0,
+            "INSURANCE (in USD)": 5906115.0,
+            "FREIGHT (in USD)": 58480663.0,
+            "FREE_ON_BOARD": 639142321.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 1046345113.0,
+            "QUANTITY (various)": 1043689323.0,
+            "INSURANCE (in USD)": 2810589.0,
+            "FREIGHT (in USD)": 40239962.0,
+            "FREE_ON_BOARD": 359298299.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 94207374.0,
+            "QUANTITY (various)": 92745976.0,
+            "INSURANCE (in USD)": 484477.0,
+            "FREIGHT (in USD)": 7808688.0,
+            "FREE_ON_BOARD": 265578514.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- Boneless",
+            "GROSS KILO (in kg)": 94161582.0,
+            "QUANTITY (various)": 90871902.0,
+            "INSURANCE (in USD)": 2463455.0,
+            "FREIGHT (in USD)": 7862949.0,
+            "FREE_ON_BOARD": 175625221.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - - - White | D.  Other, Out-Quota",
+            "GROSS KILO (in kg)": 220272540.0,
+            "QUANTITY (various)": 219331836.0,
+            "INSURANCE (in USD)": 1562711.0,
+            "FREIGHT (in USD)": 9115042.0,
+            "FREE_ON_BOARD": 148246020.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 245201304.0,
+            "QUANTITY (various)": 236128186.0,
+            "INSURANCE (in USD)": 3041418.0,
+            "FREIGHT (in USD)": 14622147.0,
+            "FREE_ON_BOARD": 140053233.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - - - Preparations to be used as raw material in preparing composite concentrates",
+            "GROSS KILO (in kg)": 11553722.0,
+            "QUANTITY (various)": 10891435.0,
+            "INSURANCE (in USD)": 509586.0,
+            "FREIGHT (in USD)": 1143070.0,
+            "FREE_ON_BOARD": 108937339.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - - Other | Used as feed",
+            "GROSS KILO (in kg)": 600309471.0,
+            "QUANTITY (various)": 597593731.0,
+            "INSURANCE (in USD)": 637210.0,
+            "FREIGHT (in USD)": 24444295.0,
+            "FREE_ON_BOARD": 96682859.0
+        },
+        {
+            "YEAR": 2010,
+            "COMMODITY_DESCRIPTION": "- - Anhydrous butterfat",
+            "GROSS KILO (in kg)": 18909454.0,
+            "QUANTITY (various)": 17459020.0,
+            "INSURANCE (in USD)": 178215.0,
+            "FREIGHT (in USD)": 1774975.0,
+            "FREE_ON_BOARD": 76388758.0
+        }
+    ],
+    "2011": [
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 2138911028.0,
+            "QUANTITY (various)": 2132443084.0,
+            "INSURANCE (in USD)": 10319020.0,
+            "FREIGHT (in USD)": 83283476.0,
+            "FREE_ON_BOARD": 979614035.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 2070258325.0,
+            "QUANTITY (various)": 2068933211.0,
+            "INSURANCE (in USD)": 3355876.0,
+            "FREIGHT (in USD)": 57232246.0,
+            "FREE_ON_BOARD": 516035032.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 107146869.0,
+            "QUANTITY (various)": 105404647.0,
+            "INSURANCE (in USD)": 632130.0,
+            "FREIGHT (in USD)": 9104798.0,
+            "FREE_ON_BOARD": 361687874.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - Of palm kernel olein, refined, bleached and deodorised (RBD)",
+            "GROSS KILO (in kg)": 360520291.0,
+            "QUANTITY (various)": 357465521.0,
+            "INSURANCE (in USD)": 4031530.0,
+            "FREIGHT (in USD)": 8210137.0,
+            "FREE_ON_BOARD": 269763080.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - - Other | Used as feed",
+            "GROSS KILO (in kg)": 910041258.0,
+            "QUANTITY (various)": 909331974.0,
+            "INSURANCE (in USD)": 1407396.0,
+            "FREIGHT (in USD)": 23939091.0,
+            "FREE_ON_BOARD": 229127150.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- Boneless",
+            "GROSS KILO (in kg)": 84030754.0,
+            "QUANTITY (various)": 81404124.0,
+            "INSURANCE (in USD)": 3272226.0,
+            "FREIGHT (in USD)": 8599417.0,
+            "FREE_ON_BOARD": 221317062.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 216952484.0,
+            "QUANTITY (various)": 207276950.0,
+            "INSURANCE (in USD)": 2672695.0,
+            "FREIGHT (in USD)": 12764885.0,
+            "FREE_ON_BOARD": 154295533.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - - Not more than 5% broken",
+            "GROSS KILO (in kg)": 284848456.0,
+            "QUANTITY (various)": 283990073.0,
+            "INSURANCE (in USD)": 2394765.0,
+            "FREIGHT (in USD)": 7946741.0,
+            "FREE_ON_BOARD": 143883334.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - - Other | Upon prior certification of the NEDA that rice shortage",
+            "GROSS KILO (in kg)": 272715708.0,
+            "QUANTITY (various)": 272065800.0,
+            "INSURANCE (in USD)": 877916.0,
+            "FREIGHT (in USD)": 11932435.0,
+            "FREE_ON_BOARD": 128401948.0
+        },
+        {
+            "YEAR": 2011,
+            "COMMODITY_DESCRIPTION": "- - Non-dairy creamer",
+            "GROSS KILO (in kg)": 61834682.0,
+            "QUANTITY (various)": 60586099.0,
+            "INSURANCE (in USD)": 154413.0,
+            "FREIGHT (in USD)": 2166315.0,
+            "FREE_ON_BOARD": 114662884.0
+        }
+    ],
+    "2012": [
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 2072317608.0,
+            "QUANTITY (various)": 2065370258.0,
+            "INSURANCE (in USD)": 8269445.0,
+            "FREIGHT (in USD)": 70737611.0,
+            "FREE_ON_BOARD": 877789777.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 1461250178.0,
+            "QUANTITY (various)": 1455567721.0,
+            "INSURANCE (in USD)": 4875781.0,
+            "FREIGHT (in USD)": 53076020.0,
+            "FREE_ON_BOARD": 631367027.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - - Other | Used as feed",
+            "GROSS KILO (in kg)": 1252292615.0,
+            "QUANTITY (various)": 1250267311.0,
+            "INSURANCE (in USD)": 2525217.0,
+            "FREIGHT (in USD)": 30841700.0,
+            "FREE_ON_BOARD": 332894218.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 100125082.0,
+            "QUANTITY (various)": 98204525.0,
+            "INSURANCE (in USD)": 664683.0,
+            "FREIGHT (in USD)": 8019820.0,
+            "FREE_ON_BOARD": 296458488.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- Boneless",
+            "GROSS KILO (in kg)": 81734147.0,
+            "QUANTITY (various)": 79218624.0,
+            "INSURANCE (in USD)": 3730443.0,
+            "FREIGHT (in USD)": 9431616.0,
+            "FREE_ON_BOARD": 217503508.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - - Other | Upon prior certification of the NEDA that rice shortage",
+            "GROSS KILO (in kg)": 494434212.0,
+            "QUANTITY (various)": 492176892.0,
+            "INSURANCE (in USD)": 3353912.0,
+            "FREIGHT (in USD)": 14139009.0,
+            "FREE_ON_BOARD": 209038718.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 175405117.0,
+            "QUANTITY (various)": 165601183.0,
+            "INSURANCE (in USD)": 3091382.0,
+            "FREIGHT (in USD)": 11039424.0,
+            "FREE_ON_BOARD": 164427684.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - Of palm kernel olein, refined, bleached and deodorised (RBD)",
+            "GROSS KILO (in kg)": 161807646.0,
+            "QUANTITY (various)": 160454921.0,
+            "INSURANCE (in USD)": 1640590.0,
+            "FREIGHT (in USD)": 6202376.0,
+            "FREE_ON_BOARD": 135640518.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - - - Preparations to be used as raw material in preparing composite concentrates",
+            "GROSS KILO (in kg)": 6161828.0,
+            "QUANTITY (various)": 5667328.0,
+            "INSURANCE (in USD)": 767950.0,
+            "FREIGHT (in USD)": 778611.0,
+            "FREE_ON_BOARD": 99335042.0
+        },
+        {
+            "YEAR": 2012,
+            "COMMODITY_DESCRIPTION": "- - Non-dairy creamer",
+            "GROSS KILO (in kg)": 57448878.0,
+            "QUANTITY (various)": 56586650.0,
+            "INSURANCE (in USD)": 186386.0,
+            "FREIGHT (in USD)": 2332212.0,
+            "FREE_ON_BOARD": 96132276.0
+        }
+    ],
+    "2013": [
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 2142375137.0,
+            "QUANTITY (various)": 2137448422.0,
+            "INSURANCE (in USD)": 8036541.0,
+            "FREIGHT (in USD)": 78777682.0,
+            "FREE_ON_BOARD": 948171113.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 1518735008.0,
+            "QUANTITY (various)": 1513324499.0,
+            "INSURANCE (in USD)": 5575477.0,
+            "FREIGHT (in USD)": 62249846.0,
+            "FREE_ON_BOARD": 691050963.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 111671600.0,
+            "QUANTITY (various)": 109459416.0,
+            "INSURANCE (in USD)": 689034.0,
+            "FREIGHT (in USD)": 11851914.0,
+            "FREE_ON_BOARD": 407957566.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 187456065.0,
+            "QUANTITY (various)": 178315428.0,
+            "INSURANCE (in USD)": 4200211.0,
+            "FREIGHT (in USD)": 13210555.0,
+            "FREE_ON_BOARD": 233635668.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- Boneless",
+            "GROSS KILO (in kg)": 75713030.0,
+            "QUANTITY (various)": 73289399.0,
+            "INSURANCE (in USD)": 4309492.0,
+            "FREIGHT (in USD)": 8499153.0,
+            "FREE_ON_BOARD": 215954879.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - - Other | Used as feed",
+            "GROSS KILO (in kg)": 646727045.0,
+            "QUANTITY (various)": 646097652.0,
+            "INSURANCE (in USD)": 1582266.0,
+            "FREIGHT (in USD)": 19121919.0,
+            "FREE_ON_BOARD": 181639190.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - - - Preparations to be used as raw material in preparing composite concentrates",
+            "GROSS KILO (in kg)": 9917088.0,
+            "QUANTITY (various)": 9053176.0,
+            "INSURANCE (in USD)": 1465817.0,
+            "FREIGHT (in USD)": 842858.0,
+            "FREE_ON_BOARD": 163941342.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- Flours, meals and pellets, of meat or meat offal; greaves",
+            "GROSS KILO (in kg)": 186248085.0,
+            "QUANTITY (various)": 185154272.0,
+            "INSURANCE (in USD)": 1696881.0,
+            "FREIGHT (in USD)": 7735969.0,
+            "FREE_ON_BOARD": 101383941.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- - - Other | Other",
+            "GROSS KILO (in kg)": 61713112.0,
+            "QUANTITY (various)": 57135715.0,
+            "INSURANCE (in USD)": 1227868.0,
+            "FREIGHT (in USD)": 4499218.0,
+            "FREE_ON_BOARD": 88953214.0
+        },
+        {
+            "YEAR": 2013,
+            "COMMODITY_DESCRIPTION": "- Apples",
+            "GROSS KILO (in kg)": 85999136.0,
+            "QUANTITY (various)": 85976957.0,
+            "INSURANCE (in USD)": 1948840.0,
+            "FREIGHT (in USD)": 4873628.0,
+            "FREE_ON_BOARD": 83101405.0
+        }
+    ],
+    "2014": [
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 1991586596.31,
+            "QUANTITY (various)": 1986481680.66,
+            "INSURANCE (in USD)": 7592975.0,
+            "FREIGHT (in USD)": 73481494.0,
+            "FREE_ON_BOARD": 907813416.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 1991902206.6399999,
+            "QUANTITY (various)": 1991081992.75,
+            "INSURANCE (in USD)": 9868569.0,
+            "FREIGHT (in USD)": 82457429.0,
+            "FREE_ON_BOARD": 878816459.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 94562926.91,
+            "QUANTITY (various)": 92917464.23,
+            "INSURANCE (in USD)": 1277901.0,
+            "FREIGHT (in USD)": 7670254.0,
+            "FREE_ON_BOARD": 390930454.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - - Other | Upon prior certification of the NEDA that rice shortage",
+            "GROSS KILO (in kg)": 964673416.0,
+            "QUANTITY (various)": 962397600.0,
+            "INSURANCE (in USD)": 2991344.0,
+            "FREIGHT (in USD)": 18404782.0,
+            "FREE_ON_BOARD": 366546420.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - - Other | Used as feed",
+            "GROSS KILO (in kg)": 1231845538.0,
+            "QUANTITY (various)": 1230078628.0,
+            "INSURANCE (in USD)": 3228499.0,
+            "FREIGHT (in USD)": 34919980.0,
+            "FREE_ON_BOARD": 337611928.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 309625974.08,
+            "QUANTITY (various)": 298436202.55,
+            "INSURANCE (in USD)": 6770901.0,
+            "FREIGHT (in USD)": 18379034.0,
+            "FREE_ON_BOARD": 332865989.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- Boneless",
+            "GROSS KILO (in kg)": 101077723.29,
+            "QUANTITY (various)": 98022092.64,
+            "INSURANCE (in USD)": 6031606.0,
+            "FREIGHT (in USD)": 9831874.0,
+            "FREE_ON_BOARD": 310576132.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - Of palm kernel olein, refined, bleached and deodorised (RBD)",
+            "GROSS KILO (in kg)": 342466465.56,
+            "QUANTITY (various)": 341327342.43,
+            "INSURANCE (in USD)": 4183096.0,
+            "FREIGHT (in USD)": 14097375.0,
+            "FREE_ON_BOARD": 284470021.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - - - Preparations to be used as raw material in preparing composite concentrates",
+            "GROSS KILO (in kg)": 9710990.46,
+            "QUANTITY (various)": 8855854.53,
+            "INSURANCE (in USD)": 1538119.0,
+            "FREIGHT (in USD)": 558293.0,
+            "FREE_ON_BOARD": 161497835.0
+        },
+        {
+            "YEAR": 2014,
+            "COMMODITY_DESCRIPTION": "- - - Other | Cuts",
+            "GROSS KILO (in kg)": 151089516.55,
+            "QUANTITY (various)": 145754311.72,
+            "INSURANCE (in USD)": 2343717.0,
+            "FREIGHT (in USD)": 12816471.0,
+            "FREE_ON_BOARD": 129392741.0
+        }
+    ],
+    "2015": [
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 2843179765.85,
+            "QUANTITY (various)": 2818576419.58,
+            "INSURANCE (in USD)": 6357469.0,
+            "FREIGHT (in USD)": 63877647.0,
+            "FREE_ON_BOARD": 1023093732.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 1973440705.12,
+            "QUANTITY (various)": 1954984171.43,
+            "INSURANCE (in USD)": 4943357.0,
+            "FREIGHT (in USD)": 52996549.0,
+            "FREE_ON_BOARD": 830455157.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - - Other | Used as feed",
+            "GROSS KILO (in kg)": 1990021844.0,
+            "QUANTITY (various)": 1975859974.18,
+            "INSURANCE (in USD)": 2726818.0,
+            "FREIGHT (in USD)": 27995043.0,
+            "FREE_ON_BOARD": 438841997.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 346445775.54,
+            "QUANTITY (various)": 327073139.39,
+            "INSURANCE (in USD)": 4976681.0,
+            "FREIGHT (in USD)": 14555530.0,
+            "FREE_ON_BOARD": 339214169.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 134818433.23,
+            "QUANTITY (various)": 130094749.87,
+            "INSURANCE (in USD)": 1504916.0,
+            "FREIGHT (in USD)": 7605029.0,
+            "FREE_ON_BOARD": 315880760.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - Of palm kernel olein, refined, bleached and deodorised (RBD)",
+            "GROSS KILO (in kg)": 487774199.99,
+            "QUANTITY (various)": 473009924.53999996,
+            "INSURANCE (in USD)": 3668278.0,
+            "FREIGHT (in USD)": 11234834.0,
+            "FREE_ON_BOARD": 312864871.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- Boneless",
+            "GROSS KILO (in kg)": 104042316.35,
+            "QUANTITY (various)": 99305579.82,
+            "INSURANCE (in USD)": 4344718.0,
+            "FREIGHT (in USD)": 8250224.0,
+            "FREE_ON_BOARD": 299101368.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - - Other | Upon prior certification of the NEDA that rice shortage",
+            "GROSS KILO (in kg)": 700867146.0,
+            "QUANTITY (various)": 698610195.15,
+            "INSURANCE (in USD)": 2038098.0,
+            "FREIGHT (in USD)": 7266280.0,
+            "FREE_ON_BOARD": 258900380.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - - - Preparations to be used as raw material in preparing composite concentrates",
+            "GROSS KILO (in kg)": 10875472.95,
+            "QUANTITY (various)": 10249312.66,
+            "INSURANCE (in USD)": 1348551.0,
+            "FREIGHT (in USD)": 2368220.0,
+            "FREE_ON_BOARD": 201789682.0
+        },
+        {
+            "YEAR": 2015,
+            "COMMODITY_DESCRIPTION": "- - Preparations with a basis of extracts, essences or concentrates or with a basis of coffee | B.  Out-Quota",
+            "GROSS KILO (in kg)": 68812439.34,
+            "QUANTITY (various)": 59703275.67,
+            "INSURANCE (in USD)": 1687448.0,
+            "FREIGHT (in USD)": 3694895.0,
+            "FREE_ON_BOARD": 175546919.0
+        }
+    ],
+    "2016": [
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 3067405556.62,
+            "QUANTITY (various)": 3042549860.27,
+            "INSURANCE (in USD)": 7598659.0,
+            "FREIGHT (in USD)": 89581489.0,
+            "FREE_ON_BOARD": 1056203164.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya- Bean oil. | Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya bean oil.",
+            "GROSS KILO (in kg)": 2647651134.42,
+            "QUANTITY (various)": 2628231640.34,
+            "INSURANCE (in USD)": 7437673.0,
+            "FREIGHT (in USD)": 72087902.0,
+            "FREE_ON_BOARD": 974406419.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - Of palm kernel olein, refined, bleached and deodorised (RBD)",
+            "GROSS KILO (in kg)": 767872590.39,
+            "QUANTITY (various)": 758663847.49,
+            "INSURANCE (in USD)": 6084658.0,
+            "FREIGHT (in USD)": 20941105.0,
+            "FREE_ON_BOARD": 497131440.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - - Other | Used as feed",
+            "GROSS KILO (in kg)": 2603821895.0,
+            "QUANTITY (various)": 2563603482.97,
+            "INSURANCE (in USD)": 3975837.0,
+            "FREIGHT (in USD)": 50034670.0,
+            "FREE_ON_BOARD": 481374670.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 351981816.89,
+            "QUANTITY (various)": 329429974.41,
+            "INSURANCE (in USD)": 8251427.0,
+            "FREIGHT (in USD)": 21040748.0,
+            "FREE_ON_BOARD": 400395023.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - - Not containing added sugar or other sweetening matter, in powder form | A. In containers of gross weight 20 kgs or more",
+            "GROSS KILO (in kg)": 185029727.13,
+            "QUANTITY (various)": 179234891.96,
+            "INSURANCE (in USD)": 1449974.0,
+            "FREIGHT (in USD)": 13700969.0,
+            "FREE_ON_BOARD": 333473749.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- Boneless",
+            "GROSS KILO (in kg)": 112582566.46,
+            "QUANTITY (various)": 107082950.79,
+            "INSURANCE (in USD)": 6412232.0,
+            "FREIGHT (in USD)": 10494374.0,
+            "FREE_ON_BOARD": 309350090.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - - - Preparations to be used as raw material in preparing composite concentrates",
+            "GROSS KILO (in kg)": 11365331.1,
+            "QUANTITY (various)": 10761602.71,
+            "INSURANCE (in USD)": 1693368.0,
+            "FREIGHT (in USD)": 2508445.0,
+            "FREE_ON_BOARD": 202223028.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - - Other | Upon prior certification of the NEDA that rice shortage",
+            "GROSS KILO (in kg)": 523371897.0,
+            "QUANTITY (various)": 513431842.46000004,
+            "INSURANCE (in USD)": 3045109.0,
+            "FREIGHT (in USD)": 14657040.0,
+            "FREE_ON_BOARD": 190076570.0
+        },
+        {
+            "YEAR": 2016,
+            "COMMODITY_DESCRIPTION": "- - Preparations with a basis of extracts, essences or concentrates or with a basis of coffee | B.  Out-Quota",
+            "GROSS KILO (in kg)": 84848243.73,
+            "QUANTITY (various)": 78772855.84,
+            "INSURANCE (in USD)": 3249929.0,
+            "FREIGHT (in USD)": 4531785.0,
+            "FREE_ON_BOARD": 189421004.0
+        }
+    ],
+    "2017": [
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- Other\r\n",
+            "GROSS KILO (in kg)": 2351926995.2,
+            "QUANTITY (various)": 2340225865.74,
+            "INSURANCE (in USD)": 6110790.0,
+            "FREIGHT (in USD)": 69378662.0,
+            "FREE_ON_BOARD": 837705576.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - - - Other",
+            "GROSS KILO (in kg)": 3016499747.37,
+            "QUANTITY (various)": 3006041962.8,
+            "INSURANCE (in USD)": 2508278.0,
+            "FREIGHT (in USD)": 60318583.0,
+            "FREE_ON_BOARD": 716963247.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "Of palm kernel olein, refined, bleached and deodorised (RBD)",
+            "GROSS KILO (in kg)": 979696123.85,
+            "QUANTITY (various)": 921504979.67,
+            "INSURANCE (in USD)": 4538375.0,
+            "FREIGHT (in USD)": 28570764.0,
+            "FREE_ON_BOARD": 649542726.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "Used as feed",
+            "GROSS KILO (in kg)": 2661496182.0,
+            "QUANTITY (various)": 2661295213.37,
+            "INSURANCE (in USD)": 3431449.0,
+            "FREIGHT (in USD)": 47597122.0,
+            "FREE_ON_BOARD": 491711062.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "A.  In-Quota",
+            "GROSS KILO (in kg)": 213289738.97,
+            "QUANTITY (various)": 189204030.04,
+            "INSURANCE (in USD)": 6859825.0,
+            "FREIGHT (in USD)": 12313852.0,
+            "FREE_ON_BOARD": 426322717.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - - In containers of a gross weight of 20 kg or more",
+            "GROSS KILO (in kg)": 166209276.26,
+            "QUANTITY (various)": 166209276.26,
+            "INSURANCE (in USD)": 1392300.0,
+            "FREIGHT (in USD)": 10892077.0,
+            "FREE_ON_BOARD": 359473173.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "-\u00a0\u00a0Boneless",
+            "GROSS KILO (in kg)": 117688899.2,
+            "QUANTITY (various)": 113303601.10000001,
+            "INSURANCE (in USD)": 7339925.0,
+            "FREIGHT (in USD)": 10256850.0,
+            "FREE_ON_BOARD": 353927255.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - Other",
+            "GROSS KILO (in kg)": 216086408.42000002,
+            "QUANTITY (various)": 206481164.82,
+            "INSURANCE (in USD)": 4374573.0,
+            "FREIGHT (in USD)": 10376860.0,
+            "FREE_ON_BOARD": 237469345.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 287231185.25,
+            "QUANTITY (various)": 255067280.47,
+            "INSURANCE (in USD)": 3563987.0,
+            "FREIGHT (in USD)": 16696692.0,
+            "FREE_ON_BOARD": 232682031.0
+        },
+        {
+            "YEAR": 2017,
+            "COMMODITY_DESCRIPTION": "Other",
+            "GROSS KILO (in kg)": 226225289.46,
+            "QUANTITY (various)": 216884220.2,
+            "INSURANCE (in USD)": 2918980.0,
+            "FREIGHT (in USD)": 8961581.0,
+            "FREE_ON_BOARD": 217483950.0
+        }
+    ],
+    "2018": [
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "- Other\r\n",
+            "GROSS KILO (in kg)": 2918031946.0,
+            "QUANTITY (various)": 2913024352.0,
+            "INSURANCE (in USD)": 8556641.0,
+            "FREIGHT (in USD)": 100991195.0,
+            "FREE_ON_BOARD": 1142442827.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "Used as feed",
+            "GROSS KILO (in kg)": 3950888159.0,
+            "QUANTITY (various)": 3949327863.0,
+            "INSURANCE (in USD)": 4986664.0,
+            "FREIGHT (in USD)": 102485638.0,
+            "FREE_ON_BOARD": 818568958.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "- - - - Other",
+            "GROSS KILO (in kg)": 3014878092.0,
+            "QUANTITY (various)": 3011030374.0,
+            "INSURANCE (in USD)": 3534827.0,
+            "FREIGHT (in USD)": 65959339.0,
+            "FREE_ON_BOARD": 760403099.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "Other",
+            "GROSS KILO (in kg)": 540765322.0,
+            "QUANTITY (various)": 508400027.0,
+            "INSURANCE (in USD)": 9599730.0,
+            "FREIGHT (in USD)": 27001910.0,
+            "FREE_ON_BOARD": 678810259.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "Of palm kernel olein, refined, bleached and deodorised (RBD)",
+            "GROSS KILO (in kg)": 796847453.0,
+            "QUANTITY (various)": 795638125.0,
+            "INSURANCE (in USD)": 3293217.0,
+            "FREIGHT (in USD)": 24210360.0,
+            "FREE_ON_BOARD": 484396016.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "B.  Out-Quota",
+            "GROSS KILO (in kg)": 231807472.0,
+            "QUANTITY (various)": 205684958.0,
+            "INSURANCE (in USD)": 7213667.0,
+            "FREIGHT (in USD)": 13971616.0,
+            "FREE_ON_BOARD": 430295453.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "Not more than 5% broken",
+            "GROSS KILO (in kg)": 1116167178.0,
+            "QUANTITY (various)": 1113068555.0,
+            "INSURANCE (in USD)": 7183080.0,
+            "FREIGHT (in USD)": 12459838.0,
+            "FREE_ON_BOARD": 417668364.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "-\u00a0\u00a0Boneless",
+            "GROSS KILO (in kg)": 127492799.0,
+            "QUANTITY (various)": 123641716.0,
+            "INSURANCE (in USD)": 7986063.0,
+            "FREIGHT (in USD)": 12286984.0,
+            "FREE_ON_BOARD": 399701960.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "- - - In containers of a gross weight of 20 kg or more",
+            "GROSS KILO (in kg)": 184282619.0,
+            "QUANTITY (various)": 184282619.0,
+            "INSURANCE (in USD)": 2154125.0,
+            "FREIGHT (in USD)": 11213242.0,
+            "FREE_ON_BOARD": 349799577.0
+        },
+        {
+            "YEAR": 2018,
+            "COMMODITY_DESCRIPTION": "Semi-milled or wholly milled rice, whether or not polished or glazed",
+            "GROSS KILO (in kg)": 613689797.0,
+            "QUANTITY (various)": 612712100.0,
+            "INSURANCE (in USD)": 1813234.0,
+            "FREIGHT (in USD)": 21930647.0,
+            "FREE_ON_BOARD": 269400397.0
+        }
+    ],
+    "2019": [
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "- Other\r\n",
+            "GROSS KILO (in kg)": 3044313791.0,
+            "QUANTITY (various)": 3043409206.0,
+            "INSURANCE (in USD)": 8394442.0,
+            "FREIGHT (in USD)": 105016866.0,
+            "FREE_ON_BOARD": 1072876852.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "Used as feed",
+            "GROSS KILO (in kg)": 3938668538.0,
+            "QUANTITY (various)": 3937391544.0,
+            "INSURANCE (in USD)": 7465017.0,
+            "FREIGHT (in USD)": 101193235.0,
+            "FREE_ON_BOARD": 873226767.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "- - - - Other",
+            "GROSS KILO (in kg)": 3208534159.0,
+            "QUANTITY (various)": 3206746181.0,
+            "INSURANCE (in USD)": 4613523.0,
+            "FREIGHT (in USD)": 80892869.0,
+            "FREE_ON_BOARD": 778097359.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "Not more than 5% broken",
+            "GROSS KILO (in kg)": 2192149057.0,
+            "QUANTITY (various)": 2185073469.0,
+            "INSURANCE (in USD)": 12247500.0,
+            "FREIGHT (in USD)": 24040553.0,
+            "FREE_ON_BOARD": 712896739.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "Other",
+            "GROSS KILO (in kg)": 357807401.0,
+            "QUANTITY (various)": 329374446.0,
+            "INSURANCE (in USD)": 9645040.0,
+            "FREIGHT (in USD)": 23855027.0,
+            "FREE_ON_BOARD": 614940341.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "B.  Out-Quota",
+            "GROSS KILO (in kg)": 251755083.0,
+            "QUANTITY (various)": 227178345.0,
+            "INSURANCE (in USD)": 8520793.0,
+            "FREIGHT (in USD)": 15728910.0,
+            "FREE_ON_BOARD": 566047819.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "Of palm kernel olein, refined, bleached and deodorised (RBD)",
+            "GROSS KILO (in kg)": 905896077.0,
+            "QUANTITY (various)": 900826833.0,
+            "INSURANCE (in USD)": 2823843.0,
+            "FREIGHT (in USD)": 26601747.0,
+            "FREE_ON_BOARD": 490083183.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "- - - In containers of a gross weight of 20 kg or more",
+            "GROSS KILO (in kg)": 209228541.0,
+            "QUANTITY (various)": 209228541.0,
+            "INSURANCE (in USD)": 2815333.0,
+            "FREIGHT (in USD)": 13437234.0,
+            "FREE_ON_BOARD": 451928654.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "-\u00a0\u00a0Boneless",
+            "GROSS KILO (in kg)": 122973473.0,
+            "QUANTITY (various)": 119154949.0,
+            "INSURANCE (in USD)": 8214930.0,
+            "FREIGHT (in USD)": 11568716.0,
+            "FREE_ON_BOARD": 376315496.0
+        },
+        {
+            "YEAR": 2019,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 314482114.0,
+            "QUANTITY (various)": 303710175.0,
+            "INSURANCE (in USD)": 3844236.0,
+            "FREIGHT (in USD)": 17903058.0,
+            "FREE_ON_BOARD": 264911497.0
+        }
+    ],
+    "2020": [
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "- Other\r\n",
+            "GROSS KILO (in kg)": 2583409258.0,
+            "QUANTITY (various)": 2577606242.0,
+            "INSURANCE (in USD)": 7640834.0,
+            "FREIGHT (in USD)": 80649499.0,
+            "FREE_ON_BOARD": 921335629.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "- - - - Other",
+            "GROSS KILO (in kg)": 3306885197.0,
+            "QUANTITY (various)": 3298185488.0,
+            "INSURANCE (in USD)": 4457079.0,
+            "FREIGHT (in USD)": 89406820.0,
+            "FREE_ON_BOARD": 811095451.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "Used as feed",
+            "GROSS KILO (in kg)": 2969425968.0,
+            "QUANTITY (various)": 2966511361.0,
+            "INSURANCE (in USD)": 7100962.0,
+            "FREIGHT (in USD)": 78107356.0,
+            "FREE_ON_BOARD": 622824234.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "Not more than 5% broken",
+            "GROSS KILO (in kg)": 1691045710.0,
+            "QUANTITY (various)": 1682340876.0,
+            "INSURANCE (in USD)": 9653639.0,
+            "FREIGHT (in USD)": 19942050.0,
+            "FREE_ON_BOARD": 612038143.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "Of palm kernel olein, refined, bleached and deodorised (RBD)",
+            "GROSS KILO (in kg)": 902946952.0,
+            "QUANTITY (various)": 901874244.0,
+            "INSURANCE (in USD)": 3697356.0,
+            "FREIGHT (in USD)": 26841567.0,
+            "FREE_ON_BOARD": 596909596.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "Other",
+            "GROSS KILO (in kg)": 361359045.0,
+            "QUANTITY (various)": 334928200.0,
+            "INSURANCE (in USD)": 8814986.0,
+            "FREIGHT (in USD)": 20767796.0,
+            "FREE_ON_BOARD": 547298928.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "- - - In containers of a gross weight of 20 kg or more",
+            "GROSS KILO (in kg)": 210107835.0,
+            "QUANTITY (various)": 210107835.0,
+            "INSURANCE (in USD)": 3414082.0,
+            "FREIGHT (in USD)": 15380396.0,
+            "FREE_ON_BOARD": 516088925.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "B.  Out-Quota",
+            "GROSS KILO (in kg)": 212445009.0,
+            "QUANTITY (various)": 190204208.0,
+            "INSURANCE (in USD)": 9519146.0,
+            "FREIGHT (in USD)": 8252904.0,
+            "FREE_ON_BOARD": 481133509.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "-\u00a0\u00a0Boneless",
+            "GROSS KILO (in kg)": 114255059.0,
+            "QUANTITY (various)": 110085653.0,
+            "INSURANCE (in USD)": 8448911.0,
+            "FREIGHT (in USD)": 11494471.0,
+            "FREE_ON_BOARD": 345769688.0
+        },
+        {
+            "YEAR": 2020,
+            "COMMODITY_DESCRIPTION": "- - - Other",
+            "GROSS KILO (in kg)": 348932788.0,
+            "QUANTITY (various)": 339432576.0,
+            "INSURANCE (in USD)": 3609833.0,
+            "FREIGHT (in USD)": 20144831.0,
+            "FREE_ON_BOARD": 252403066.0
+        }
+    ],
+    "2021": [
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "- Other",
+            "GROSS KILO (in kg)": 3223310692.0,
+            "QUANTITY (various)": 3222919666.0,
+            "INSURANCE (in USD)": 11186468.0,
+            "FREIGHT (in USD)": 134309464.0,
+            "FREE_ON_BOARD": 1452405808.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Other :  |  - - Other :  |  - - - Fit for human consumption :  |  - - - - Other",
+            "GROSS KILO (in kg)": 3256202394.0,
+            "QUANTITY (various)": 3256202394.0,
+            "INSURANCE (in USD)": 5521661.0,
+            "FREIGHT (in USD)": 92392420.0,
+            "FREE_ON_BOARD": 987454488.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Semi-milled or wholly milled rice, whether or not polished or glazed :  |  - - Other :  |  - - - Other :  |  Other, not more than 5% broken",
+            "GROSS KILO (in kg)": 2106138607.0,
+            "QUANTITY (various)": 2106138607.0,
+            "INSURANCE (in USD)": 10536100.0,
+            "FREIGHT (in USD)": 25435860.0,
+            "FREE_ON_BOARD": 777021659.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Other :  |  - - Other :  |  - - - Other :  |  - - - - Other  |  Used as feed",
+            "GROSS KILO (in kg)": 2767747923.0,
+            "QUANTITY (various)": 2767747923.0,
+            "INSURANCE (in USD)": 8485750.0,
+            "FREIGHT (in USD)": 101086077.0,
+            "FREE_ON_BOARD": 751994697.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "- Inedible mixtures or preparations of vegetable fats or oils or of fractions of different fats or oils :  |  - - Of the fruit of the oil palm or of palm kernels  |  Of palm kernel olein, refined, bleached and deodorised (RBD)",
+            "GROSS KILO (in kg)": 623460743.0,
+            "QUANTITY (various)": 622212821.0,
+            "INSURANCE (in USD)": 4080673.0,
+            "FREIGHT (in USD)": 23822302.0,
+            "FREE_ON_BOARD": 583469220.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Boneless",
+            "GROSS KILO (in kg)": 149354972.0,
+            "QUANTITY (various)": 143382126.0,
+            "INSURANCE (in USD)": 13061574.0,
+            "FREIGHT (in USD)": 14663309.0,
+            "FREE_ON_BOARD": 479473731.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5% :  |  - - Not containing added sugar or other sweetening matter :  |  - - - In containers of a net weight of 20 kg or more",
+            "GROSS KILO (in kg)": 163363224.0,
+            "QUANTITY (various)": 163363224.0,
+            "INSURANCE (in USD)": 2501136.0,
+            "FREIGHT (in USD)": 14616692.0,
+            "FREE_ON_BOARD": 441191949.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Extracts, essences and concentrates, of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee :  |  - - Preparations with a basis of extracts, essences or concentrates or with a basis of coffee :  |  - - - Other :  |  - - - - Coffee preparation with a basis of ground roasted coffee containing added sugar,whether or not containing creamer :  |  - - - - - B. Out-Quota",
+            "GROSS KILO (in kg)": 140219650.0,
+            "QUANTITY (various)": 122199926.0,
+            "INSURANCE (in USD)": 7367259.0,
+            "FREIGHT (in USD)": 4649282.0,
+            "FREE_ON_BOARD": 369336572.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "- Other :  |  - - Fractions of refined oil :  |  - - - Liquid fractions :  |  - - - - Other, with iodine value 55 or more but less than 60  |  RBD",
+            "GROSS KILO (in kg)": 280190415.0,
+            "QUANTITY (various)": 280137982.0,
+            "INSURANCE (in USD)": 1438500.0,
+            "FREIGHT (in USD)": 10814900.0,
+            "FREE_ON_BOARD": 303243519.0
+        },
+        {
+            "YEAR": 2021,
+            "COMMODITY_DESCRIPTION": "-\u00a0Apples",
+            "GROSS KILO (in kg)": 184296668.0,
+            "QUANTITY (various)": 184296668.0,
+            "INSURANCE (in USD)": 9253684.0,
+            "FREIGHT (in USD)": 10590545.0,
+            "FREE_ON_BOARD": 259428170.0
+        }
+    ],
+    "2022": [
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "- Other",
+            "GROSS KILO (in kg)": 3812068538.0,
+            "QUANTITY (various)": 3811546746.0,
+            "INSURANCE (in USD)": 15942456.0,
+            "FREIGHT (in USD)": 248394682.0,
+            "FREE_ON_BOARD": 1889196150.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Other :  |  - - Other :  |  - - - Fit for human consumption :  |  - - - - Other",
+            "GROSS KILO (in kg)": 3042463100.0,
+            "QUANTITY (various)": 3042463100.0,
+            "INSURANCE (in USD)": 9606027.0,
+            "FREIGHT (in USD)": 101812328.0,
+            "FREE_ON_BOARD": 1275785285.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Other :  |  - - Other :  |  - - - Other :  |  - - - - Other  |  Used as feed",
+            "GROSS KILO (in kg)": 3174210074.0,
+            "QUANTITY (various)": 3174210074.0,
+            "INSURANCE (in USD)": 12438941.0,
+            "FREIGHT (in USD)": 102761221.0,
+            "FREE_ON_BOARD": 1080775566.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Semi-milled or wholly milled rice, whether or not polished or glazed :  |  - - Other :  |  - - - Other :  |  Other, not more than 5% broken",
+            "GROSS KILO (in kg)": 2593184140.0,
+            "QUANTITY (various)": 2593184140.0,
+            "INSURANCE (in USD)": 10522328.0,
+            "FREIGHT (in USD)": 26227844.0,
+            "FREE_ON_BOARD": 792968649.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "- Other :  |  - - Fractions of refined oil :  |  - - - Liquid fractions :  |  - - - - Other, with iodine value 55 or more but less than 60  |  RBD",
+            "GROSS KILO (in kg)": 625082679.0,
+            "QUANTITY (various)": 624915921.0,
+            "INSURANCE (in USD)": 4111843.0,
+            "FREIGHT (in USD)": 25855715.0,
+            "FREE_ON_BOARD": 748922119.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5% :  |  - - Not containing added sugar or other sweetening matter :  |  - - - In containers of a net weight of 20 kg or more",
+            "GROSS KILO (in kg)": 188289496.0,
+            "QUANTITY (various)": 188289496.0,
+            "INSURANCE (in USD)": 3753584.0,
+            "FREIGHT (in USD)": 24142847.0,
+            "FREE_ON_BOARD": 679691359.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Boneless",
+            "GROSS KILO (in kg)": 173751339.0,
+            "QUANTITY (various)": 167487028.0,
+            "INSURANCE (in USD)": 16656496.0,
+            "FREIGHT (in USD)": 19547871.0,
+            "FREE_ON_BOARD": 580127829.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Extracts, essences and concentrates, of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee :  |  - - Preparations with a basis of extracts, essences or concentrates or with a basis of coffee :  |  - - - Other :  |  - - - - Coffee preparation with a basis of ground roasted coffee containing added sugar,whether or not containing creamer :  |  - - - - - B. Out-Quota",
+            "GROSS KILO (in kg)": 154990771.0,
+            "QUANTITY (various)": 135926525.0,
+            "INSURANCE (in USD)": 7540168.0,
+            "FREIGHT (in USD)": 6452632.0,
+            "FREE_ON_BOARD": 416752892.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Frozen :  |  - -\u00a0Other :  |  - - - B. Out-Quota",
+            "GROSS KILO (in kg)": 250151236.0,
+            "QUANTITY (various)": 238525051.0,
+            "INSURANCE (in USD)": 11218792.0,
+            "FREIGHT (in USD)": 21265474.0,
+            "FREE_ON_BOARD": 353925298.0
+        },
+        {
+            "YEAR": 2022,
+            "COMMODITY_DESCRIPTION": "-\u00a0Semi-milled or wholly milled rice, whether or not polished or glazed :  |  - - Other :  |  - - - Other :  |  Other, more than 10% but not more than 25% broken",
+            "GROSS KILO (in kg)": 1025521006.0,
+            "QUANTITY (various)": 1025521006.0,
+            "INSURANCE (in USD)": 4416368.0,
+            "FREIGHT (in USD)": 13486416.0,
+            "FREE_ON_BOARD": 291460402.0
+        }
+    ]
+}

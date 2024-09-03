@@ -64,7 +64,7 @@
   color: white;
   border-radius: 40px;
   border: none;
-  background-color: rgb(77, 114, 184);
+  background-color: #608bdd;
   transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
@@ -81,17 +81,48 @@
 }
 
 .logo{
+  position: relative; /* Added position relative */
   height: 500px;
   width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(rgb(126, 237, 196) 20%, rgb(77, 114, 184) 90%);
-  background: url('assets/Images/ImpExp.png') center/cover;
+  background: url('assets/Images/ImpExpArrOne.png') center/cover;
+}
+
+.logo_two{
+  position: absolute; /* Added position absolute */
+  top: 220px;
+  left: 1;
+  right: 1;
+  bottom: 0;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgb(126, 237, 196) 20%, rgb(77, 114, 184) 90%);
+  background: url('assets/Images/ImpExpArrTwo.png') center/cover;
+}
+
+.logo_three{
+  position: absolute; /* Added position absolute */
+  top: 220px;
+  left: 1;
+  right: 1;
+  bottom: 0;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgb(126, 237, 196) 20%, rgb(77, 114, 184) 90%);
+  background: url('assets/Images/ImpExpArrThree.png') center/cover;
 }
 
 @media screen and (max-width: 900px) {
-  .logo {
+  .logo, .logo_two, .logo_three {
       display: none;
   }
 }
@@ -104,15 +135,59 @@
 
 /*-----------------Animation-------------------*/
 
-@keyframes emergesup {
+@keyframes emergesupthree {
   from {
     opacity: 0;
-    transform: translateY(60px) rotate(130deg);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes emergesuptwo {
+  from {
+    opacity: 0;
+    transform: translateY(60px) rotate(150deg);
   }
   to {
     opacity: 1;
     transform: translateY(0) rotate(0deg);
   }
+}
+
+@keyframes emergesupone {
+  from {
+    opacity: 0;
+    transform: translateY(60px) rotate(280deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+.logo{
+  opacity: 0;
+  animation-name: emergesupone; 
+  animation-duration: 1.5s; 
+  animation-delay: 0.3s; 
+  animation-fill-mode: forwards;
+}
+
+.logo_two{
+  opacity: 0;
+  animation-name: emergesuptwo; 
+  animation-duration: 1.1s; 
+  animation-delay: 0.7s; 
+  animation-fill-mode: forwards;
+}
+
+.logo_three{
+  opacity: 0;
+  animation-name: emergesupthree; 
+  animation-duration: 1s; 
+  animation-delay: 1.5s; 
+  animation-fill-mode: forwards;
 }
 
 @keyframes emergess {
@@ -122,14 +197,6 @@
   to {
     opacity: 1;
   }
-}
-
-.logo{
-  opacity: 0;
-  animation-name: emergesup; 
-  animation-duration: 0.7s; 
-  animation-delay: 0.3s; 
-  animation-fill-mode: forwards;
 }
 
 .header-overlay{
