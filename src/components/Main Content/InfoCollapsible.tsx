@@ -16,19 +16,20 @@ const InfoCollapsible: React.FC = () => {
         return (
           <>
           <div className="import2023" style={{ whiteSpace: 'pre' }}>
-                {`explained_variance: 0.0023
-R2:     -1.2183
-MAE:    0.4801
-MSE:    0.36203243
-MAPE: 47.69%
-RMSE:  0.6017
+                {`explained_variance: 0.1337
+R2:     0.1232
+MAE:    0.3964
+MSE:    0.26604221
+MAPE: 73.32%
+RMSE:  0.5158
 
                         precision  |  recall  |  f1-score  |  support
 
-High exports       1.00           1.00        1.00             60
-Accuracy                                              1.00            60
-Macro avg           1.00           1.00        1.00             60
-Weighted avg      1.00           1.00       1.00              60`}
+High imports        0.83           1.00        0.91             10
+High imports        0.00           0.00       0.00            2
+Accuracy                                               0.83            12
+Macro avg           0.42           0.50        0.45             12
+Weighted avg      0.69           0.83       0.76              12`}
           </div>
           <img src="assets/Images/Imports2023.png" alt="Imports2023" />
           </>
@@ -39,10 +40,10 @@ Weighted avg      1.00           1.00       1.00              60`}
           <div className="exports2024" style={{ whiteSpace: 'pre' }}>
                 {`explained_variance: 0.0054
 R2:     -1.4229
-MAE:     0.4427
-MSE:     0.4427
+MAE:    0.4427
+MSE:    0.4427
 MAPE: 37.73%
-RMSE:   0.5171
+RMSE:  0.5171
 
                         precision  |  recall  |  f1-score  |  support
 
@@ -58,19 +59,19 @@ Weighted avg      1.00           1.00       1.00              24`}
         return (
           <>
           <div className="imports2024" style={{ whiteSpace: 'pre' }}>
-            {`explained_variance: 0.0514
-R2:     -0.9665
-MAE:    0.4529
-MSE:    0.31195008
-MAPE: 44.1%
-RMSE:  0.5585
+            {`explained_variance: -0.4316
+R2:     -5.5047
+MAE:    0.9139
+MSE:    1.04389289
+MAPE: 61.36%
+RMSE:  1.0217
 
                         precision  |  recall  |  f1-score  |  support
 
-High exports       1.00           1.00        1.00             60
-Accuracy                                              1.00            60
-Macro avg           1.00           1.00        1.00             60
-Weighted avg      1.00           1.00       1.00              60`}
+High imports       1.00           1.00        1.00             12
+Accuracy                                              1.00            12
+Macro avg           1.00           1.00        1.00             12
+Weighted avg      1.00           1.00       1.00              12`}
           </div>
           <img src="assets/Images/Imports2024.png" alt="Imports2024" />
           </>

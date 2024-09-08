@@ -10,7 +10,6 @@ const BarChartComponentFour: React.FC = () => {
   const [dataType, setDataType] = useState<string>('Exports');
   const [selectedYear, setSelectedYear] = useState<number>(2024); 
 
-  // Function to map the data from JSON to the format required by the chart
   const mapData = (data: any[], key: string) => {
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     return data.map(item => ({
@@ -19,7 +18,6 @@ const BarChartComponentFour: React.FC = () => {
     }));
   };
 
-  // Function to fetch data for 2024 predictions
   const fetch2024Data = async () => {
     const url = dataType === 'Exports' 
       ? '/src/JSON/exports_fob_predictions_2024.json' 
@@ -33,7 +31,6 @@ const BarChartComponentFour: React.FC = () => {
     }
   };
 
-  // Function to fetch data for 2023 predictions and actuals
   const fetch2023Data = async () => {
     try {
       const predictionsUrl = dataType === 'Exports' 
