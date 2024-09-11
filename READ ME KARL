@@ -10,6 +10,8 @@ npm install react-icons
 
 npm install react-router-dom@latest
 
+npm install axios
+
 (idk about this):
 
 npm install@latest

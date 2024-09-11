@@ -20,7 +20,9 @@ const MainContent: React.FC = () => {
 
         <BarChartComponentThree />
         
-        <InfoCollapsible />
+        <div className="col-in">
+          <InfoCollapsible />
+        </div>
 
         <BarChartComponent />
 

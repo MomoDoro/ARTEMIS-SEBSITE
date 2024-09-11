@@ -17,16 +17,16 @@ const InfoCollapsible: React.FC = () => {
           <>
           <div className="import2023" style={{ whiteSpace: 'pre' }}>
                 {`explained_variance: 0.1337
-R2:     0.1232
-MAE:    0.3964
-MSE:    0.26604221
-MAPE: 73.32%
-RMSE:  0.5158
+R2:     0.118
+MAE:   0.3784
+MSE:   0.26763906
+MAPE: 53.67%
+RMSE:  0.5173
 
                         precision  |  recall  |  f1-score  |  support
 
 High imports        0.83           1.00        0.91             10
-High imports        0.00           0.00       0.00            2
+Low imports         0.00           0.00       0.00            2
 Accuracy                                               0.83            12
 Macro avg           0.42           0.50        0.45             12
 Weighted avg      0.69           0.83       0.76              12`}
@@ -40,8 +40,8 @@ Weighted avg      0.69           0.83       0.76              12`}
           <div className="exports2024" style={{ whiteSpace: 'pre' }}>
                 {`explained_variance: 0.0054
 R2:     -1.4229
-MAE:    0.4427
-MSE:    0.4427
+MAE:   0.4427
+MSE:   0.4427
 MAPE: 37.73%
 RMSE:  0.5171
 
@@ -60,11 +60,11 @@ Weighted avg      1.00           1.00       1.00              24`}
           <>
           <div className="imports2024" style={{ whiteSpace: 'pre' }}>
             {`explained_variance: -0.4316
-R2:     -5.5047
-MAE:    0.9139
-MSE:    1.04389289
-MAPE: 61.36%
-RMSE:  1.0217
+R2:     -3.277
+MAE:   0.7431
+MSE:   0.76523479
+MAPE: 52.84%
+RMSE:  0.8748
 
                         precision  |  recall  |  f1-score  |  support
 
@@ -82,8 +82,8 @@ Weighted avg      1.00           1.00       1.00              12`}
           <div className="export2023" style={{ whiteSpace: 'pre' }}>
             {`explained_variance: 0.0621
 R2:     -1.3836
-MAE:    0.4527
-MSE:    0.27518573
+MAE:   0.4527
+MSE:   0.27518573
 MAPE: 35.58%
 RMSE:  0.5246
 

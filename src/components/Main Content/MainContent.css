@@ -90,7 +90,7 @@
   font-family: manjari;
 }
 
-.main-con-matrix{
+/*.main-con-matrix{
   margin: 0 auto;
   margin-bottom: 20px;
   display: flex;
@@ -106,7 +106,16 @@
     animation-duration: 1.2s; 
     animation-delay: 0.4s; 
     animation-fill-mode: forwards;
+}*/
+
+.col-in{
+  animation-name: emerges; 
+  animation-duration: 1.2s; 
+  animation-delay: 0.4s; 
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
+
 
 @media screen and (max-width: 600px) {
   .main-accurate-container, .main-inaccurate-container {
