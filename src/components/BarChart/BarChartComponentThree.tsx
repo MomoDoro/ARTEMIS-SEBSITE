@@ -20,8 +20,8 @@ const BarChartComponentFour: React.FC = () => {
 
   const fetch2024Data = async () => {
     const url = dataType === 'Exports' 
-      ? '/src/JSON/exports_fob_predictions_2024.json' 
-      : '/src/JSON/imports_fob_predictions_2024.json';
+      ? '/assets/JSON/exports_fob_predictions_2024.json' 
+      : '/assets/JSON/imports_fob_predictions_2024.json';
     try {
       const response = await axios.get(url);
       const mappedData = mapData(response.data, 'Predictions');
@@ -34,12 +34,12 @@ const BarChartComponentFour: React.FC = () => {
   const fetch2023Data = async () => {
     try {
       const predictionsUrl = dataType === 'Exports' 
-        ? '/src/Predictions/exports 2023/exports_fob_predictions_2024.json' 
-        : '/src/Predictions/imports 2023/imports_fob_predictions_2024.json';
+        ? '/assets/Predictions/exports 2023/exports_fob_predictions_2024.json' 
+        : '/assets/Predictions/imports 2023/imports_fob_predictions_2024.json';
 
       const actualsUrl = dataType === 'Exports' 
-        ? '/src/JSON Spec/exports_fob_2023.json' 
-        : '/src/JSON Spec/imports_fob_2023.json';
+        ? '/assets/JSON Spec/exports_fob_2023.json' 
+        : '/assets/JSON Spec/imports_fob_2023.json';
 
       const [predictionsResponse, actualsResponse] = await Promise.all([
         axios.get(predictionsUrl),

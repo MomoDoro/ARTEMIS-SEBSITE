@@ -44,17 +44,17 @@ const BarChartComponentTwo: React.FC = () => {
   };
 
   useEffect(() => {
-    fetchChartData('/src/JSON/exports_fob_sum_2015-2023.json');
+    fetchChartData('/assets/JSON/exports_fob_sum_2015-2023.json');
   }, []);
 
   const handleExportButtonClick = () => {
     setDataType('Exports');
-    fetchChartData('/src/JSON/exports_fob_sum_2015-2023.json');
+    fetchChartData('/assets/JSON/exports_fob_sum_2015-2023.json');
   };
 
   const handleImportButtonClick = () => {
     setDataType('Imports');
-    fetchChartData('/src/JSON/imports_fob_sum_2015-2023.json');
+    fetchChartData('/assets/JSON/imports_fob_sum_2015-2023.json');
   };
 
   return (

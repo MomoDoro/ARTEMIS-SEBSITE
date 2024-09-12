@@ -38,8 +38,8 @@ const BarChartComponent: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const exportsResponse = await axios.get('/src/JSON/exports_top10_commodities_per_year.json');
-        const importsResponse = await axios.get('/src/JSON/imports_top10_commodities_per_year.json');
+        const exportsResponse = await axios.get('/assets/JSON/exports_top10_commodities_per_year.json');
+        const importsResponse = await axios.get('/assets/JSON/imports_top10_commodities_per_year.json');
         
         const formatData = (data: any): YearlyData => {
           const formattedData: YearlyData = {};

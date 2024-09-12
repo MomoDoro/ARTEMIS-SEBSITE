@@ -24,7 +24,7 @@ const BarChartComponentThree: React.FC = () => {
   useEffect(() => {
     
     // Fetch exports data
-    axios.get('/src/JSON/exports_fob_monthly_sum_2015-2023.json')
+    axios.get('/assets/JSON/exports_fob_monthly_sum_2015-2023.json')
       .then(response => {
         const formattedData: YearlyData = {};
         response.data.forEach((item: any) => {
@@ -42,7 +42,7 @@ const BarChartComponentThree: React.FC = () => {
       .catch(error => console.error('Error fetching export data:', error));
 
     // Fetch imports data
-    axios.get('/src/JSON/imports_fob_monthly_sum_2015-2023.json')
+    axios.get('/assets/JSON/imports_fob_monthly_sum_2015-2023.json')
       .then(response => {
         const formattedData: YearlyData = {};
         response.data.forEach((item: any) => {
