@@ -60,29 +60,31 @@ const BarChartComponentTwo: React.FC = () => {
   return (
     <div className="main-graph-container">
       <div className="main-graph-content">
-        <div className="main-graph-dropdowns">
-
-          <div className="main-buttons-container">
-            <button 
-              className={`export-button ${dataType === 'Exports' ? 'highlight' : ''}`} 
-              onClick={handleExportButtonClick}
-            >
-              Exports
-            </button>
-            <button 
-              className={`import-button ${dataType === 'Imports' ? 'highlight' : ''}`} 
-              onClick={handleImportButtonClick}
-            >
-              Imports
-            </button>
-          </div>
-
-        </div>
 
         <div className="graph_container">
           <div className='main-graph-name'>
             Yearly Sum of FOB (Free On Board)
           </div>
+
+          <div className="main-graph-dropdowns">
+
+            <div className="main-buttons-container">
+              <button 
+                className={`export-button ${dataType === 'Exports' ? 'highlight' : ''}`} 
+                onClick={handleExportButtonClick}
+                >
+                Exports
+              </button>
+              <button 
+                className={`import-button ${dataType === 'Imports' ? 'highlight' : ''}`} 
+                onClick={handleImportButtonClick}
+                >
+                Imports
+              </button>
+            </div>
+
+          </div>
+
           <ResponsiveContainer width="100%" height={600}>
             <BarChart
               data={chartData}

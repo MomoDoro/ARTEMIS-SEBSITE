@@ -8,7 +8,7 @@ import "./BarChartComponent.css";
 const BarChartComponentFour: React.FC = () => {
   const [chartData, setChartData] = useState<any[]>([]);
   const [dataType, setDataType] = useState<string>('Exports');
-  const [selectedYear, setSelectedYear] = useState<number>(2024); 
+  const [selectedYear, setSelectedYear] = useState<number>(2023); 
 
   const mapData = (data: any[], key: string) => {
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -97,7 +97,13 @@ const BarChartComponentFour: React.FC = () => {
   return (
     <div className="main-graph-containerd">
       <div className="main-graph-content">
-        <div className="main-graph-dropdowns">
+
+        <div className="graph_container">
+          <div className='main-graph-name'>
+            {selectedYear} FOB Agricultural Forecast
+          </div>
+
+          <div className="main-graph-dropdowns">
             <div className="main-graph-left">
               <div className="year">Year:</div>
               <select className="year-dropdown" value={selectedYear} onChange={handleYearChange}>
@@ -106,26 +112,22 @@ const BarChartComponentFour: React.FC = () => {
               </select>
             </div>
         
-          <div className="main-buttons-container">
-            <button 
-            className={`export-button ${dataType === 'Exports' ? 'highlight' : ''}`} 
-            onClick={handleExportButtonClick}
-            >
-              Exports
-            </button>
-            <button 
-            className={`import-button ${dataType === 'Imports' ? 'highlight' : ''}`} 
-            onClick={handleImportButtonClick}
-            >
-              Imports
-            </button>
+            <div className="main-buttons-container">
+              <button 
+              className={`export-button ${dataType === 'Exports' ? 'highlight' : ''}`} 
+              onClick={handleExportButtonClick}
+              >
+                Exports
+              </button>
+              <button 
+              className={`import-button ${dataType === 'Imports' ? 'highlight' : ''}`} 
+              onClick={handleImportButtonClick}
+              >
+                Imports
+              </button>
+            </div>
           </div>
-        </div>
 
-        <div className="graph_container">
-          <div className='main-graph-name'>
-            {selectedYear} Forecast
-          </div>
           <ResponsiveContainer width="100%" height={600}>
             <AreaChart
               data={chartData}

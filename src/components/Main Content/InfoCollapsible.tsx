@@ -1,14 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./InfoCollapsible.css";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
 const InfoCollapsible: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeTab, setActiveTab] = useState(0);
+  const contentRef = useRef<HTMLDivElement>(null); // To reference the content height
 
   const toggleCollapse = () => {
     setIsOpen(!isOpen);
   };
+
 
   const renderContent = () => {
     switch (activeTab) {
@@ -106,26 +108,28 @@ Weighted avg      1.00           1.00       1.00              36`}
         {isOpen ? "Hide miscellaneous information" : "Show miscellaneous information"}
         {isOpen ? <AiOutlineMinus className="icon" /> : <AiOutlinePlus className="icon" />}
       </button>
-      <div className={`info-content ${isOpen ? "open" : ""}`}>
-        {isOpen && (
-          <>
-            <div className="tab-container">
-              <button className={`tab ${activeTab === 0 ? "active" : ""}`} onClick={() => setActiveTab(0)}>
-                Exports 2023
-              </button>
-              <button className={`tab ${activeTab === 1 ? "active" : ""}`} onClick={() => setActiveTab(1)}>
-                Imports 2023
-              </button>
-              <button className={`tab ${activeTab === 2 ? "active" : ""}`} onClick={() => setActiveTab(2)}>
-                Exports 2024
-              </button>
-              <button className={`tab ${activeTab === 3 ? "active" : ""}`} onClick={() => setActiveTab(3)}>
-                Imports 2024
-              </button>
-            </div>
-            <div className="tab-content">{renderContent()}</div>
-          </>
-        )}
+      <div
+        ref={contentRef}
+        className="info-content"
+        style={{
+          maxHeight: isOpen ? `${contentRef.current?.scrollHeight}px` : "0",
+        }}
+      >
+        <div className="tab-container">
+          <button className={`tab ${activeTab === 0 ? "active" : ""}`} onClick={() => setActiveTab(0)}>
+            Exports 2023
+          </button>
+          <button className={`tab ${activeTab === 1 ? "active" : ""}`} onClick={() => setActiveTab(1)}>
+            Imports 2023
+          </button>
+          <button className={`tab ${activeTab === 2 ? "active" : ""}`} onClick={() => setActiveTab(2)}>
+            Exports 2024
+          </button>
+          <button className={`tab ${activeTab === 3 ? "active" : ""}`} onClick={() => setActiveTab(3)}>
+            Imports 2024
+          </button>
+        </div>
+        <div className="tab-content">{renderContent()}</div>
       </div>
     </div>
   );

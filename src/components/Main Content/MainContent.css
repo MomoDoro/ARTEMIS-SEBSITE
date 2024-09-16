@@ -53,7 +53,6 @@
   font-family: manjari;
 }
 
-
 .main-acc-divider-line {
   height: auto;
   width: 3px;
@@ -115,7 +114,6 @@
   opacity: 0;
   animation-fill-mode: forwards;
 }
-
 
 @media screen and (max-width: 600px) {
   .main-accurate-container, .main-inaccurate-container {
@@ -219,4 +217,3 @@
   animation-delay: 0.2s; 
   animation-fill-mode: forwards;
 }
-
