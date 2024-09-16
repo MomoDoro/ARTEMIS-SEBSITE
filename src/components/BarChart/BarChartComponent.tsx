@@ -136,13 +136,13 @@ const BarChartComponentThree: React.FC = () => {
                 className={`export-button ${dataType === 'Exports' ? 'highlight' : ''}`} 
                 onClick={handleExportButtonClick}
               >
-                Exports
+                Agricultural Exports
               </button>
               <button 
                 className={`import-button ${dataType === 'Imports' ? 'highlight' : ''}`} 
                 onClick={handleImportButtonClick}
               >
-                Imports
+                Agricultural Imports
               </button>
             </div>
           </div>
