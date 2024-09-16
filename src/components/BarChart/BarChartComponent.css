@@ -9,8 +9,7 @@
 .main-graph-container{
   opacity: 0; 
   animation-name: emerges; 
-  animation-duration: 1.2s; 
-  animation-delay: 0.4s; 
+  animation-duration: 0.4s; 
   animation-fill-mode: forwards;
   margin-bottom: 50px;
 }
@@ -18,8 +17,7 @@
 .main-graph-containerd{
   opacity: 0; 
   animation-name: emerges; 
-  animation-duration: 1.2s; 
-  animation-delay: 0.4s; 
+  animation-duration: 0.4s; 
   animation-fill-mode: forwards;
   margin-bottom: 10px;
 }

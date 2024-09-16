@@ -13,158 +13,71 @@
   flex-direction: column;
 }
 
-/*--------------------------------------*/
-
-.main-precent-container {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 50px;
-
-  padding: 30px;
-  border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.main-accurate-container-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-
-.main-accurate-container {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.main-accurate-icon {
-  font-size: 70px;
-  color: green;
-  margin-bottom: 10px;
-}
-
-.main-accurate-no, .main-accurate {
-  font-family: manjari;
-}
-
-.main-acc-divider-line {
-  height: auto;
-  width: 3px;
-  background-color: rgba(190, 190, 190, 1);
-  align-items: center;
-  border-radius: 300px;
-}
-
-@media screen and (max-width: 900px) {
-  .main-acc-divider-line {
-      display: none;
-  }
-}
-
-/*--------------------------------------*/
-
-.main-inaccurate-container {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding-right: 100px;
-  padding-left: 100px;
-}
-
-.main-inaccurate-icon {
-  font-size: 70px;
-  color: red;
-  margin-bottom: 10px;
-}
-
-.main-inaccurate-no, .main-inaccurate {
-  font-family: manjari;
-}
-
-/*.main-con-matrix{
-  margin: 0 auto;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-
-  padding: 30px;
-  border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
+/* Tabs styling */
+.main-tabs {
   animation-name: emerges; 
-    animation-duration: 1.2s; 
-    animation-delay: 0.4s; 
-    animation-fill-mode: forwards;
-}*/
+  animation-duration: 0.4s; 
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5em;
+  font-size: 20px;
+}
+
+.main-tab, .main-tabed {
+  width: 100%;
+  font-family: manjari;
+  padding: 30px;
+  padding-top: 40px;
+  background-color: white;
+  border: 1px solid rgba(190, 190, 190, 1);
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.main-tabed{
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.main-tab.active,.main-tabed.active {
+  background-color: rgb(199, 228, 226);
+}
+
+.main-tab:hover,.main-tabed:hover {
+  background-color: rgb(199, 228, 226);
+}
+
+/* Content area */
+.main-tab-content {
+  margin-top: 1.5em;
+}
 
 .col-in{
   animation-name: emerges; 
-  animation-duration: 1.2s; 
-  animation-delay: 0.4s; 
+  animation-duration: 0.4s; 
   opacity: 0;
   animation-fill-mode: forwards;
 }
 
+/* Responsive styling */
 @media screen and (max-width: 600px) {
-  .main-accurate-container, .main-inaccurate-container {
-    padding-left: 0px;
-    padding-right: 0px;
+  .main-tabs {
+    flex-direction: column;
   }
-}
 
-/*--------------------------------------*/
-
-.main-mean-container {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding-right: 100px;
-  padding-left: 100px;
-}
-
-.main-mean-icon {
-  font-size: 70px;
-  color: #4D72B8; 
-  margin-bottom: 10px;
-}
-
-.main-mean-no, .main-mean {
-  font-family: manjari;
-}
-
-/*--------------------------------------*/
-
-.main-absolute-container {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding-right: 100px;
-  padding-left: 100px;
-}
-
-.main-absolute-icon {
-  font-size: 70px;
-  color: #3a4491;
-  margin-bottom: 10px;
-}
-
-.main-absolute-no, .main-absolute {
-
-  font-family: manjari;
+  .main-tab {
+    margin-bottom: 0.5em;
+    border: none;
+  }
 }
 
 /*------------------Animations--------------------*/
@@ -200,20 +113,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.main-accurate-container, .main-mean-container{
-  opacity: 0; 
-  animation-name: slideInFromRight; 
-  animation-duration: 1s; 
-  animation-delay: 0.2s; 
-  animation-fill-mode: forwards;
-}
-
-.main-inaccurate-container, .main-absolute-container{
-  opacity: 0; 
-  animation-name: slideInFromLeft; 
-  animation-duration: 1s; 
-  animation-delay: 0.2s; 
-  animation-fill-mode: forwards;
 }
