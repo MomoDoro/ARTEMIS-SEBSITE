@@ -18,12 +18,12 @@ const InfoCollapsible: React.FC = () => {
         return (
           <>
           <div className="import2023" style={{ whiteSpace: 'pre' }}>
-                {`explained_variance: 0.1337
-R2:     0.118
-MAE:   0.3784
-MSE:   0.26763906
-MAPE: 53.67%
-RMSE:  0.5173
+                {`explained_variance: 0.147
+R2:     0.1268
+MAE:   0.3634
+MSE:   0.26496015
+MAPE: 53.68%
+RMSE:  0.5147
 
                         precision  |  recall  |  f1-score  |  support
 
@@ -40,19 +40,19 @@ Weighted avg      0.69           0.83       0.76              12`}
         return (
           <>
           <div className="exports2024" style={{ whiteSpace: 'pre' }}>
-                {`explained_variance: 0.0054
-R2:     -1.4229
-MAE:   0.4427
-MSE:   0.4427
-MAPE: 37.73%
-RMSE:  0.5171
+                {`explained_variance: 0.0101
+R2:     -0.898
+MAE:   0.4879
+MSE:   0.39349259
+MAPE: 35.43%
+RMSE:  0.6273
 
                         precision  |  recall  |  f1-score  |  support
 
-High exports       1.00           1.00        1.00             24
-Accuracy                                              1.00            24
-Macro avg           1.00           1.00        1.00             24
-Weighted avg      1.00           1.00       1.00              24`}
+High exports       1.00           1.00        1.00             36
+Accuracy                                              1.00            36
+Macro avg           1.00           1.00        1.00             36
+Weighted avg      1.00           1.00       1.00              36`}
           </div>
           <img src="assets/Images/Exports2024.png" alt="Exports2024" />
           </>
@@ -61,12 +61,12 @@ Weighted avg      1.00           1.00       1.00              24`}
         return (
           <>
           <div className="imports2024" style={{ whiteSpace: 'pre' }}>
-            {`explained_variance: -0.4316
-R2:     -3.277
-MAE:   0.7431
-MSE:   0.76523479
-MAPE: 52.84%
-RMSE:  0.8748
+            {`explained_variance: -0.1599
+R2:     -2.8952
+MAE:   0.7134
+MSE:   0.69692155
+MAPE: 51.01%
+RMSE:  0.8348
 
                         precision  |  recall  |  f1-score  |  support
 
@@ -82,12 +82,12 @@ Weighted avg      1.00           1.00       1.00              12`}
         return (
           <>
           <div className="export2023" style={{ whiteSpace: 'pre' }}>
-            {`explained_variance: 0.0621
-R2:     -1.3836
-MAE:   0.4527
-MSE:   0.27518573
-MAPE: 35.58%
-RMSE:  0.5246
+            {`explained_variance: 0.1191
+R2:     -1.7353
+MAE:   0.4895
+MSE:   0.3157811
+MAPE: 37.67%
+RMSE:  0.5619
 
                         precision  |  recall  |  f1-score  |  support
 

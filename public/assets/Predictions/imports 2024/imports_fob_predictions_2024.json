@@ -1,38 +1,62 @@
 [
     {
-        "Predictions":4327805952.0
+        "Predictions":1394505344.0,
+        "Year":2023,
+        "Month":1
     },
     {
-        "Predictions":4266018816.0
+        "Predictions":1434386944.0,
+        "Year":2023,
+        "Month":2
     },
     {
-        "Predictions":4152986880.0
+        "Predictions":1438558080.0,
+        "Year":2023,
+        "Month":3
     },
     {
-        "Predictions":4238802688.0
+        "Predictions":1404817536.0,
+        "Year":2023,
+        "Month":4
     },
     {
-        "Predictions":4320183808.0
+        "Predictions":1460918144.0,
+        "Year":2023,
+        "Month":5
     },
     {
-        "Predictions":4399496192.0
+        "Predictions":1387739904.0,
+        "Year":2023,
+        "Month":6
     },
     {
-        "Predictions":4357776384.0
+        "Predictions":1448318976.0,
+        "Year":2023,
+        "Month":7
     },
     {
-        "Predictions":4278739200.0
+        "Predictions":1429908096.0,
+        "Year":2023,
+        "Month":8
     },
     {
-        "Predictions":4237145088.0
+        "Predictions":1416029568.0,
+        "Year":2023,
+        "Month":9
     },
     {
-        "Predictions":4328439808.0
+        "Predictions":1444008576.0,
+        "Year":2023,
+        "Month":10
     },
     {
-        "Predictions":4167225600.0
+        "Predictions":1392474880.0,
+        "Year":2023,
+        "Month":11
     },
     {
-        "Predictions":4185681920.0
+        "Predictions":1487323520.0,
+        "Year":2023,
+        "Month":12
     }
 ]
