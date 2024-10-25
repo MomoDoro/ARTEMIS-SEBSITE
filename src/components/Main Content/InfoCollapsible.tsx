@@ -1,102 +1,259 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./InfoCollapsible.css";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
 const InfoCollapsible: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeTab, setActiveTab] = useState(0);
-  const contentRef = useRef<HTMLDivElement>(null); // To reference the content height
 
   const toggleCollapse = () => {
     setIsOpen(!isOpen);
   };
-
 
   const renderContent = () => {
     switch (activeTab) {
       case 1:
         return (
           <>
-          <div className="import2023" style={{ whiteSpace: 'pre' }}>
-                {`explained_variance: 0.147
-R2:     0.1268
-MAE:   0.3634
-MSE:   0.26496015
-MAPE: 53.68%
-RMSE:  0.5147
+            <div className="info-container-wrap">
 
-                        precision  |  recall  |  f1-score  |  support
+              <div className="info-exp-container">
+                <h1 className="info-exp-container-no">0.147</h1>
+                <div className="info-exp" style={{ whiteSpace: 'pre-line' }}>
+                {`Explained 
+                Variance`}
+                </div>
+              </div>
 
-High imports        0.83           1.00        0.91             10
-Low imports         0.00           0.00       0.00            2
-Accuracy                                               0.83            12
-Macro avg           0.42           0.50        0.45             12
-Weighted avg      0.69           0.83       0.76              12`}
-          </div>
-          <img src="assets/Images/Imports2023.png" alt="Imports2023" />
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.1268</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`R2`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.3634</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MAE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.26496015</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MSE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">53.68%</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MAPE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.5147</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`RMSE`}
+                </div>
+              </div>
+
+            </div>
+
+            <div className="info-confuse">Confusion Matrix</div>
+            <div className="info-confuse-desc">
+              This matrix illustrates the model's classification performance. Diagonal cells indicate correctly classified true positive predictions, while off-diagonal cells represent false positives and false negatives where predictions didn’t match actual values. A strong model displays high values along the diagonal, with more intense colors highlighting better performance and accurate classification. This matrix is essential for identifying areas to improve model accuracy.
+            </div>
+
+            <img src="assets/Images/Imports2023.png" alt="Imports2023" />
+            <div className="info-note">
+              Note: For the forecasted imports of 2023, we applied 2017-2022 data using php/usd exchange data, crude oil prices, and inflation rate.
+            </div>
           </>
         );
       case 2:
         return (
           <>
-          <div className="exports2024" style={{ whiteSpace: 'pre' }}>
-                {`explained_variance: 0.0101
-R2:     -0.898
-MAE:   0.4879
-MSE:   0.39349259
-MAPE: 35.43%
-RMSE:  0.6273
+            <div className="info-container-wrap">
 
-                        precision  |  recall  |  f1-score  |  support
+              <div className="info-exp-container">
+                <h1 className="info-exp-container-no">0.0101</h1>
+                <div className="info-exp" style={{ whiteSpace: 'pre-line' }}>
+                {`Explained 
+                Variance`}
+                </div>
+              </div>
 
-High exports       1.00           1.00        1.00             36
-Accuracy                                              1.00            36
-Macro avg           1.00           1.00        1.00             36
-Weighted avg      1.00           1.00       1.00              36`}
-          </div>
-          <img src="assets/Images/Exports2024.png" alt="Exports2024" />
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">-0.898</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`R2`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.4879</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MAE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.39349259</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MSE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">35.43%</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MAPE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.6273</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`RMSE`}
+                </div>
+              </div>
+
+            </div>
+
+            <div className="info-confuse">Confusion Matrix</div>
+            <div className="info-confuse-desc">
+              This matrix illustrates the model's classification performance. Diagonal cells indicate correctly classified true positive predictions, while off-diagonal cells represent false positives and false negatives where predictions didn’t match actual values. A strong model displays high values along the diagonal, with more intense colors highlighting better performance and accurate classification. This matrix is essential for identifying areas to improve model accuracy.
+            </div>
+
+            <img src="assets/Images/Exports2024.png" alt="Exports2024" />
+            <div className="info-note">
+              Note: For the forecasted Exports of 2024, we applied 1998-2023 data using php/usd exchange data, crude oil prices, and inflation rate.
+            </div>
           </>
         );
       case 3:
         return (
           <>
-          <div className="imports2024" style={{ whiteSpace: 'pre' }}>
-            {`explained_variance: -0.1599
-R2:     -2.8952
-MAE:   0.7134
-MSE:   0.69692155
-MAPE: 51.01%
-RMSE:  0.8348
+            <div className="info-container-wrap">
 
-                        precision  |  recall  |  f1-score  |  support
+              <div className="info-exp-container">
+                <h1 className="info-exp-container-no">-0.1599</h1>
+                <div className="info-exp" style={{ whiteSpace: 'pre-line' }}>
+                {`Explained 
+                Variance`}
+                </div>
+              </div>
 
-High imports       1.00           1.00        1.00             12
-Accuracy                                              1.00            12
-Macro avg           1.00           1.00        1.00             12
-Weighted avg      1.00           1.00       1.00              12`}
-          </div>
-          <img src="assets/Images/Imports2024.png" alt="Imports2024" />
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">-2.8952</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`R2`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.7134</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MAE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.69692155</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MSE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">51.01%</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MAPE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.8348</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`RMSE`}
+                </div>
+              </div>
+
+            </div>
+
+            <div className="info-confuse">Confusion Matrix</div>
+            <div className="info-confuse-desc">
+              This matrix illustrates the model's classification performance. Diagonal cells indicate correctly classified true positive predictions, while off-diagonal cells represent false positives and false negatives where predictions didn’t match actual values. A strong model displays high values along the diagonal, with more intense colors highlighting better performance and accurate classification. This matrix is essential for identifying areas to improve model accuracy.
+            </div>
+
+            <img src="assets/Images/Imports2024.png" alt="Imports2024" />
+            <div className="info-note">
+              Note: For the forecasted imports of 2024, we applied 2018-2023 data using php/usd exchange data, crude oil prices, and inflation rate.
+            </div>
           </>
         );
       default:
         return (
           <>
-          <div className="export2023" style={{ whiteSpace: 'pre' }}>
-            {`explained_variance: 0.1191
-R2:     -1.7353
-MAE:   0.4895
-MSE:   0.3157811
-MAPE: 37.67%
-RMSE:  0.5619
+            <div className="info-container-wrap">
 
-                        precision  |  recall  |  f1-score  |  support
+              <div className="info-exp-container">
+                <h1 className="info-exp-container-no">0.1191</h1>
+                <div className="info-exp" style={{ whiteSpace: 'pre-line' }}>
+                {`Explained 
+                Variance`}
+                </div>
+              </div>
 
-High exports       1.00           1.00        1.00             36
-Accuracy                                              1.00            36
-Macro avg           1.00           1.00        1.00             36
-Weighted avg      1.00           1.00       1.00              36`}
-          </div>
-          <img src="assets/Images/Exports2024.png" alt="Exports2024" />
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">-1.7353</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`R2`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.4895</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MAE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.3157811</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MSE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">37.67%</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`MAPE`}
+                </div>
+              </div>
+
+              <div className="info-r-container">
+                <h1 className="info-r-container-no">0.5619</h1>
+                <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
+                {`RMSE`}
+                </div>
+              </div>
+
+            </div>
+
+            <div className="info-confuse">Confusion Matrix</div>
+            <div className="info-confuse-desc">
+              This matrix illustrates the model's classification performance. Diagonal cells indicate correctly classified true positive predictions, while off-diagonal cells represent false positives and false negatives where predictions didn’t match actual values. A strong model displays high values along the diagonal, with more intense colors highlighting better performance and accurate classification. This matrix is essential for identifying areas to improve model accuracy.
+            </div>
+
+            <img src="assets/Images/Exports2023.png" alt="Exports2023" />
+            <div className="info-note">
+              Note: For the forecasted exports of 2023, we applied 1997-2022 data using php/usd exchange data, crude oil prices, and inflation rate.
+            </div>
           </>
         );
     }
@@ -108,13 +265,7 @@ Weighted avg      1.00           1.00       1.00              36`}
         {isOpen ? "Hide miscellaneous information" : "Show miscellaneous information"}
         {isOpen ? <AiOutlineMinus className="icon" /> : <AiOutlinePlus className="icon" />}
       </button>
-      <div
-        ref={contentRef}
-        className="info-content"
-        style={{
-          maxHeight: isOpen ? `${contentRef.current?.scrollHeight}px` : "0",
-        }}
-      >
+      <div className={`info-content ${isOpen ? "open" : ""}`}>
         <div className="tab-container">
           <button className={`tab ${activeTab === 0 ? "active" : ""}`} onClick={() => setActiveTab(0)}>
             Exports 2023

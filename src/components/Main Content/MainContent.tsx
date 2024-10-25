@@ -51,6 +51,10 @@ const MainContent: React.FC = () => {
               <div className="col-in">
                 <InfoCollapsible />
               </div>
+              <div className="main-note">
+              <p>The <span className="main-mark-one">Actual Free on board (FOB)</span> is from the Philippine Statistics Authority (PSA). While, the <span className="main-mark-two">Forcasted FOB</span> uses Long Short-Term Memory (LSTM).</p>
+              </div>
+              
             </>
           )}
           {activeTab === 2 && <BarChartComponent />}

@@ -68,6 +68,21 @@
   animation-fill-mode: forwards;
 }
 
+.main-note{
+  text-align: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.main-mark-one {
+  color: rgb(0, 81, 148);
+}
+
+
+.main-mark-two {
+  color: rgb(0, 165, 151); 
+}
+
 /* Responsive styling */
 @media screen and (max-width: 600px) {
   .main-tabs {
