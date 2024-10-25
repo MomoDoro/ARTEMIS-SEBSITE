@@ -97,7 +97,7 @@
 .info-confuse{
   align-self: center;
   text-align: center;
-  margin-top: 16px;
+  padding-top: 50px;
   font-family: manjari;
   font-size: 30px;
   font-style: bold;
@@ -112,6 +112,7 @@
 /*--------------------------------------------------------*/
 
 .info-container-wrap {
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;

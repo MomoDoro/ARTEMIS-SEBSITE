@@ -61,7 +61,7 @@
   margin-top: 1.5em;
 }
 
-.col-in{
+.col-in, .main-note{
   animation-name: emerges; 
   animation-duration: 0.4s; 
   opacity: 0;
@@ -69,6 +69,7 @@
 }
 
 .main-note{
+  font-family: maven;
   text-align: center;
   flex-direction: column;
   font-size: 16px;
