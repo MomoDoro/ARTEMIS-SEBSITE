@@ -29,7 +29,7 @@ const Navigator: React.FC = () => {
         <div className="content">
             <div className="left-side">
             <Link to="/Home" className="site-name">
-                ARTEMIS
+                AGRISTATS
             </Link>
             </div>
             <div className="right-side">

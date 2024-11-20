@@ -13,7 +13,7 @@ const About: React.FC = () => {
         <div className="about-header-container">
             <div className="about-header">
                 <h1>
-                    ABOUT ARTEMIS
+                    ABOUT AGRISTATS
                 </h1>
             </div>
             <div className="about-desc" style={{ whiteSpace: 'pre-line' }}>
