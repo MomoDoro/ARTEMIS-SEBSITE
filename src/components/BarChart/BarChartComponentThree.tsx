@@ -24,7 +24,7 @@ const BarChartComponentFour: React.FC = () => {
       : '/assets/JSON/imports_fob_predictions_2024.json';
     try {
       const response = await axios.get(url);
-      const mappedData = mapData(response.data, 'Predictions');
+      const mappedData = mapData(response.data, 'Forecast');
       setChartData(mappedData);
     } catch (error) {
       console.error("Error fetching 2024 data:", error);
@@ -46,12 +46,12 @@ const BarChartComponentFour: React.FC = () => {
         axios.get(actualsUrl)
       ]);
 
-      const predictionsData = mapData(predictionsResponse.data, 'Predictions');
-      const actualsData = mapData(actualsResponse.data, 'Actuals');
+      const predictionsData = mapData(predictionsResponse.data, 'Forecast');
+      const actualsData = mapData(actualsResponse.data, 'Actual');
 
       const combinedData = predictionsData.map((predictionItem, index) => ({
         ...predictionItem,
-        Actuals: actualsData[index]?.Actuals || 0,
+        Actual: actualsData[index]?.Actual || 0,
       }));
 
       setChartData(combinedData);
@@ -140,9 +140,9 @@ const BarChartComponentFour: React.FC = () => {
               <YAxis tickFormatter={abbreviateNumber}/>
               <Tooltip  />
               {selectedYear === 2023 && (
-                <Area type="monotone" dataKey="Actuals" fill="rgba(145,203,230, 0.35)" stroke="rgba(34, 97, 87, 1)" activeDot={{ r: 5 }}/>
+                <Area type="monotone" dataKey="Actual" fill="rgba(145,203,230, 0.35)" stroke="rgba(34, 97, 87, 1)" activeDot={{ r: 5 }}/>
               )}
-              <Area dataKey="Predictions"  fill="#91cbe6" stroke="#4D72B8" activeDot={{ r: 8 }}/>
+              <Area dataKey="Forecast"  fill="#91cbe6" stroke="#4D72B8" activeDot={{ r: 8 }}/>
             </AreaChart>
           </ResponsiveContainer>
         </div>
