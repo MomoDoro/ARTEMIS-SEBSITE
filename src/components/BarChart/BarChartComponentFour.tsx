@@ -63,7 +63,8 @@ const BarChartComponentTwo: React.FC = () => {
 
         <div className="graph_container">
           <div className='main-graph-name'>
-            Yearly Sum of FOB (Free On Board)
+            Yearly Sum of <span className="tooltips">FOB<span className="tooltips-text">Investopedia: Free on Board (FOB) is a shipment term that defines the point in the supply chain when a buyer or seller becomes liable for the goods transported.</span>
+            </span> (Free On Board)
           </div>
 
           <div className="main-graph-dropdowns">

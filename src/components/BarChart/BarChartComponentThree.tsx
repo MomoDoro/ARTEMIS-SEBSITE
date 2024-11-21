@@ -100,7 +100,8 @@ const BarChartComponentFour: React.FC = () => {
 
         <div className="graph_container">
           <div className='main-graph-name'>
-            {selectedYear} FOB Agricultural Forecast
+            {selectedYear} <span className="tooltips">FOB<span className="tooltips-text">Investopedia: Free on Board (FOB) is a shipment term that defines the point in the supply chain when a buyer or seller becomes liable for the goods transported.</span>
+            </span> Agricultural Forecast
           </div>
 
           <div className="main-graph-dropdowns">

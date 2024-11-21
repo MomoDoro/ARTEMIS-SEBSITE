@@ -225,3 +225,35 @@
     height: 300px; /* Adjust for mobile phones */
   }
 }
+
+/*----------------------------------------*/
+.tooltips {
+  color: #628a94;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tooltips-text {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+  border-radius: 0.5rem;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%; /* Position above the text */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: normal;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+}
+
+.tooltips:hover .tooltips-text {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
