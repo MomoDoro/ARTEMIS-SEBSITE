@@ -128,23 +128,39 @@ const BarChartComponentFour: React.FC = () => {
             </div>
           </div>
 
-          <ResponsiveContainer width="100%" height={600}>
-            <AreaChart
-              data={chartData}
-              margin={{
-                top: 5, right: 30, left: 30, bottom: 5,
+          <div className="chart-wrapper">
+            <ResponsiveContainer>
+              <AreaChart
+                data={chartData}
+                margin={{
+                top: 5,
+                right: 30,
+                left: 30,
+                bottom: 5,
               }}
             >
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" />  
-              <YAxis tickFormatter={abbreviateNumber}/>
-              <Tooltip  />
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis tickFormatter={abbreviateNumber} />
+            <Tooltip />
               {selectedYear === 2023 && (
-                <Area type="monotone" dataKey="Actual" fill="rgba(145,203,230, 0.35)" stroke="rgba(34, 97, 87, 1)" activeDot={{ r: 5 }}/>
-              )}
-              <Area dataKey="Forecast"  fill="#91cbe6" stroke="#4D72B8" activeDot={{ r: 8 }}/>
-            </AreaChart>
-          </ResponsiveContainer>
+            <Area
+               type="monotone"
+               dataKey="Actual"
+               fill="rgba(145,203,230, 0.35)"
+               stroke="rgba(34, 97, 87, 1)"
+                activeDot={{ r: 5 }}
+            />
+               )}
+               <Area
+                  dataKey="Forecast"
+                  fill="#91cbe6"
+                  stroke="#4D72B8"
+                  activeDot={{ r: 8 }}
+                />
+               </AreaChart>
+              </ResponsiveContainer>
+          </div>
         </div>
       </div>
     </div>

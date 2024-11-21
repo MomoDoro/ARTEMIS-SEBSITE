@@ -87,14 +87,43 @@
 /* Responsive styling */
 @media screen and (max-width: 600px) {
   .main-tabs {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
   }
 
-  .main-tab {
-    margin-bottom: 0.5em;
+  .main-tab, .main-tabed {
     border: none;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .main-tab-content {
+    margin-top: 5px
   }
 }
+
+  @media (max-width: 600px) {
+    .collapsible {
+      font-size: 16px;
+      padding: 14px;
+    }
+  
+    .tab {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  
+    .content.open {
+      max-height: 600px; /* Adjust for more content */
+    }
+
+    .main-note {
+      font-size: 15px;
+    }
+  }
 
 /*------------------Animations--------------------*/
 

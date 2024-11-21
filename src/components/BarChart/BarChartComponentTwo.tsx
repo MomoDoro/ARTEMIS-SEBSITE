@@ -135,7 +135,8 @@ const BarChartComponent: React.FC = () => {
             </div>
           </div>
 
-          <ResponsiveContainer width="100%" height={600}>
+          <div className="chart-wrapper">
+          <ResponsiveContainer>
             <BarChart
               data={data[dataType]?.[selectedYear] || []}
               margin={{
@@ -153,6 +154,7 @@ const BarChartComponent: React.FC = () => {
               <Bar dataKey="FOB" fill="#70aae0" activeBar={<Rectangle fill="#3a4491" stroke="blue" />} />
             </BarChart>
           </ResponsiveContainer>
+          </div>
         </div>
       </div>
     </div>

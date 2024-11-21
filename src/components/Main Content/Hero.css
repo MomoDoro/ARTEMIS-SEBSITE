@@ -222,3 +222,21 @@ animation-fill-mode: forwards;
   animation-delay: 0.8s; 
   animation-fill-mode: forwards;
 }
+
+@media screen and (max-width: 600px) {
+  .header-overlay {
+    font-size: 30px;
+  }
+
+  .hero-desc{
+    font-size: 15px;
+  }
+
+  .more{
+    font-size: 12px;
+  }
+
+  .logo-side {
+    display: none;
+  }
+}

@@ -146,8 +146,9 @@ const BarChartComponentThree: React.FC = () => {
               </button>
             </div>
           </div>
-        
-          <ResponsiveContainer width="100%" height={600}>
+
+          <div className="chart-wrapper">
+          <ResponsiveContainer >
             <AreaChart
               data={data[selectedYear]}
               margin={{
@@ -161,6 +162,7 @@ const BarChartComponentThree: React.FC = () => {
               <Area /*type="monotone"*/ dataKey="FOB" fill="#91cbe6" stroke="#4D72B8"/>      
             </AreaChart>
           </ResponsiveContainer>
+          </div>
         </div>
       </div>
     </div>
