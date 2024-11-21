@@ -350,3 +350,15 @@
       display: none;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .about-header {
+    font-size: 15px;
+  }
+  .about-desc{
+    font-size: 14px;
+  }
+  .about-user-desc, .about-user-desc_2, .about-user-desc_3{
+    font-size: 14px;
+  }
+}
