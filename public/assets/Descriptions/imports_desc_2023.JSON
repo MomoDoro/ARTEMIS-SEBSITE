@@ -1,72 +1,60 @@
 [
     {
-        "Predictions":1274006528.0,
         "Description":"The forecast falls below the preliminary actual value, missing the strong start to the year. Still, it's a solid estimate for such variability.",
         "Year":2023,
         "Month":1
     },
     {
-        "Predictions":1272762496.0,
         "Description":"The forecast is quite close to the preliminary actual value, capturing the slight decline from January well.",
         "Year":2023,
         "Month":2
     },
     {
-        "Predictions":1269912320.0,
         "Description":"The forecast reflects stability, while the preliminary actual data shows a significant increase.",
         "Year":2023,
         "Month":3
     },
     {
-        "Predictions":1225082624.0,
         "Description":"The forecast underestimates the preliminary actual value but reflects a cautious approach during fluctuating periods.",
         "Year":2023,
         "Month":4
     },
     {
-        "Predictions":1330497024.0,
         "Description":"The forecast aligns with the general upward trend, though it underestimates the preliminary value slightly.",
         "Year":2023,
         "Month":5
     },
     {
-        "Predictions":1356732928.0,
         "Description":"The forecast comes reasonably close to the preliminary actual value, showing good alignment during this stable period.",
         "Year":2023,
         "Month":6
     },
     {
-        "Predictions":1243626496.0,
         "Description":"The forecast suggests a dip, while the preliminary actual value shows growth. This could reflect areas where seasonal adjustments may help.",
         "Year":2023,
         "Month":7
     },
     {
-        "Predictions":1255423232.0,
         "Description":"The forecast does not capture the large preliminary spike, though it maintains a steady prediction.",
         "Year":2023,
         "Month":8
     },
     {
-        "Predictions":1299455360.0,
         "Description":"The forecast is relatively close to the preliminary actual value, reflecting a solid effort to model trends during this period.",
         "Year":2023,
         "Month":9
     },
     {
-        "Predictions":1343617536.0,
         "Description":"The forecast reflects stability, while the preliminary actual data shows slight growth.",
         "Year":2023,
         "Month":10
     },
     {
-        "Predictions":1331661184.0,
         "Description":"The forecast slightly underestimates the preliminary value but maintains a good representation of the overall trend.",
         "Year":2023,
         "Month":11
     },
     {
-        "Predictions":1298027520.0,
         "Description":"The forecast suggests stability, while the preliminary actual value shows a year-end increase.",
         "Year":2023,
         "Month":12

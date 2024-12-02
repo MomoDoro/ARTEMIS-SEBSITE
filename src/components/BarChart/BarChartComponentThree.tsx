@@ -15,67 +15,70 @@ const BarChartComponentFour: React.FC = () => {
     return data.map(item => ({
       name: months[item.Month - 1],
       [key]: item.FREE_ON_BOARD || item.Predictions,
+      description: item.Description || '', // Add description to the data
     }));
   };
-
+  
   const fetch2024Data = async () => {
     try {
       const predictionsUrl = dataType === 'Exports' 
         ? '/assets/JSON/exports_fob_predictions_2024.json' 
         : '/assets/JSON/imports_fob_predictions_2024.json';
-
+  
       const actualsUrl = dataType === 'Exports' 
         ? '/assets/JSON Spec/exports_fob_2024.json' 
         : '/assets/JSON Spec/imports_fob_2024.json';
-
+  
       const [predictionsResponse, actualsResponse] = await Promise.all([
         axios.get(predictionsUrl),
         axios.get(actualsUrl),
       ]);
-
+  
       const predictionsData = mapData(predictionsResponse.data, 'Forecast');
       const actualsData = mapData(actualsResponse.data, 'Actual');
-
+  
       const combinedData = predictionsData.map((predictionItem, index) => ({
         ...predictionItem,
         Actual: actualsData[index]?.Actual || 0,
       }));
-
+  
       setChartData(combinedData);
     } catch (error) {
       console.error("Error fetching 2024 data:", error);
     }
   };
-
+  
   const fetch2023Data = async () => {
     try {
       const predictionsUrl = dataType === 'Exports' 
         ? '/assets/Predictions/exports 2023/exports_fob_predictions_2024.json' 
         : '/assets/Predictions/imports 2023/imports_fob_predictions_2024.json';
-
+  
       const actualsUrl = dataType === 'Exports' 
         ? '/assets/JSON Spec/exports_fob_2023.json' 
         : '/assets/JSON Spec/imports_fob_2023.json';
-
+  
       const [predictionsResponse, actualsResponse] = await Promise.all([
         axios.get(predictionsUrl),
         axios.get(actualsUrl)
       ]);
-
+  
       const predictionsData = mapData(predictionsResponse.data, 'Forecast');
       const actualsData = mapData(actualsResponse.data, 'Actual');
-
+  
       const combinedData = predictionsData.map((predictionItem, index) => ({
         ...predictionItem,
         Actual: actualsData[index]?.Actual || 0,
       }));
-
+  
       setChartData(combinedData);
     } catch (error) {
       console.error("Error fetching 2023 data:", error);
     }
   };
 
+
+  
   useEffect(() => {
     if (selectedYear === 2024) {
       fetch2024Data();
@@ -162,7 +165,21 @@ const BarChartComponentFour: React.FC = () => {
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
                 <YAxis tickFormatter={abbreviateNumber} />
-                <Tooltip />
+                <Tooltip 
+                  content={({ active, payload }) => {
+                  if (active && payload && payload.length) {
+                    const { description, Forecast, Actual } = payload[0].payload;
+                    return (
+                      <div className="custom-tooltip">
+                        <p className="actual">Actual: {abbreviateNumber(Actual)}</p>
+                        <p className="forecast">Forecast: {abbreviateNumber(Forecast)}</p>
+                        <p className="analyzation">Analyzation: {description}</p>
+                      </div>
+                    );
+                  }
+                  return null;
+                 }}
+                />
                 <Area
                   type="monotone"
                   dataKey="Actual"

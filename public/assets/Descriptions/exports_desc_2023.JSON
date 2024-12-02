@@ -1,74 +1,62 @@
 [
     {
-        "Predictions":446095072.0,
         "Description":"The forecast is slightly lower than the actual value, which is reasonable given the start of the year.",
-        "Year":2024,
+        "Year":2023,
         "Month":1
     },
     {
-        "Predictions":451017408.0,
         "Description":"The forecast captures the slight decrease from January to February quite well, showing a good alignment with the trend.",
-        "Year":2024,
+        "Year":2023,
         "Month":2
     },
     {
-        "Predictions":500466432.0,
         "Description":"The actual data shows a significant increase compared to February, while the forecast indicates growth but underestimates the actual spike.",
-        "Year":2024,
+        "Year":2023,
         "Month":3
     },
     {
-        "Predictions":478576480.0,
         "Description":"The forecast is very close to the actual value, demonstrating excellent accuracy for this month.",
-        "Year":2024,
+        "Year":2023,
         "Month":4
     },
     {
-        "Predictions":499923712.0,
         "Description":"The forecast suggests a steadier trend, while the actual data shows a notable increase. Still, the general pattern is captured to some extent.",
-        "Year":2024,
+        "Year":2023,
         "Month":5
     },
     {
-        "Predictions":498070016.0,
         "Description":"The forecast shows consistency, but it slightly underestimates the actual decrease from May. Overall, it's not far off.",
-        "Year":2024,
+        "Year":2023,
         "Month":6
     },
     {
-        "Predictions":474790624.0,
         "Description":"The forecast suggests a decline, while the actual data increases. This mismatch highlights areas for potential improvement in capturing upward trends.",
-        "Year":2024,
+        "Year":2023,
         "Month":7
     },
     {
-        "Predictions":486480384.0,
         "Description":"The forecast shows a gentle decline that aligns with the actual data’s decrease. It’s a reasonable approximation for this month.",
-        "Year":2024,
+        "Year":2023,
         "Month":8
     },
     {
-        "Predictions":477058880.0,
         "Description":"The forecast reflects the slight downward trend in the actual data, though it is slightly lower than the observed value.",
-        "Year":2024,
+        "Year":2023,
         "Month":9
     },
     {
-        "Predictions":485652960.0,
         "Description":"The forecast underestimates the actual increase this month but still provides a reasonable baseline for trend analysis.",
-        "Year":2024,
+        "Year":2023,
         "Month":10
     },
     {
-        "Predictions":450316864.0,
         "Description":"The forecast correctly identifies the decreasing trend but is a little lower than the actual value. Still, it moves in the right direction.",
-        "Year":2024,
+        "Year":2023,
         "Month":11
     },
     {
-        "Predictions":478104896.0,
         "Description":"The forecast suggests a smaller increase than what was observed, but it generally aligns with the upward trend in the actual data.",
-        "Year":2024,
+        "Year":2023,
         "Month":12
     }
 ]

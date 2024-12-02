@@ -281,3 +281,17 @@
     font-size: 16px;
   }
 }
+
+/*----------------------------------------*/
+
+.actual {
+  color: rgb(17, 82, 87);
+}
+
+.forecast {
+  color: rgb(41, 68, 143);
+}
+
+.analyzation {
+  color: rgb(75, 44, 51);
+}

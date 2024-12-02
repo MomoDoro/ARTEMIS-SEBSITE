@@ -1,74 +1,62 @@
 [
     {
-        "Predictions":438753504.0,
         "Description":"The forecast is lower than the actual preliminary value, which may reflect some initial trends that are yet to stabilize.",
-        "Year":2024,
+        "Year":2023,
         "Month":1
     },
     {
-        "Predictions":441295264.0,
         "Description":"The forecast captures a slight decrease from January but remains below the actual preliminary value. It’s moving in the right direction trend-wise.",
-        "Year":2024,
+        "Year":2023,
         "Month":2
     },
     {
-        "Predictions":495967712.0,
         "Description":"The forecast indicates growth, which aligns with the general trend, though it underestimates the preliminary actual value.",
-        "Year":2024,
+        "Year":2023,
         "Month":3
     },
     {
-        "Predictions":488726976.0,
         "Description":"The forecast shows stability, while the actual preliminary data indicates growth. The model is consistent.",
-        "Year":2024,
+        "Year":2023,
         "Month":4
     },
     {
-        "Predictions":495815456.0,
         "Description":"The forecast maintains a steady trajectory, while the preliminary actual data shows an increase. It’s a good attempt that could capture larger shifts more effectively.",
-        "Year":2024,
+        "Year":2023,
         "Month":5
     },
     {
-        "Predictions":497366144.0,
         "Description":"The forecast is reasonably close to the preliminary actual data, which shows a slight decrease. A solid approximation overall.",
-        "Year":2024,
+        "Year":2023,
         "Month":6
     },
     {
-        "Predictions":501184672.0,
         "Description":"The forecast is steady, while the preliminary actual data reflects a significant increase.",
-        "Year":2024,
+        "Year":2023,
         "Month":7
     },
     {
-        "Predictions":475883584.0,
         "Description":"The forecast does not fully reflect the preliminary spike in actual data but provides a consistent baseline that could be built upon.",
-        "Year":2024,
+        "Year":2023,
         "Month":8
     },
     {
-        "Predictions":498485920.0,
         "Description":"The forecast is steady and aligns with the general trend of a decrease from August, even though it underestimates the preliminary actual data.",
-        "Year":2024,
+        "Year":2023,
         "Month":9
     },
     {
-        "Predictions":493329600.0,
         "Description":"With no preliminary data, it’s difficult to assess, but the forecast suggests stability, which seems plausible based on earlier months.",
-        "Year":2024,
+        "Year":2023,
         "Month":10
     },
     {
-        "Predictions":416397344.0,
         "Description":"The forecast indicates a potential seasonal dip, which aligns with historical patterns.",
-        "Year":2024,
+        "Year":2023,
         "Month":11
     },
     {
-        "Predictions":482148224.0,
         "Description":"The forecast suggests a rebound from November, which is reasonable given typical year-end trends.",
-        "Year":2024,
+        "Year":2023,
         "Month":12
     }
 ]
