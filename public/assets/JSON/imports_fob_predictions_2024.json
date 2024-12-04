@@ -1,73 +1,61 @@
 [
     {
-        "Predictions":1391751040.0,
-        "Description":"The forecast significantly overestimates the preliminary actual value, suggesting an optimistic start to the year.",
+        "Predictions":1071451200.0,
         "Year":2023,
         "Month":1
     },
     {
-        "Predictions":1404824192.0,
-        "Description":"The forecast again overestimates the preliminary value.",
+        "Predictions":1015830592.0,
         "Year":2023,
         "Month":2
     },
     {
-        "Predictions":1395175808.0,
-        "Description":"The forecast shows stability, but it doesn’t fully capture the preliminary decrease in actual data.",
+        "Predictions":1036939328.0,
         "Year":2023,
         "Month":3
     },
     {
-        "Predictions":1451202304.0,
-        "Description":"The forecast suggests growth, but the preliminary actual data remains lower.",
+        "Predictions":1060323200.0,
         "Year":2023,
         "Month":4
     },
     {
-        "Predictions":1389023744.0,
-        "Description":"The forecast maintains a consistent trajectory but overestimates the preliminary actual value.",
+        "Predictions":1070684032.0,
         "Year":2023,
         "Month":5
     },
     {
-        "Predictions":1387185792.0,
-        "Description":"The forecast overshoots the preliminary actual value but does well to maintain a stable outlook.",
+        "Predictions":965385152.0,
         "Year":2023,
         "Month":6
     },
     {
-        "Predictions":1425202688.0,
-        "Description":"The forecast reflects an upward trend, aligning directionally with the preliminary actual data, though the magnitude is overestimated.",
+        "Predictions":1001384384.0,
         "Year":2023,
         "Month":7
     },
     {
-        "Predictions":1384297728.0,
-        "Description":"The forecast is steady, but it overestimates the preliminary value.",
+        "Predictions":1003566272.0,
         "Year":2023,
         "Month":8
     },
     {
-        "Predictions":1403218432.0,
-        "Description":"The forecast predicts growth, and while it overshoots the preliminary actual, the trend aligns reasonably well.",
+        "Predictions":940383680.0,
         "Year":2023,
         "Month":9
     },
     {
-        "Predictions":1455169152.0,
-        "Description":"The forecast suggests continued growth, which seems plausible given the earlier trends. Without preliminary data, it remains a well-considered estimate.",
+        "Predictions":975421184.0,
         "Year":2023,
         "Month":10
     },
     {
-        "Predictions":1475087616.0,
-        "Description":"The forecast indicates further growth, consistent with the earlier months.",
+        "Predictions":1018023168.0,
         "Year":2023,
         "Month":11
     },
     {
-        "Predictions":1448963328.0,
-        "Description":"The forecast suggests a slight dip compared to November, aligning with typical year-end stabilization trends.",
+        "Predictions":1055971968.0,
         "Year":2023,
         "Month":12
     }
