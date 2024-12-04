@@ -1,73 +1,73 @@
 [
     {
-        "Predictions":438753504.0,
-        "Description":"The forecast is lower than the actual preliminary value, which may reflect some initial trends that are yet to stabilize.",
+        "Predictions":454050336.0,
+        "Description":"The forecast for January underestimated the actual value, missing the stronger-than-expected performance. Despite this, the forecast showed a decent attempt to align with early-year trends.",
         "Year":2024,
         "Month":1
     },
     {
-        "Predictions":441295264.0,
-        "Description":"The forecast captures a slight decrease from January but remains below the actual preliminary value. It’s moving in the right direction trend-wise.",
+        "Predictions":445099552.0,
+        "Description":"As of February, the actual value remained high, while the forecast again fell short. The consistency in underestimation suggests the model didn’t fully capture the sustained momentum from January.",
         "Year":2024,
         "Month":2
     },
     {
-        "Predictions":495967712.0,
-        "Description":"The forecast indicates growth, which aligns with the general trend, though it underestimates the preliminary actual value.",
+        "Predictions":504974976.0,
+        "Description":"As of March, actual values increased further, surpassing forecasts once more. While the forecast adjusted upward, it struggled to keep pace with the continued growth in exports.",
         "Year":2024,
         "Month":3
     },
     {
-        "Predictions":488726976.0,
-        "Description":"The forecast shows stability, while the actual preliminary data indicates growth. The model is consistent.",
+        "Predictions":494395168.0,
+        "Description":"As of April, the actual value rose again, outpacing the forecast. The model anticipated some growth but underestimated the strength of the upward trend seen since the start of the year.",
         "Year":2024,
         "Month":4
     },
     {
-        "Predictions":495815456.0,
-        "Description":"The forecast maintains a steady trajectory, while the preliminary actual data shows an increase. It’s a good attempt that could capture larger shifts more effectively.",
+        "Predictions":496685632.0,
+        "Description":"As of May, actual values climbed to their highest point so far, well above the forecast. The model maintained a steady prediction but didn’t capture the accelerating growth observed this month.",
         "Year":2024,
         "Month":5
     },
     {
-        "Predictions":497366144.0,
-        "Description":"The forecast is reasonably close to the preliminary actual data, which shows a slight decrease. A solid approximation overall.",
+        "Predictions":491916928.0,
+        "Description":"As of June, both actual values and forecasts dipped slightly. The gap between them narrowed, suggesting the model adjusted better to the mid-year shift compared to earlier months.",
         "Year":2024,
         "Month":6
     },
     {
-        "Predictions":501184672.0,
-        "Description":"The forecast is steady, while the preliminary actual data reflects a significant increase.",
+        "Predictions":501718464.0,
+        "Description":"As of July, actual values surged back up significantly, exceeding the forecast by a notable margin. The forecast predicted some recovery, but the scale of growth was underestimated.",
         "Year":2024,
         "Month":7
     },
     {
-        "Predictions":475883584.0,
-        "Description":"The forecast does not fully reflect the preliminary spike in actual data but provides a consistent baseline that could be built upon.",
+        "Predictions":492277856.0,
+        "Description":"As of August, actual values reached their peak for the year so far, far outpacing the forecast. This highlights the model’s difficulty in capturing unexpected spikes, especially during late-year trends.",
         "Year":2024,
         "Month":8
     },
     {
-        "Predictions":498485920.0,
-        "Description":"The forecast is steady and aligns with the general trend of a decrease from August, even though it underestimates the preliminary actual data.",
+        "Predictions":485750144.0,
+        "Description":"As of September, actual values remained strong but slightly decreased from August, while forecasts underestimated the level once again. The model did not account for the lingering strength in exports.",
         "Year":2024,
         "Month":9
     },
     {
-        "Predictions":493329600.0,
-        "Description":"With no preliminary data, it’s difficult to assess, but the forecast suggests stability, which seems plausible based on earlier months.",
+        "Predictions":506514496.0,
+        "Description":"As of October, actual data is unavailable, but the forecast predicts a slight dip compared to September. If the trend from previous months persists, actual values might still exceed the forecast.",
         "Year":2024,
         "Month":10
     },
     {
-        "Predictions":416397344.0,
-        "Description":"The forecast indicates a potential seasonal dip, which aligns with historical patterns.",
+        "Predictions":466490784.0,
+        "Description":"As of November, actual data is yet to come. Forecasts suggest moderate changes, but if the trends of strong performance continue, actual values may once again surpass predictions.",
         "Year":2024,
         "Month":11
     },
     {
-        "Predictions":482148224.0,
-        "Description":"The forecast suggests a rebound from November, which is reasonable given typical year-end trends.",
+        "Predictions":472527296.0,
+        "Description":"As of December, actual data is yet to come. Forecasts suggest moderate changes, but if the trends of strong performance continue, actual values may once again surpass predictions.",
         "Year":2024,
         "Month":12
     }

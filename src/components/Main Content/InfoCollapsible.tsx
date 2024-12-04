@@ -79,7 +79,7 @@ const InfoCollapsible: React.FC = () => {
             <div className="info-container-wrap">
 
               <div className="info-exp-container">
-                <h1 className="info-exp-container-no">0.0101</h1>
+                <h1 className="info-exp-container-no">-0.0924</h1>
                 <div className="info-exp" style={{ whiteSpace: 'pre-line' }}>
                 {`Explained 
                 Variance`}
@@ -87,35 +87,35 @@ const InfoCollapsible: React.FC = () => {
               </div>
 
               <div className="info-r-container">
-                <h1 className="info-r-container-no">-0.898</h1>
+                <h1 className="info-r-container-no">-0.4838</h1>
                 <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
                 {`R2`}
                 </div>
               </div>
 
               <div className="info-r-container">
-                <h1 className="info-r-container-no">0.4879</h1>
+                <h1 className="info-r-container-no">0.2955</h1>
                 <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
                 {`MAE`}
                 </div>
               </div>
 
               <div className="info-r-container">
-                <h1 className="info-r-container-no">0.39349259</h1>
+                <h1 className="info-r-container-no"> 0.11332763</h1>
                 <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
                 {`MSE`}
                 </div>
               </div>
 
               <div className="info-r-container">
-                <h1 className="info-r-container-no">35.43%</h1>
+                <h1 className="info-r-container-no">33.67%</h1>
                 <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
                 {`MAPE`}
                 </div>
               </div>
 
               <div className="info-r-container">
-                <h1 className="info-r-container-no">0.6273</h1>
+                <h1 className="info-r-container-no">0.3366</h1>
                 <div className="info-r" style={{ whiteSpace: 'pre-line' }}>
                 {`RMSE`}
                 </div>
