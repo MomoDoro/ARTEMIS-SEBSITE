@@ -1,62 +1,74 @@
 [
     {
         "Predictions":1071451200.0,
-        "Year":2023,
+        "Description":"The forecast slightly overestimated the actual value for January, but it was a reasonable start for the year.",
+        "Year":2024,
         "Month":1
     },
     {
         "Predictions":1015830592.0,
-        "Year":2023,
+        "Description":"As of February, both the forecast and actual values declined. The forecast still leaned slightly higher, but the gap narrowed compared to January, showing some improvement.",
+        "Year":2024,
         "Month":2
     },
     {
         "Predictions":1036939328.0,
-        "Year":2023,
+        "Description":"As of March, actual values continued to decline, while the forecast anticipated a slight recovery. Although the model didn’t fully capture the downward trend, its effort to predict a shift is worth noting.",
+        "Year":2024,
         "Month":3
     },
     {
         "Predictions":1060323200.0,
-        "Year":2023,
+        "Description":"As of April, the actual value rebounded significantly, exceeding the forecast. While the model predicted an increase, it didn’t fully account for the stronger-than-expected growth this month.",
+        "Year":2024,
         "Month":4
     },
     {
         "Predictions":1070684032.0,
-        "Year":2023,
+        "Description":"As of May, actual values remained high and again exceeded the forecast. The model demonstrated consistency in predicting an upward trend but slightly underestimated the strength of the growth.",
+        "Year":2024,
         "Month":5
     },
     {
         "Predictions":965385152.0,
-        "Year":2023,
+        "Description":"As of June, both the forecast and actual values dropped, and the gap between them narrowed. The model appeared to adjust well to the slight downturn, showing improved alignment.",
+        "Year":2024,
         "Month":6
     },
     {
         "Predictions":1001384384.0,
-        "Year":2023,
+        "Description":"As of July, actual values climbed sharply, surpassing the forecast by a notable margin. The model captured the upward trend but underestimated its extent, likely due to unexpected external factors.",
+        "Year":2024,
         "Month":7
     },
     {
         "Predictions":1003566272.0,
-        "Year":2023,
+        "Description":"As of August, actual values stayed high, continuing to exceed the forecast. The model maintained a steady prediction but underestimated the sustained growth from July’s momentum.",
+        "Year":2024,
         "Month":8
     },
     {
         "Predictions":940383680.0,
-        "Year":2023,
+        "Description":"As of September, actual values surged further, significantly outpacing the forecast. The model didn’t fully anticipate the continued strength in this late-year spike, showing some limitations in accounting for this pattern.",
+        "Year":2024,
         "Month":9
     },
     {
         "Predictions":975421184.0,
-        "Year":2023,
+        "Description":"As of October, the forecast showed a modest increase, but actual data was unavailable. Based on recent trends, there’s potential for actual values to exceed the forecast if growth persists.",
+        "Year":2024,
         "Month":10
     },
     {
         "Predictions":1018023168.0,
-        "Year":2023,
+        "Description":"As of November, actual data remains pending, but forecasts suggest slight increases. If past trends hold, actual values may continue to challenge or exceed predictions.",
+        "Year":2024,
         "Month":11
     },
     {
         "Predictions":1055971968.0,
-        "Year":2023,
+        "Description":"As of December, actual data remains pending, but forecasts suggest slight increases. If past trends hold, actual values may continue to challenge or exceed predictions.",
+        "Year":2024,
         "Month":12
     }
 ]
