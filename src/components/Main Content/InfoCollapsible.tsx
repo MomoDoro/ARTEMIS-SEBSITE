@@ -130,7 +130,7 @@ const InfoCollapsible: React.FC = () => {
 
             <img src="assets/Images/Exports2024.png" alt="Exports2024" />
             <div className="info-note">
-              Note: For the forecasted Exports of 2024, we applied 1998-2023 data using php/usd exchange data, crude oil prices, and inflation rate.
+              Note: For the forecasted Exports of 2024, we applied 2003-2023 data using php/usd exchange data, crude oil prices, and inflation rate.
             </div>
           </>
         );
